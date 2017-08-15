@@ -1,5 +1,6 @@
 var rad = 10;
 var backColor = 0;
+
 function setup() {
     createCanvas(windowWidth, windowHeight);
 }
