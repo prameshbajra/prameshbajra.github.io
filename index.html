@@ -1,179 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: blog
+title: index
+permalink: /
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-    <script language="javascript" src="libraries/p5.dom.js"></script>
-    <script language="javascript" src="libraries/p5.sound.js"></script>
-    <script language="javascript" type="text/javascript" src="canvas.js"></script>
-    <script language="javascript" type="text/javascript" src="main.js"></script>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Pramesh Bajracharya</title>
-</head>
-
-<body class="body">
+<div class="navbar-wrapper">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="jumbotron" style="border-radius:0 0 20px 20px">
-            <h1 style="margin-top:-20px;">Pramesh Bajracharya</h1>
-            <br><br>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="DSC_0296.jpg" alt="Me (Obviously)" class="img-thumbnail">
-                </div>
-                <div class="col-md-8">
-                    <h4 id="desc" align="justify" style="line-height:2em;">Hi There, I am Pramesh Bajracharya. I am a Computer Science Engineer having passion for everything related
-                        technology. I am very interested in programming and developing in many fields. I am a “MixBag” having
-                        knowledge in Web Development, Android Development, Animation Algorithms, CMS , Competitive Programming
-                        and many more.</p>
-                    </h4><br>
-                    <blockquote class="blockquote-reverse">
-                        <p id="quote"></p>
-                        <small id="author"></small>
-                        <a id="anotherQuote"></a>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <h3>Resume</h3>
-        <hr><br>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Education </h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <h4>Computer Science & Engineering(2014 – Current)</h4>
-                    <p>Bonam Venkata Chalamaiah Engineering College(JNTUK affiliated) <br> Percentage : 84.00% (average to 3rd
-                        year 1st sem)</p><br>
-                    <h4>Year of Completion: 2014</h4>
-                    <p>HSEB Board (Pentagon International College) <br> Percentage : 70.17%</p><br>
-                    <h4>X (School)</h4>
-                    <p>Year of Completion: 2012<br>SLC Board (Kathmandu International School)
-                        <br>Percentage : 82.35%
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!--Training-->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Training</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <h4> Front End Web Development</h4>
-                    <p> Free Code Camp, SanFrancisco (Online) Jan 2017 – Feb 2017 <br>Completed front end web development.
-                    </p><br>
-                    <h4> WordPress Website Development
-                    </h4>
-                    <p> Udemy Certified(Online) April 2017 – May 2017 <br>Completed 3 courses in Udemy with certification.
-                    </p><br>
-                    <h4> Javascript ES6 Course</h4>
-                    <p> Udemy Certified(Online) May 2017 – June 2017 <br>Completed 5 hours course in Udemy with certification.</p>
-                </div>
-            </div>
-        </div>
-        <!--work sample-->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Work Sample</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <h4>Find me on Github:</h4>
-                    <p><a href="www.github.com/Suzal3579" target="_blank">Suzal3579</a></p><br>
-                </div>
-            </div>
-        </div>
-        <!--projects-->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Projects</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <h4>Student Portal (Aug 2016 – Oct 2016)</h4>
-                    <p>
-                        <b>Role :</b> Frontend and Backend Development, Database Administration <br>
-                        <b>Link :</b><a href="www.bvcec.000webhostapp.com" target="_blank">BVCEC Student Portal</a> <br><br>                        A complete college website to give information about each and every students along with their attendance
-                        percentage and marks including teachers details and their fields of specialization. Features like
-                        chatroom, flash news, e-mail facility, birthday wishes, SMS service also included.
-                    </p><br>
-                    <h4>Automatic Time Table Generation (Oct 2016 – Nov 2016)</h4>
-                    <p><b>Role :</b>Frontend and Backend Development <br> <br>A small website that can automatically generate
-                        time table schedules for every class, department and college.
-                    </p><br>
-                    <h4>Satya Peetha Website (Dec 2016 – Jan 2017)</h4>
-                    <p><b>Role :</b>Frontend Developer <br><br> A volunteer work for informative website about “Gayatri Temple”
-                        to let local people know about the occasions, cultural fest, daily activities and rituals.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!--Skills -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Skills</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <h4>
-                        Basic knowledge on :<br><br> Android , JavaScript(Es6/7, Node), Bootstrap , CSS, Html, Java, P5.js
-                        and Processing, Photoshop, PHP (Laravel), SQL, WordPress, MongoDB.
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <!--activities-->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Activities</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <p>Former Nepal Scout and Red Cross Volunteer.</p>
-                    <p>Organizer and Anchor in Resonance 2k17 in BVCEC, Odalarevu.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!--achievements-->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Achievements</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="well">
-                    <p>
-                        Winner in Project development related to “College Student Portal” <br>
-                        <b>Event – Make in India Competion (Oct – 2016)</b><br> Organised at BVCEC, Odalarevu.<br><br> Winner
-                        in two day national level paper presentation – 2017 on topic “Generative Arts Using P5.JS”. <br>
-                        <b>Event – Resonance2k17 (March – 2016)</b><br> Organised at BVCEC, Odalarevu
-                    </p>
-                </div>
-            </div>
-        </div>
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+          {% for section in site.data.landing %}
+          <li>
+            {% if section.page %}
+              <a class="page-scroll" href="{{ section.page}} ">
+            {% else %}
+              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
+            {% endif %}
+              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
+            </a>
+          </li>
+          {% endfor %}
+          {% for language in site.data.index.language %}
+          <li>
+            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
+              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-</body>
+  </nav>
+</div>
+{% if site.index_carousel %}
+{% include carousel.html %}
+{% endif %}
 
-</html>
+{% for section in site.data.landing %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
+  {% include sections/{{section.tpl}} %}
+</section>
+{% endfor %}
+<style>
+iframe {
+  -moz-transform: scale(0.25, 0.25);
+  -webkit-transform: scale(0.25, 0.25);
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+</style>
+<iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe>
