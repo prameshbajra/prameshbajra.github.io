@@ -1,13 +1,13 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Welcome
+title: Pramesh Bajracharya
 description: Pramesh's blog,use Jekyll and github pages.
 keywords: Pramesh,Pramesh,blog,Jekyll,github,gh-pages
 baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://Suzal3579/Suzal3579.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /Suzal3579.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -17,17 +17,17 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/google.png  # upload your avatar at directory and edit it.
   github_username: Suzal3579  # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
-  facebook_username:  # Leave blank if you don't have now
+  facebook_username: pe.messh # Leave blank if you don't have now
   twitter_username: suzal33  # Leave blank if you don't have now
   email: pe.messh@gmail.com  # Leave blank if you don't have now
   cv:   # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+    - name: icon-nodejs
+    - name: fa-quora
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
+    - name: fa-code-fork
+    - name: icon-wordpress
   desc: Hi There, I am Pramesh Bajracharya. I am a Computer Science Engineer having passion for everything related technology. I am very interested in programming and developing in many fields. I am a “MixBag” having knowledge in Web Development, Android Development, Animation Algorithms, CMS , Competitive Programming and many more. # Describe yourself.
 
 # comment
