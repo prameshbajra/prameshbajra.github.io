@@ -1,17 +1,14 @@
 # links section data
-- last_name: Pramesh
-  first_name: Bajracharya
+- last_name: Pramesh Bajracharya
+  first_name: 
   desc: Student, Developer,<br>Tech Enthusiast, Programmer,<br> Android Lover
-  website: prameshbajra.000webhostapp.com
   email: pe.messh@gmail.com
 
 - desc : Programming today is a race between software engineers<br> striving to build bigger and better idiot-proof programs,<br> and the Universe trying to produce bigger and better idiots.<br> So far, the Universe is winning
   email : pe.messh@gmail.com
-  website : prameshbajra.000webhostapp.com
 
 - last_name: Feel free to contact me.
   desc: "Hardwork beats talent when talent fails to work hard.<br>Stay Motivated, Stay Curious<br>Happy Coding" 
-  website: prameshbajra.000webhostapp.com
   email: pe.messh@gmail.com
 
 

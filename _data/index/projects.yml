@@ -6,7 +6,7 @@
   url : bvcecweb.000webhostapp.com
   gh_user: Suzal3579
   repo: BVC-Student-Portal
-  img: /static/assets/img/landing/jekyll.png
+  img: /static/assets/img/landing/round.png
   desc: A complete college website to give information about each and every students along with their attendance percentage and marks including teachers details and their fields of specialization. Features like chatroom, flash news, e-mail facility, birthday wishes, SMS service also included.
 
 - name: Do Chat 
@@ -14,12 +14,12 @@
   url : dochatdemo.herokuapp.com
   gh_user: Suzal3579
   repo: dochat
-  img: /static/assets/img/landing/saplatform.png
+  img: /static/assets/img/landing/avatar.jpg
   desc: A simple chatroom for chatting and drawing some basics sketches. Using P5, Node + Express + SocketIO, MongoDB
 
 - name: BVC Time Table (Client And Admin)
   i18n: BVC
   gh_user: Suzal3579
   repo: BVCTimeTable
-  img: /static/assets/img/landing/leetcode.png
+  img: /static/assets/img/landing/group.png
   desc: An android app to show time table for whole college. Using Firebase as a backend.
