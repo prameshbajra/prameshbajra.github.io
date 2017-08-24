@@ -63,3 +63,31 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Install gems ...  
+gems:
+ - jekyll-seo-tag
+
+# SEO manages ...
+twitter:
+  username: suzal33
+  
+social:
+  name: Pramesh Bajracharya
+  links:
+    - https://twitter.com/suzal33
+    - https://www.facebook.com/pe.messh
+    - https://github.com/Suzal3579
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
