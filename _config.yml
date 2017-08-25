@@ -65,7 +65,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Install gems ...  
-gems:
+plugins:
  - jekyll-seo-tag
 
 # SEO manages ...
