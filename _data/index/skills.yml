@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: HTML + CSS, BootStrap, Photoshop, Android, MongoDB, MySQL, P5 + Processing, PHP + Laravel, Javascript + NodeJS   
-percentage: 90, 90, 70, 40, 40, 70, 60, 60, 80
+aspects: HTML + CSS, BootStrap, Photoshop, Android, MongoDB, MySQL, P5 + Processing, PHP + Laravel, Javascript + NodeJS, React + Redux, Firebase   
+percentage: 90, 90, 70, 40, 70, 70, 80, 60, 80, 80, 80
