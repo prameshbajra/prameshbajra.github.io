@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bitcoin – The Internet of Money"
-date:   2018-01-07
+date:   2017-01-07
 desc: "Bitcoin is an innovative payment network and a new kind of money."
 keywords: "cryptocurrency, bitcoin, money"
 categories: [cryptocurrency, bitcoin, money]
