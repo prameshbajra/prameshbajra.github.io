@@ -5,7 +5,7 @@ title: Pramesh Bajracharya
 description: Pramesh's blog, All about technology.
 keywords: Pramesh,pramesh,bajracharya,Bajracharya,Pramesh Bajracharya,pramesh bajracharya,blog,Jekyll,github,gh-pages
 baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://Suzal3579/Suzal3579.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
+url: https://prameshbajra/prameshbajra.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /homepage/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
@@ -70,14 +70,14 @@ plugins:
 
 # SEO manages ...
 twitter:
-  username: suzal33
+  username: prameshbajra
   
 social:
   name: Pramesh Bajracharya
   links:
-    - https://twitter.com/suzal33
+    - https://twitter.com/prameshbajra
     - https://www.facebook.com/pe.messh
-    - https://github.com/Suzal3579
+    - https://github.com/prameshbajra
   
   
   
