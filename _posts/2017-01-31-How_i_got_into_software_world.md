@@ -15,7 +15,7 @@ icon: icon-google-developers
 
 # **After School - Starting line to the Journey**
 
-It was this time I got a great friend (_Prasanna Mishra_). We were in same school, but interacted once in a bluemoon. The bridge course classes we had together made us great buddies. This guy was curious AF. My new phone got both of us excited but it was he who tried out new stuffs like keeping launchers, making, breaking and hacking through several apps. This thing intrigued me. I wanted to play around too. Then after couple of months he got his first smartphone too. It was a cute HTC. We used to be in his house all the time as my place had no internet nor a laptop. This time gave us great understanding about the android world.    <br><br>
+It was this time I got a great friend (_Prasanna Mishra_). We were in same school, but interacted once in a bluemoon. The bridge course classes we attended made us great buddies. This guy was curious AF. My new phone got both of us excited but it was he who tried out new stuffs like keeping launchers, making, breaking and hacking through several apps. This thing intrigued me. I wanted to play around too. Then after couple of months he got his first smartphone too. It was a cute HTC. We used to be in his place all the time as my place had no internet nor a laptop. Those time gave us great understanding about the android world.    <br><br>
 
 # **College Time - All About Smartphone**
 
