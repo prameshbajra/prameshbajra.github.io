@@ -11,7 +11,7 @@ icon: icon-google-developers
 
 # **Babbling History**
 
-2012, After school. The final exams were over. School time came to an end. I was quite confident that I would get good grades. My family had huge expectation from me. They promised me to get a new phone if I get 80+. Good thing, I did. This accompolishment got everyone happy that my family brought me a new phone. Back then android was unheard of and touchscreen was just a new kid in the block. I still remember the shop (Merina Mobiles, New Road) where we went to shop for my new phone. I chose Samsung Galaxy Young. That puny phone cost 12000rs back then. I can't imagine now how happy I was. This single purchase was my entry ticket to the world of technology.  <br><br>
+2012, After school. The final exams were over. School time came to an end. I was quite confident that I would get good grades. My family had huge expectation from me. They promised me to get a new phone if I get 80+. Good thing, I did. This accompolishment got everyone happy, that my family brought me a new phone. Back then android was unheard of and touchscreen was just a new kid in the block. I still remember the shop (Merina Mobiles, New Road) where we went to buy my new phone. I chose Samsung Galaxy Young. That puny phone cost 12000rs, back then. I can't imagine now how happy I was. This single purchase was my entry ticket to the world of technology.  <br><br>
 
 # **After School - Starting line to the Journey**
 
