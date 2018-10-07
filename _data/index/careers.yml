@@ -1,6 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Code Mantra 
+    i18n: Associate Software Engineer
+  desc:
+    detail: Chennai, Tamilnadu
+    i18n: company_a_desc
+  date:
+    detail: May. 2018
+    i18n: company_a_date
+  job:
+    detail: Associate Software Engineer <br/ > Full Stack Developer
+    i18n: 
+  icon: fa-plus-square
+
+- name:
     detail: Bonam Venakata Chalamaya Engineering College
     i18n: Computer Science Engineering
   desc:
@@ -10,8 +24,8 @@
     detail: October. 2014
     i18n: company_a_date
   job:
-    detail: Computer Science Engineering </br> 81.75% Till 4th Year 1st Semester
-    i18n: 81.75 %
+    detail: Computer Science Engineering </br> 80.75%
+    i18n: 80.75 %
   icon: fa-plus-square
 
 - name:

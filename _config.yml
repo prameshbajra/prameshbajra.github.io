@@ -2,7 +2,7 @@
 
 # Website settings
 title: Pramesh Bajracharya
-description: Pramesh's blog, All about technology.
+description: Pramesh's Website, All about technology, learning, code and some more stuffs.
 keywords: Pramesh,pramesh,bajracharya,Bajracharya,Pramesh Bajracharya,pramesh bajracharya,blog,Jekyll,github,gh-pages
 baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://prameshbajra/prameshbajra.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -15,10 +15,10 @@ author:  # change following line to your infomation.
   first_name: Pramesh  # Be used at index page about me section.
   last_name: Bajracharya  # Be used at index page about me section.
   avatar: /static/assets/img/landing/pramesh.png  # upload your avatar at directory and edit it.
-  github_username: Suzal3579  # Leave blank if you don't have now
+  github_username: prameshbajra  # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
-  facebook_username: pe.messh # Leave blank if you don't have now
-  twitter_username: suzal33  # Leave blank if you don't have now
+  facebook_username: prameshbajra # Leave blank if you don't have now
+  twitter_username: prameshbajra  # Leave blank if you don't have now
   email: pe.messh@gmail.com  # Leave blank if you don't have now
   cv:   # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
@@ -76,7 +76,7 @@ social:
   name: Pramesh Bajracharya
   links:
     - https://twitter.com/prameshbajra
-    - https://www.facebook.com/pe.messh
+    - https://www.facebook.com/prameshbajra
     - https://github.com/prameshbajra
   
   

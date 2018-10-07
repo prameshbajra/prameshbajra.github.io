@@ -1,5 +1,6 @@
 @import url(./open_sans.min.css);
 @import url(./roboto.min.css);
+
 .animation-text-box p,
 .faq-item .tag-item,
 .file-manager h5,
@@ -741,6 +742,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 @media (max-width:767px) {
+
     .menu-visible-lg,
     .menu-visible-md {
         display: block !important
@@ -1793,6 +1795,7 @@ div.dt-button-info {
         float: none;
         margin-top: 10px
     }
+
     .dataTables_length {
         float: none
     }
@@ -2914,6 +2917,7 @@ a.forum-item-title:hover {
         margin: 15px 0 10px;
         display: none
     }
+
     .forum-desc {
         float: none !important
     }
@@ -2979,6 +2983,7 @@ a.forum-item-title:hover {
         margin-top: 3em;
         margin-bottom: 3em
     }
+
     #vertical-timeline.center-orientation:before {
         left: 50%;
         margin-left: -2px
@@ -3014,9 +3019,11 @@ a.forum-item-title:hover {
     .center-orientation .vertical-timeline-block {
         margin: 4em 0
     }
+
     .center-orientation .vertical-timeline-block:first-child {
         margin-top: 0
     }
+
     .center-orientation .vertical-timeline-block:last-child {
         margin-bottom: 0
     }
@@ -3054,10 +3061,12 @@ a.forum-item-title:hover {
         -webkit-backface-visibility: hidden;
         font-size: 19px
     }
+
     .center-orientation .vertical-timeline-icon i {
         margin-left: -12px;
         margin-top: -10px
     }
+
     .center-orientation .cssanimations .vertical-timeline-icon.is-hidden {
         visibility: hidden
     }
@@ -3112,6 +3121,7 @@ a.forum-item-title:hover {
     .vertical-timeline-content h2 {
         font-size: 18px
     }
+
     .vertical-timeline-content p {
         font-size: 13px
     }
@@ -3123,18 +3133,22 @@ a.forum-item-title:hover {
         padding: 1.6em;
         width: 45%
     }
+
     .center-orientation .vertical-timeline-content::before {
         top: 24px;
         left: 100%;
         border-color: transparent transparent transparent #fff
     }
+
     .center-orientation .vertical-timeline-content .btn {
         float: left
     }
+
     .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content,
     .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content .btn {
         float: right
     }
+
     .center-orientation .vertical-timeline-content .vertical-date {
         position: absolute;
         width: 100%;
@@ -3142,17 +3156,20 @@ a.forum-item-title:hover {
         top: 2px;
         font-size: 14px
     }
+
     .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content::before {
         top: 24px;
         left: auto;
         right: 100%;
         border-color: transparent #fff transparent transparent
     }
+
     .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content .vertical-date {
         left: auto;
         right: 122%;
         text-align: right
     }
+
     .center-orientation .cssanimations .vertical-timeline-content.is-hidden {
         visibility: hidden
     }
@@ -3303,6 +3320,7 @@ a.forum-item-title:hover {
     .tabs-container .nav-tabs>li {
         float: none !important
     }
+
     .tabs-container .nav-tabs>li.active>a {
         border-bottom: 1px solid #e7eaec !important;
         margin: 0
@@ -5714,6 +5732,7 @@ dd.project-people {
 }
 
 @media (max-width:992px) {
+
     .chat-statistic,
     .chat-users {
         margin-left: 0
@@ -6448,10 +6467,12 @@ body.body-small .vote-icon {
         -webkit-transform: perspective(120px) rotateX(0) rotateY(0);
         transform: perspective(120px) rotateX(0) rotateY(0)
     }
+
     50% {
         -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0);
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0)
     }
+
     100% {
         -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg)
@@ -6463,10 +6484,12 @@ body.body-small .vote-icon {
         -webkit-transform: perspective(120px) rotateX(0) rotateY(0);
         transform: perspective(120px) rotateX(0) rotateY(0)
     }
+
     50% {
         -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0);
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0)
     }
+
     100% {
         -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg)
@@ -6500,11 +6523,13 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-doubleBounce {
+
     0%,
     100% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     50% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6512,11 +6537,13 @@ body.body-small .vote-icon {
 }
 
 @keyframes sk-doubleBounce {
+
     0%,
     100% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     50% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6561,12 +6588,14 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-waveStretchDelay {
+
     0%,
     100%,
     40% {
         -webkit-transform: scaleY(.4);
         transform: scaleY(.4)
     }
+
     20% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1)
@@ -6574,12 +6603,14 @@ body.body-small .vote-icon {
 }
 
 @keyframes sk-waveStretchDelay {
+
     0%,
     100%,
     40% {
         -webkit-transform: scaleY(.4);
         transform: scaleY(.4)
     }
+
     20% {
         -webkit-transform: scaleY(1);
         transform: scaleY(1)
@@ -6615,18 +6646,22 @@ body.body-small .vote-icon {
         -webkit-transform: translateX(42px) rotate(-90deg) scale(.5);
         transform: translateX(42px) rotate(-90deg) scale(.5)
     }
+
     50% {
         -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
         transform: translateX(42px) translateY(42px) rotate(-179deg)
     }
+
     50.1% {
         -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
         transform: translateX(42px) translateY(42px) rotate(-180deg)
     }
+
     75% {
         -webkit-transform: translateX(0) translateY(42px) rotate(-270deg) scale(.5);
         transform: translateX(0) translateY(42px) rotate(-270deg) scale(.5)
     }
+
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg)
@@ -6638,18 +6673,22 @@ body.body-small .vote-icon {
         -webkit-transform: translateX(42px) rotate(-90deg) scale(.5);
         transform: translateX(42px) rotate(-90deg) scale(.5)
     }
+
     50% {
         -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
         transform: translateX(42px) translateY(42px) rotate(-179deg)
     }
+
     50.1% {
         -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
         transform: translateX(42px) translateY(42px) rotate(-180deg)
     }
+
     75% {
         -webkit-transform: translateX(0) translateY(42px) rotate(-270deg) scale(.5);
         transform: translateX(0) translateY(42px) rotate(-270deg) scale(.5)
     }
+
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg)
@@ -6671,6 +6710,7 @@ body.body-small .vote-icon {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -6683,6 +6723,7 @@ body.body-small .vote-icon {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -6735,11 +6776,13 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-chasingDotsBounce {
+
     0%,
     100% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     50% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6747,11 +6790,13 @@ body.body-small .vote-icon {
 }
 
 @keyframes sk-chasingDotsBounce {
+
     0%,
     100% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     50% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6787,12 +6832,14 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-threeBounceDelay {
+
     0%,
     100%,
     80% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6800,12 +6847,14 @@ body.body-small .vote-icon {
 }
 
 @keyframes sk-threeBounceDelay {
+
     0%,
     100%,
     80% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6963,12 +7012,14 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-circleBounceDelay {
+
     0%,
     100%,
     80% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -6976,12 +7027,14 @@ body.body-small .vote-icon {
 }
 
 @keyframes sk-circleBounceDelay {
+
     0%,
     100%,
     80% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -7049,12 +7102,14 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-cubeGridScaleDelay {
+
     0%,
     100%,
     70% {
         -webkit-transform: scale3D(1, 1, 1);
         transform: scale3D(1, 1, 1)
     }
+
     35% {
         -webkit-transform: scale3D(0, 0, 1);
         transform: scale3D(0, 0, 1)
@@ -7062,12 +7117,14 @@ body.body-small .vote-icon {
 }
 
 @keyframes sk-cubeGridScaleDelay {
+
     0%,
     100%,
     70% {
         -webkit-transform: scale3D(1, 1, 1);
         transform: scale3D(1, 1, 1)
     }
+
     35% {
         -webkit-transform: scale3D(0, 0, 1);
         transform: scale3D(0, 0, 1)
@@ -7101,6 +7158,7 @@ body.body-small .vote-icon {
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
@@ -7112,6 +7170,7 @@ body.body-small .vote-icon {
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
@@ -7269,22 +7328,26 @@ body.body-small .vote-icon {
 }
 
 @-webkit-keyframes sk-circleFadeDelay {
+
     0%,
     100%,
     39% {
         opacity: 0
     }
+
     40% {
         opacity: 1
     }
 }
 
 @keyframes sk-circleFadeDelay {
+
     0%,
     100%,
     39% {
         opacity: 0
     }
+
     40% {
         opacity: 1
     }
@@ -7487,11 +7550,11 @@ body.landing-page {
 }
 
 .landing-page .header-back.one {
-    background: url(../img/landing/header_two.jpg) 50% 0 no-repeat;
+    background: url(../img/landing/node.png) 50% 0 no-repeat;
 }
 
 .landing-page .header-back.two {
-    background: url(../img/landing/header_two.jpg) 50% 0 no-repeat;
+    background: url(../img/landing/node.png) 50% 0 no-repeat;
 }
 
 .landing-page .carousel {
@@ -7842,20 +7905,24 @@ body.landing-page {
     .landing-page .navbar-wrapper {
         margin-top: 20px
     }
+
     .landing-page .navbar-wrapper .container {
         padding-right: 15px;
         padding-left: 15px
     }
+
     .landing-page .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
         border-radius: 4px
     }
+
     .landing-page .carousel-caption p {
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 1.4
     }
+
     .landing-page .featurette-heading {
         font-size: 50px
     }
@@ -7868,44 +7935,55 @@ body.landing-page {
 }
 
 @media (max-width:768px) {
+
     .landing-page .carousel-caption,
     .landing-page .carousel-caption.blank {
         left: 5%;
         top: 80px
     }
+
     .landing-page .carousel-caption h1 {
         font-size: 28px
     }
+
     .landing-page .navbar.navbar-scroll .navbar-brand {
         margin-top: 6px
     }
+
     .landing-page .navbar-default {
         background-color: #fff;
         border-color: #fff;
         padding: 15px 0
     }
+
     .landing-page .navbar-default .navbar-nav>.active>a:focus {
         background: 0 0;
         color: inherit
     }
+
     .landing-page .navbar-default .nav li a {
         color: #676a6c
     }
+
     .landing-page .navbar-default .nav li a:hover {
         color: #3385FF
     }
+
     .landing-page .navbar-wrapper .navbar {
         padding-top: 0;
         padding-bottom: 5px;
         border-bottom: 1px solid #e7eaec;
         border-radius: 0
     }
+
     .landing-page .nav>li>a {
         padding: 25px 10px 15px
     }
+
     .landing-page .navbar-nav>li>a {
         padding: 20px 10px
     }
+
     .landing-page .navbar .navbar-brand {
         margin-top: 6px;
         border-radius: 5px;
@@ -7913,21 +7991,26 @@ body.landing-page {
         padding: 10px;
         height: auto
     }
+
     .landing-page .navbar-wrapper .navbar {
         padding-left: 15px;
         padding-right: 5px
     }
+
     .landing-page .navbar-default .navbar-nav>.active>a,
     .landing-page .navbar-default .navbar-nav>.active>a:hover {
         color: inherit
     }
+
     .landing-page .carousel-control {
         display: none
     }
+
     .landing-page .navbar .navbar-header {
         display: block;
         float: none
     }
+
     .landing-page .navbar .navbar-header .navbar-toggle {
         background-color: #fff;
         padding: 9px 10px;
@@ -8077,6 +8160,7 @@ body.rtls .footer.fixed {
 }
 
 @media (max-width:992px) {
+
     body.rtls .chat-statistic,
     body.rtls .chat-users {
         margin-right: 0
@@ -8147,26 +8231,31 @@ body.rtls.top-navigation .footer.fixed {
     body.rtls .navbar-top-links li:last-child {
         margin-left: 20px
     }
+
     .body-small.rtls #page-wrapper {
         position: inherit;
         margin: 0;
         min-height: 1000px
     }
+
     .body-small.rtls .navbar-static-side {
         display: none;
         z-index: 2001;
         position: absolute;
         width: 70px
     }
+
     .body-small.rtls.mini-navbar .navbar-static-side {
         display: block
     }
+
     .rtls.fixed-sidebar.body-small .navbar-static-side {
         display: none;
         z-index: 2001;
         position: fixed;
         width: 220px
     }
+
     .rtls.fixed-sidebar.body-small.mini-navbar .navbar-static-side {
         display: block
     }
