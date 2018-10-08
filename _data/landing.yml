@@ -8,7 +8,7 @@
 
 - id: career
   i18n: nav.career
-  name: Education
+  name: Work and Education
   tpl: career.html
   css: timeline
 
