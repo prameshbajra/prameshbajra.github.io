@@ -1,6 +1,22 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: CLI-JS
+  i18n: prameshbajra
+  url: https://www.npmjs.com/settings/pe.messh/packages
+  gh_user: prameshbajra
+  repo: cli-js
+  img: /static/assets/img/landing/shell.png
+  desc: A command line application made in JavaScript that would give you a random quote, joke and pickup line as requested. This is available on the npm package manager.
+
+- name: Keep Expense
+  i18n: prameshbajra
+  url: tabexpense.herokuapp.com
+  gh_user: prameshbajra
+  repo: expensify
+  img: /static/assets/img/landing/money.jpg
+  desc: A simple application that will log you in with your google account and keep track of your expenses. All you have to do is enter the amount and some description if you want.
+
 - name: Student Information Sheet
   i18n: prameshbajra
   url: bvcecweb.000webhostapp.com
@@ -29,5 +45,5 @@
   url: dochatdemo.herokuapp.com
   gh_user: prameshbajra
   repo: dochat
-  img: /static/assets/img/landing/leetcode.png
+  img: /static/assets/img/landing/message.png
   desc: A simple chatroom where users can chat as well as share live sketches using canvas element in browsers. Made by using P5, Node + Express + SocketIO, MongoDB.
