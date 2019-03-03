@@ -1,6 +1,6 @@
 # skills section data
 
 label: Ability
-id : cs
-aspects: HTML + CSS, BootStrap, Photoshop, Android, MongoDB, MySQL, P5 + Processing, PHP + Laravel, Javascript + NodeJS, React + Redux, Firebase   
-percentage: 90, 90, 70, 40, 70, 70, 80, 60, 80, 80, 80
+id: cs
+aspects: AngularJS/Angular 6, Node, React, Machine Learning/Deep Learning, Sql, Java - Spring Boot , Python
+percentage: 70, 70, 40, 30 , 60, 70, 70
