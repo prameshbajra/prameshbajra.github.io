@@ -71,7 +71,7 @@ Another thing to keep in mind here. The **framework_version** that you provide w
 <br><br>
 ## Deploy the model
 
-Use to code below to deploy the model. **Sagemaker** will do the heavy lifting for you from here on and create an endpoint that will be ready to take in inputs and return your predictions. `The model.deploy()` method will return a **predict** object that can take in inputs and give out predictions.
+Use the code below to deploy the model. **Sagemaker** will do the heavy lifting for you from here on and create an endpoint that will be ready to take in inputs and return your predictions. `The model.deploy()` method will return a **predict** object that can take in inputs and give out predictions.
 
 ```python
 # This will take some time ... Grab a coffee, take a break ...
