@@ -15,6 +15,8 @@ Let's get started: <br><br>
 
 ## Prerequisites
 
+Before reading this the reader is expected to have a general idea for generating model from tensorflow. You will need to that this part comes only after your model is successfully trained and the models are generated.
+
 In order to deploy your models to **Sagemaker** you need to make sure of some things before you start. Firstly, make sure that the folder structure is something like this:
 
 ```
@@ -108,4 +110,9 @@ results = predictor.predict(body)
 print(results)
 ```
 
-This will get you some output in **dict** format having elements like **detection_classes**, **detection_boxes** etc. 
+This will get you some output in **dict** format having elements like **detection_classes**, **detection_boxes** etc. This output  that you get here is similar to the one you get when you run object detection in tensorflow. You will have to arrange or even write up some code in order to get the co-ordinates for detections done.
+
+Feel free to ping me anywhere in social media if you get stuck somewhere or in case you have some questions.
+
+
+
