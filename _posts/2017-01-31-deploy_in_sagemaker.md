@@ -27,7 +27,7 @@ some_name
                     |__ (Non empty)
 ```
 
-Keep in mind that the **variables** folder should not be empty. The **variables** folder in most of the case are empty because the original tensorflow object detection tutorial exports a frozen graph instead of unfrozen one. Here, frozen means that all the variables are frozen (i.e. made constants). Because of this reason the **variables** folder is empty. We will have to export an unfrozen graph. Follow my [another blog]() in order to export an unfrozen graph.
+Keep in mind that the **variables** folder should not be empty. The **variables** folder in most of the case are empty because the original tensorflow object detection tutorial exports a frozen graph instead of unfrozen one. Here, frozen means that all the variables are frozen (i.e. made constants). Because of this reason the **variables** folder is empty. We will have to export an unfrozen graph. Follow my [another blog](https://prameshbajra.github.io/aws/sagemaker/prediction/detection/tensorflow/tensorflow-serving/numpy/data/images/code/programming/deployment/s3/cloudwatch/2019/12/14/export-unfrozen-graph-tensorflow-object-detection.html) in order to export an unfrozen graph.
 
 After you have the above folder structure you can compress it into a `some_name.tar.gz` format. Notice that we have a positive numbered folder inside `model` directory. Your `model` folder can have multiple positive numbered folders. These will be treated as versions and Sagemaker will choose the highest version (i.e. highest positive number inside model directory) to deploy. 
 <br><br>
