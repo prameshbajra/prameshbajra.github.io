@@ -3,8 +3,8 @@ layout: blog
 title: Donate
 permalink: /donate/
 ---
-    <link href="{{ "/static/css/slick.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/static/css/slick-theme.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/static/slick/slick.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/static/slick/slick-theme.css" | prepend: site.baseurl }}" rel="stylesheet">
 <div class="row">
     <div class="col-sm-8 col-sm-offset-2 text-center">
         <div class="navy-line"></div>
@@ -74,7 +74,7 @@ permalink: /donate/
 </div>
 
 <!-- slick carousel-->
-<script src="{{ "/static/js/slick.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/static/slick/slick.min.js" | prepend: site.baseurl }}"></script>
 
 <style>
     .slick .ibox-content {
@@ -101,8 +101,7 @@ permalink: /donate/
                 }
             }
         });
-        }
-        // console.log($('.github_username'));
+        };
         $('.slick').slick({
             infinite: true,
             slidesToShow: 3,
