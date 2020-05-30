@@ -1,6 +1,24 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Instagram Auto Liker
+  i18n: prameshbajra
+  url: https://github.com/prameshbajra/https://github.com/prameshbajra/pyadb-android
+  gh_user: prameshbajra
+  repo: pyadb-android
+  img: /static/assets/img/landing/insta.png
+  desc: Uses ABD Shell and open CV Python to like the posts in instagram. The entire flow from liking and scrolling is automated.
+        Did this to explore my OPENCV skills and ADB shell actions.
+
+- name: Facebook Messages Auto Replier
+  i18n: prameshbajra
+  url: https://github.com/prameshbajra/facebook-auto-replier
+  gh_user: prameshbajra
+  repo: facebook-auto-replier
+  img: /static/assets/img/landing/auto.png
+  desc: Uses machine learning to auto reply the message with help of MQTT. Node + Flask server as backend and trained on 30+ GB of reddit comments. 
+        Facebook might ban you if you use this.
+
 - name: CLI-JS
   i18n: prameshbajra
   url: https://www.npmjs.com/settings/pe.messh/packages
@@ -23,22 +41,25 @@
   gh_user: prameshbajra
   repo: BVC-Student-Portal
   img: /static/assets/img/landing/round.png
-  desc: A complete college website to give information about each and every students along with their attendance percentage and marks including teachers details and their fields of specialization. Features like chatroom, flash news, e-mail facility, birthday wishes, SMS service also included.
+  desc: A complete college website to give information about each and every students along with their attendance percentage 
+        and marks including teachers details and their fields of specialization. Features like chatroom, flash news, e-mail facility, birthday wishes, SMS service also included.
 
 - name: BVC Time Table (Client And Admin)
   i18n: BVC
   gh_user: prameshbajra
   repo: BVCTimeTable
   img: /static/assets/img/landing/group.png
-  desc: An android app to show time table for whole college. Teachers are to use the server app for editing time table and students should use client app as a read only time table. The timetable is also saved offline for convienence. This was made by using Firebase as a backend and Android Studio (Java + Xml).
+  desc: An android app to show time table for whole college. Teachers are to use the server app for editing time table and students 
+        should use client app as a read only time table. The timetable is also saved offline for convienence. This was made by using Firebase as a backend and Android Studio (Java + Xml).
 
 - name: College Canteen
   i18n: BVC
   url: bvcshop.herokuapp.com
   gh_user: prameshbajra
   repo: College-Canteen
-  img: /static/assets/img/landing/round.png
-  desc: A mobile friendly web app for college canteen where shop owners can make their menu available online and students can either book or can request a delievery to thier rooms. Made with Node - Express, MongoDB, Bootstrap, HandleBars and lots of interest.
+  img: /static/assets/img/landing/lunch.png
+  desc: A mobile friendly web app for college canteen where shop owners can make their menu available online and students can either 
+        book or can request a delievery to thier rooms. Made with Node - Express, MongoDB, Bootstrap, HandleBars and lots of interest.
 
 - name: Do Chat
   i18n: prameshbajra

@@ -2,5 +2,7 @@
 
 label: Ability
 id: cs
-aspects: AngularJS/Angular 7, Node, React, Machine/Deep Learning, Sql, Java - Spring Boot , Python, DApps/Blockchain
+aspects: ["Python", "Javascript", "AngularJS", "Angular 8", "Node", "Google Cloud", "AWS", "Puppetter", "Selenium", "REST API",
+          "GIT/Github", "Machine Learning", "Deep Learning", "PostgreSQL", "Java", "Spring Boot" , "Sockets", "Firebase", "HTML", "CSS", "Google Tag/Google Analytics",
+          "Python", "Decentralized Applications" ,"Blockchain", "MongoDB", "Elastic Search", "PyTorch", "Tensorflow"]
 percentage: 70, 70, 40, 50 , 60, 70, 70, 40
