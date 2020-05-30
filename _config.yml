@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-code
     - name: fa-laptop
-  desc: Hi! <br> I am a <b>Computer Engineer</b> having passion for everything related technology. I love smartphones, laptops and basically all gadgets. You can take me as a “MixBag” having knowledge in Full stack Development, Machine learning, Deep learning, Automation, deployments and many others.  # Describe yourself.
+  desc: Hi! I am a <b>Computer Engineer</b> having passion for everything related technology.<br> I love smartphones, laptops and basically all gadgets. You can take me as a “MixBag” having <br> knowledge in Full stack Development, Machine learning, Deep learning, Automation, deployments and many others.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
