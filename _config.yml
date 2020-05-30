@@ -16,7 +16,7 @@ author:  # change following line to your infomation.
   last_name: Bajracharya  # Be used at index page about me section.
   avatar: /static/assets/img/landing/pramesh.png  # upload your avatar at directory and edit it.
   github_username: prameshbajra  # Leave blank if you don't have now
-  linkedin_id:  # Leave blank if you don't have now
+  linkedin_id: prameshbajra # Leave blank if you don't have now
   facebook_username: prameshbajra # Leave blank if you don't have now
   twitter_username: prameshbajra  # Leave blank if you don't have now
   instagram_username: prameshbajra # instagram username here 
@@ -24,12 +24,12 @@ author:  # change following line to your infomation.
   cv:   # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-nodejs
-    - name: fa-quora
+    - name: fa-book
+    - name: fa-github
   skill_icon2:
-    - name: fa-code-fork
-    - name: icon-wordpress
-  desc: Hi There, I am Pramesh Bajracharya. I am a Computer Science Engineer having passion for everything related technology. I am very interested in programming and developing in many fields. I am a “MixBag” having knowledge in Web Development, Android Development, Animation Algorithms, CMS , Competitive Programming and many more. # Describe yourself.
+    - name: fa-code
+    - name: fa-laptop
+  desc: Hi! <br> I am a <b>Computer Engineer</b> having passion for everything related technology. I love smartphones, laptops and basically all gadgets. You can take me as a “MixBag” having knowledge in Full stack Development, Machine learning, Deep learning, Automation, deployments and many others.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

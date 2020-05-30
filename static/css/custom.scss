@@ -7,3 +7,19 @@
 @import "open_sans";
 @import "roboto";
 @import "style";
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background: white;
+}
+
+.landing-page .navbar-default .nav li a {
+	color: #3385FF;
+	background: white;
+}
+
+.landing-page .navbar-default .navbar-nav > .active > a {
+	color: #3385FF;
+	background: white;
+}
