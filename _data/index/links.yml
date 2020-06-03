@@ -1,13 +1,13 @@
 # links section data
 - last_name: I am a
   first_name:
-  desc: Computer Science Engineer,<br>Full Stack Developer, All things AI(Artificial Intelligence) <br>Tech Enthusiast, Android User, Basketball Player,<br>Badminton Player
-  email: pe.messh@gmail.com
+  desc: Computer Science Engineer,<br>Investor, Full Stack Developer, Deep Learning Developer <br>Tech Enthusiast, Android User, Basketball Player,<br>Badminton Player
+  email:
 
 - desc: Programming today is a race between software engineers<br> striving to build bigger and better idiot-proof programs,<br> and the Universe trying to produce bigger and better idiots.<br> So far, the Universe is winning
   email: pe.messh@gmail.com
 
 - last_name: Feel free to contact me.
   desc: Mobile Number - +91-9959204435 (India),<br>+977-9808876136 (Nepal)<br>E-mail - pe.messh@gmail.com<br> Twitter - @prameshbajra<br>Instagram- @prameshbajra
-  email: pe.messh@gmail.com
+  email:
   # Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning
