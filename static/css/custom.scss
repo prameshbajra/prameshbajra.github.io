@@ -25,6 +25,11 @@
     background: white;
 }
 
+.landing-page .navbar-default .navbar-nav > .active > a:focus {
+    color: #3385FF;
+    background: white;
+}
+
 .badge {
 	display: inline-block;
 	min-width: 10px;
@@ -46,4 +51,10 @@
     margin: 0;
     width: 100%;
     margin-bottom: 30px;
+}
+
+.social-icon {
+    .links-landing {
+        width: 100px !important;
+    }
 }
