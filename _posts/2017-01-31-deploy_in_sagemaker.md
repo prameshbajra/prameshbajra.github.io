@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploy your own custom trained object detection model in AWS Sagemaker"
-date:   2019-12-13
+date:   2019-10-13
 desc: "Deployment of your own object detection model in sagemaker."
 keywords: "deploy, aws, sagemaker, model, object detection, sdk, tensorflow"
 categories: [aws, sagemaker, prediction, detection, tensorflow, numpy, data, images, code, programming, deployment, s3, cloudwatch]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How I got into the Tech World"
-date:   2018-06-01
+date:   2019-06-01
 desc: "How I got into technology and why I will be doing this for my life"
 keywords: "code, life, story, programming, programs , software, engineering"
 categories: [code, life, story, programming, programs , software, engineering]
