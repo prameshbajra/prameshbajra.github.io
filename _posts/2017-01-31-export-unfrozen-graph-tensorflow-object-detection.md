@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Export an unfrozen graph tensorflow - Object Detection"
-date:   2019-12-14
+date:   2019-08-14
 desc: "Export an unfrozen graph tensorflow - Object Detection"
 keywords: "deploy, aws, sagemaker, model, object detection, sdk, tensorflow, graph, code, s3, programming"
 categories: [aws, sagemaker, prediction, detection, tensorflow, tensorflow-serving, numpy, data, images, code, programming, deployment, s3, cloudwatch]

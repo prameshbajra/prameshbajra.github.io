@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "12 ways to make your code suck less"
-date:   2017-12-16
+date:   2020-02-16
 desc: "Reading code is as important as writing it."
 keywords: "code, principle, programming, programs "
 categories: [code, principle, programming, programs]
