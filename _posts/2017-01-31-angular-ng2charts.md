@@ -130,8 +130,10 @@ It was easy isn't it? But it is very rare that your requirements will be this li
 <br><br>
 The chart we did here is just the tip of an iceberg. There are lots of other charts like line charts, bar charts, doughnut charts and scatter plots which you could make use of. All the available charts are present in [this documentation](https://valor-software.com/ng2-charts/#/GeneralInfo). These charts are very customizable and configurable but unfortunately not all options are available in the documentation above. For more options regarding the configurations, you might want to have a look at [CHARTJS Docs](https://www.chartjs.org/docs/latest/). Other entities might be different but the **ChartOptions** are exactly the same.
 <br><br>
+The entire code for this can be found here: [https://github.com/prameshbajra/chartsjs-demo](https://github.com/prameshbajra/chartsjs-demo)
+
 Hope this helps! Happy Coding!
-<br><br><br>
+<br><br>
 
 
 
