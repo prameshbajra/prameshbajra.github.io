@@ -16,16 +16,16 @@ people will notice it for sure.
 
 Before we start. You might want to view this on your laptop because you cannot get this done from a mobile phone.
 
-<br>
+<br><br>
 <h2>What will I guide you with?</h2>
 <br>
 <h3>From this:</h3>
 <br>
-<img src="/static/assets/img/blog/emails/old-email.png" height = "340px" width="670px">    
+<img src="/static/assets/img/blog/emails/old-email.png" height = "340px" width="65%">    
 <br><br>
 <h3>To this:</h3>
 <br>
-<img src="/static/assets/img/blog/emails/new-email.png" height = "260px" width="770px">    
+<img src="/static/assets/img/blog/emails/new-email.png" height = "260px" width="65%">    
 <br>
 
 There are some things you will need early hand. It might get a bit tedious but trust me, it's worth it.
@@ -41,9 +41,9 @@ The steps are fairly simple and will require little to no skills.
 
 3. Go to all setting and enable the options for templates (Follow the image below for better clarification). Click **Save changes** at the buttom of the page to save your changes.
 <br><br>
-<img src="/static/assets/img/blog/emails/step1.png" height = "260px" width="450px">    
+<img src="/static/assets/img/blog/emails/step1.png" height = "260px" width="40%">    
 <br><br>
-<img src="/static/assets/img/blog/emails/step2.png" height = "400px" width="770px">    
+<img src="/static/assets/img/blog/emails/step2.png" height = "400px" width="65%">    
 <br><br>
 
 4. Time to get a little technical now. Head to **[this URL](https://gist.githubusercontent.com/prameshbajra/1b0bcfbfb22c6fc7dfb8102873cd4408/raw/ad0899e5ec12ce89b24504ec99171378083c0b5c/GmailTemplateFooter.html)** and copy the entire HTML code.
@@ -58,7 +58,7 @@ The steps are fairly simple and will require little to no skills.
 
 6. After you're done making the necessary changes, follow the below steps in the video. (Please do let me know if a youtube video would help. I would consider making one if need be.)
 <br><br>
-<img src="/static/assets/img/blog/emails/steps.gif" height = "400px" width="800px">    
+<img src="/static/assets/img/blog/emails/steps.gif" height = "400px" width="65%">    
 <br><br>
 
     In case you are wondering on what I just did there. Here are the steps to help process it.
