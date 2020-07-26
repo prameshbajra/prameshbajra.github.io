@@ -3,9 +3,9 @@ layout: post
 title:  "Stop sending plain/boring e-mails"
 date:   2020-07-26
 desc: "A concise tutorial on how to include beautiful, custom templates to you personal email/gmail."
-keywords: "html, email, css, gmail"
-categories: [html, email, css, gmail]
-tags: [html, email, css, gmail]
+keywords: "html, email, css, gmail, email"
+categories: [html, email, css, gmail, email]
+tags: [html, email, css, gmail, email]
 icon: icon-backbone
 ---
 
