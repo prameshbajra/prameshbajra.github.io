@@ -14,8 +14,9 @@ I can pretty much guarantee that we all have been sending plain emails for a lon
 Imagine the impression you will be making on a job application with the help of an unique email? You will be rocking your emails and 
 people will notice it for sure.
 
-Let's start.
-<br><br>
+Before we start. You might want to view this on your laptop because you cannot get this done from a mobile phone.
+
+<br>
 <h2>What will I guide you with?</h2>
 <br>
 <h3>From this:</h3>
@@ -93,6 +94,6 @@ The steps are fairly simple and will require little to no skills.
 - If in case you want some other design, something more pretty or more complex then contact me. I'd be happy to make one for you.
 
  <br>
-__ Hope this helps.__
+__Hope this helps.__
 
 
