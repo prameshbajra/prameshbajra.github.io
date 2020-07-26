@@ -11,8 +11,8 @@ icon: icon-backbone
 
 I can pretty much guarantee that we all have been sending plain emails for a long long time. I'm here to help you change that.
 
-Imaging the impression you will be making on a job application with the help of this type of email? You will be rocking your emails and 
-people will notice.
+Imagine the impression you will be making on a job application with the help of an unique email? You will be rocking your emails and 
+people will notice it for sure.
 
 Let's start.
 <br><br>
@@ -20,7 +20,7 @@ Let's start.
 <br>
 <h3>From this:</h3>
 <br>
-<img src="/static/assets/img/blog/emails/old-email.png" height = "260px" width="65%">    
+<img src="/static/assets/img/blog/emails/old-email.png" height = "340px" width="65%">    
 <br><br>
 <h3>To this:</h3>
 <br>
@@ -34,7 +34,7 @@ The steps are fairly simple and will require little to no skills.
 <h2>Follow along</h2>
 <br>
 
-1. First thing first, head over to [gmail](https://mail.google.com/). 
+1. First thing first, head over to **[GMail](https://mail.google.com/)**. 
 
 2. You will have to enable a setting to proceed further. This can be enabled through couple of clicks.
 
@@ -45,7 +45,7 @@ The steps are fairly simple and will require little to no skills.
 <img src="/static/assets/img/blog/emails/step2.png" height = "400px" width="65%">    
 <br><br>
 
-4. Time to get a little technical now. Head to [this URL](https://gist.githubusercontent.com/prameshbajra/1b0bcfbfb22c6fc7dfb8102873cd4408/raw/ad0899e5ec12ce89b24504ec99171378083c0b5c/GmailTemplateFooter.html) URL can copy the entire HTML code.
+4. Time to get a little technical now. Head to **[this URL](https://gist.githubusercontent.com/prameshbajra/1b0bcfbfb22c6fc7dfb8102873cd4408/raw/ad0899e5ec12ce89b24504ec99171378083c0b5c/GmailTemplateFooter.html)** and copy the entire HTML code.
 
 5. Paste this into the editor you prefer (something like notepad) and make necessary edits.
 
@@ -55,7 +55,7 @@ The steps are fairly simple and will require little to no skills.
 
     - After you're done with all the edits select all and copy the entire HTML code. You will be needing this now.
 
-6. After you're done making the necessary changes, follow the below steps.
+6. After you're done making the necessary changes, follow the below steps in the video. (Please do let me know if a youtube video would help. I would consider making one if need be.)
 <br><br>
 <img src="/static/assets/img/blog/emails/steps.gif" height = "400px" width="65%">    
 <br><br>
@@ -70,7 +70,7 @@ The steps are fairly simple and will require little to no skills.
   
     - I then removed the text (__Anything__) and replaced it with the HTML code that I have copied.
 
-    - The content looks ugly at first but do not worry. We can go ahead and save it as a template. You need to provide a template name here. I can be anything you wish to name it.
+    - The content looks ugly at first but do not worry. We can go ahead and save it as a template. You need to provide a template name here. It can be anything you wish to name it.
 
     - The setup is done. Your template is now ready to be used.
 
@@ -93,6 +93,6 @@ The steps are fairly simple and will require little to no skills.
 - If in case you want some other design, something more pretty or more complex then contact me. I'd be happy to make one for you.
 
  <br>
- Hope this helps.
+__ Hope this helps.__
 
 
