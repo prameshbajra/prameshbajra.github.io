@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I wrote a SERVER that might me of use to YOU!!"
+title:  "I wrote a SERVER that might be of use to YOU!!"
 date:   2020-08-16
 desc: "Share files with a powerful http server."
 keywords: "nodejs, node, multer, code, server, file, network, http, express, ejs, code"
