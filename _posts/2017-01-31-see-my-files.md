@@ -57,14 +57,9 @@ You will see something link this:
 To **downlaod a file** simply **click** on the file. It will automatically be downloaded. To **download a folder** you can right click on it and press **download as zip**. To **upload something** to the source machine you can simply **drag the file to the folder icon**. The upload will be done automatically.
 
 Well. That's it for this article. I really hope you find this useful.
-
 <br><br>
-
-> As always, feel free to reach out to me if you need help.
-
-
+As always, feel free to reach out to me if you need help.
 <br><br>
-
 ## Are you a developer as well?
 
 Feel free to contribute: [https://github.com/prameshbajra/see-my-files](https://github.com/prameshbajra/see-my-files)
