@@ -67,5 +67,5 @@ Well. That's it for this article. I really hope you find this useful.
 
 ## Are you a developer as well?
 
-Feel free to contribute: https://github.com/prameshbajra/see-my-files
+Feel free to contribute: [https://github.com/prameshbajra/see-my-files](https://github.com/prameshbajra/see-my-files)
 
