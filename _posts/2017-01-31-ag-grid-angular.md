@@ -106,6 +106,7 @@ import { HttpClient } from '@angular/common/http';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent implements OnInit {
     title = 'app';
 
@@ -169,3 +170,137 @@ columnDefs = [
     {headerName: 'Price', field: 'price', sortable: true, filter: true}
 ];
 ```
+
+<br>
+**Multi Level Header Table**
+
+This was honestly the most tedious part of making tables in angular using libraries. No other library (including angular-material) provides an easy way of implementing multi header functionality. All thanks to Ag-grid, you can now do this with very minute change.
+
+I will be creating a new component for this. It can be done by:
+
+    ng g c app/multi-header
+
+
+<br>
+Inside the new component you can have the below html.
+
+```html
+<ag-grid-angular #agGrid style="width: 1200px; height: 600px;" id="myGrid" class="ag-theme-alpine"
+    [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [debug]="true" [rowData]="rowData"
+    (gridReady)="onGridReady($event)"></ag-grid-angular>
+```
+
+and in the respective typescript component file you can have this:
+
+```tsx
+import { HttpClient } from '@angular/common/http';
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-multi-header',
+    templateUrl: './multi-header.component.html',
+    styleUrls: ['./multi-header.component.scss']
+})
+
+export class MultiHeaderComponent {
+    private gridApi;
+    private gridColumnApi;
+
+    private columnDefs;
+    private defaultColDef;
+    private rowData: [];
+
+    constructor(private http: HttpClient) {
+        this.columnDefs = [
+            {
+                headerName: 'Athlete Details',
+                children: [
+                    {
+                        headerName: 'Athlete',
+                        field: 'athlete',
+                        width: 180,
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        headerName: 'Age',
+                        field: 'age',
+                        width: 90,
+                        filter: 'agNumberColumnFilter',
+                    },
+                    {
+                        headerName: 'Country',
+                        field: 'country',
+                        width: 140,
+                    },
+                ],
+            },
+            {
+                headerName: 'Sports Results',
+                children: [
+                    {
+                        headerName: 'Sport',
+                        field: 'sport',
+                        width: 140,
+                    },
+                    {
+                        headerName: 'Total',
+                        columnGroupShow: 'closed',
+                        field: 'total',
+                        width: 100,
+                        filter: 'agNumberColumnFilter',
+                    },
+                    {
+                        headerName: 'Gold',
+                        columnGroupShow: 'open',
+                        field: 'gold',
+                        width: 100,
+                        filter: 'agNumberColumnFilter',
+                    },
+                    {
+                        headerName: 'Silver',
+                        columnGroupShow: 'open',
+                        field: 'silver',
+                        width: 100,
+                        filter: 'agNumberColumnFilter',
+                    },
+                    {
+                        headerName: 'Bronze',
+                        columnGroupShow: 'open',
+                        field: 'bronze',
+                        width: 100,
+                        filter: 'agNumberColumnFilter',
+                    },
+                ],
+            },
+        ];
+        this.defaultColDef = {
+            sortable: true,
+            resizable: true,
+            filter: true,
+        };
+    }
+
+
+
+    onGridReady(params) {
+        this.gridApi = params.api;
+        this.gridColumnApi = params.columnApi;
+
+        this.http
+            .get(
+                'https://raw.githubusercontent.com/ag-grid/ag-grid/master/grid-packages/ag-grid-docs/src/olympicWinnersSmall.json'
+            )
+            .subscribe(data => {
+                this.rowData = data;
+            });
+    }
+}
+```
+
+and we're done. Notice how flexible the headers are. You can expand them, drag and drop them. 
+
+<br>
+I do not think there is any other library that provides these many exhaustive set of features.
+
+<br>
+> As always, feel free to reach out if you need help with something. I'll be honored to help.
