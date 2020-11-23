@@ -9,7 +9,7 @@ tags: [code, python, features, programming]
 icon: icon-maven
 ---
 
-Please allow me to start with a disclaimer: I am a big **JavaScipt** fan and I used to keep track of the latest for **JavaScript** features only. The language (*JS*) has added very handy features in recent years and I can't stop fan girling about them.
+Please allow me to start with a disclaimer: I am a big **JavaScipt** fan and I only keep track of the latest features for **JavaScript**. The language (*JS*) has added very handy features in recent years and I can't stop fan girling about them.
 
 Ok then, with that out of the way. Let's talk **python** today. This is my first time looking and using the latest features provided by any programming language other than **JavaScript** and honestly, I am very impressed.
 <br><br>
@@ -33,7 +33,7 @@ To make things easier I will be ignoring all the other additions that I did not 
     python.update(python3)
     ```
 
-    But, now you can simple do
+    But, now you can simply do
 
     ```python
     ##merging two dictionaries
@@ -121,7 +121,7 @@ To make things easier I will be ignoring all the other additions that I did not 
     ```
 <br>
 
-These were some of the cool features that I liked in this new version of **Python**. There are many others too. Please refer to [RELEASE NOTES](https://docs.python.org/3/whatsnew/3.9.html) if you want to dig deep and have a look for yourself.
+These were some of the cool features that I liked in this new version of **Python**. There are many others too. Please refer to [RELEASE NOTES](https://docs.python.org/3/whatsnew/3.9.html) if you want to dig deeper and have a look for yourself.
 <br><br>
 <h2>What's next?</h2>
 <br>
@@ -134,4 +134,4 @@ I just wanted to point out some minor things here that needs to be kept in mind 
 Fingers crossed for Python 3.10 now.
 <hr>
 <br>
-**As usual, free to drop a message if you want to get in touch. I am always ready to talk tech.**
+**As usual, feel free to drop a message if you want to get in touch. I am always ready to talk tech.**
