@@ -1,7 +1,21 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Code Mantra 
+    detail: Code Mantra Pvt Ltd
+    i18n: Software Engineer
+  desc:
+    detail: Chennai, Tamilnadu
+    i18n: company_a_desc
+  date:
+    detail: Jan. 2019
+    i18n: company_a_date
+  job:
+    detail: Software Engineer <br/ > (Promoted)
+    i18n: 
+  icon: fa-plus-square
+
+- name:
+    detail: Code Mantra Pvt Ltd
     i18n: Associate Software Engineer
   desc:
     detail: Chennai, Tamilnadu
@@ -10,7 +24,7 @@
     detail: May. 2018
     i18n: company_a_date
   job:
-    detail: Associate Software Engineer <br/ > Full Stack + Deep Learning 
+    detail: Associate Software Engineer <br/ > 
     i18n: 
   icon: fa-plus-square
 
