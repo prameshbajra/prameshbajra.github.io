@@ -70,7 +70,7 @@ If you are already familiar with these then you can hop to my github repository 
 <br>
 <h2>Future Plans</h2>
 
-1. I will be updating this site next weekend with more features like video download based in resolution you select. Good news! The backend is already done. 
+1. I will be updating this site next weekend with more features like video download based on resolution you select. Good news! The backend is already done. 
 
 2. Then, I will also be adding an audio download feature where you can just give the youtube URL and audio file will be downloaded instead of video.
 
@@ -78,7 +78,7 @@ If you are already familiar with these then you can hop to my github repository 
 
 4. I have lot of interest in creating a browser extension as well, but let's see where this goes.
 
-5. There might be ads later. Maybe after some user traffic? Also, I will be using the money to donate to some good cause. The infrastructure will be handled by be as long as it is under my budget. 
+5. There might be ads later. Maybe after some user traffic? Also, I will be using the money to donate to some good cause. The infrastructure will be handled by me as long as it is under my budget. 
 
 5. This is not yet decided but, I will be publishing the APIs for free and will provide a concise documentation.
 
