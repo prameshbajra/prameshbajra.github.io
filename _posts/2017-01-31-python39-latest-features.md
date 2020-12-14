@@ -6,7 +6,7 @@ desc: "Python is coming up with some cool nifty features. Let's check out some o
 keywords: "code, python, features, programming"
 categories: [code, python, features, programming]
 tags: [code, python, features, programming]
-icon: icon-maven
+icon: icon-fire-alt
 ---
 
 Please allow me to start with a disclaimer: I am a big **JavaScipt** fan and I only keep track of the latest features for **JavaScript**. The language (*JS*) has added very handy features in recent years and I can't stop fan girling about them.
