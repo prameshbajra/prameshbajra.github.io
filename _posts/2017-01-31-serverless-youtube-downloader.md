@@ -84,4 +84,4 @@ If you are already familiar with these then you can hop to my github repository 
 
 <br><br>
 > **As always, I would love to hear back. Feel free to drop suggestions and also let me know what I should add?**
-> **My emails and messages are always open. And, there is a comment box below if in case you did not notice. :P **
+> **My emails and messages are always open. And, there is a comment box below if in case you did not notice. :P**
