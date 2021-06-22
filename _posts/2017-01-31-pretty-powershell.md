@@ -84,6 +84,6 @@ The customizations you make here will also be applied in VSCode integrated termi
 
 <br>
 
-As always feel free to reach out of you have any queries. I love taking tech anytime. 
+As always feel free to reach out if you have any queries. I love talking tech anytime. 
 
     
