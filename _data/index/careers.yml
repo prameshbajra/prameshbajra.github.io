@@ -1,6 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: TelQ Telecom GmbH
+    i18n: Software Engineer
+  desc:
+    detail: Hamburg, Germany
+    i18n: company_a_desc
+  date:
+    detail: Dec. 2021
+    i18n: company_a_date
+  job:
+    detail: Software Engineer <br/ >
+    i18n: 
+  icon: fa-plus-square
+
+- name:
     detail: Code Mantra Pvt Ltd
     i18n: Software Engineer
   desc:
