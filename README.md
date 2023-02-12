@@ -9,4 +9,4 @@
 
 Sometimes, I feel like writing blogs related technology and my personal experiences. So, let's start. 
 
-* I really hope this helps someone. *
+*I really hope this helps someone.*
