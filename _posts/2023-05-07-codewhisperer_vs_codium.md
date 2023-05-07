@@ -9,14 +9,14 @@ tags: [ai, code, aws, free, codium, codewhisperer, tech, autocomplete]
 icon: icon-fire-alt
 ---
 
-**TLDR;** AWS CodeWhisperer is shit! Use Codium.
+**TLDR;** AWS CodeWhisperer falls short! Go use Codium.
 
 <br>
-Here are the links and how to get started:
+For those looking to explore these two options, here are the links and instructions for getting started:
 
 **AWS CodeWhisperer**
     
-In order to use this, you will have to install the [AWS toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode). After the installation head to the sidebar, select the AWS toolkit and click on CodeWhisperer. You will need to follow a couple of super simple steps and it will start working right away.
+To begin with AWS CodeWhisperer, first install the [AWS toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode). Once the installation is complete, navigate to the sidebar, select the AWS toolkit, and click on CodeWhisperer. Simply follow a series of user-friendly steps, and the coding assistant will be up and running in no time.
 
 <img src="/static/assets/img/blog/codevcode/cw1.png" width="30%">
     
@@ -24,38 +24,36 @@ In order to use this, you will have to install the [AWS toolkit](https://marketp
 
 **Codium**
     
-Simply install this extension from this link [https://codeium.com/vscode_tutorial](https://codeium.com/vscode_tutorial). After the installation, you should get a popup for logging in after which you are ready. Simple as that!
-    
+To start using Codium, install the extension via the link [https://codeium.com/vscode_tutorial](https://codeium.com/vscode_tutorial). Upon completion, you will be prompted with a login popup. After the login, you're all set to experience the benefits of Codium.
+
 <hr>
 <br>
-Let me jump right to the point. There are several things I loved about Codium that CodeWhisperer lacked. Here are some of them:
+Allow me to cut to the chase and highlight the advantages of Codium over CodeWhisperer, which makes it the preferable choice for many developers:
 
-- The **autocomplete/suggestions are far better.** In simple terms, more common sense, it gets what I want to do. It rarely suggests weird/garbage code snippets.
+- The **autocomplete/suggestions in Codium are far more advanced**. They exhibit a higher level of understanding, better grasping developers' intentions and rarely suggesting irrelevant or nonsensical code snippets. This is where I found CodeWhisperer to be very annoying. It seriously has a long way to go.
 
-- **Daily updates**. The developers are really pushing out features and fixes fast. There is an update almost every day which is great to see considering how fast things have been moving in the AI space.
+- **Consistent updates** from the developers ensure that Codium stays at the forefront of the rapidly evolving AI. With new features and fixes being released almost daily, I think this it is getting better daily.
 
-- You might find this interesting. It’s the option that shows over every function. This is what I mean.
+- Codium provides an intuitive set of option displayed above each function, adding a layer of convenience and ease for users. However, for some it might take a while to get used to. Here's an example:
 
 <img src="/static/assets/img/blog/codevcode/codium1.png" width="60%">
 
 <br>
-Besides the things I love about Codium. It is feature packed as well.
+Moreover, Codium boasts an impressive array of features that cater to a variety of users and development environments.
 
-1. It **works for a wide range of IDEs**. Just to name a few: VSCode, JetBrains, Intellj, Jupyter / Colab / Deepnote / Databricks Notebooks, Chrome, Vim / Neovim, Emacs, VSCode Web IDEs (ex. Gitpod)
+1. It **integrates seamlessly with a wide range of IDEs**, including VSCode, JetBrains, IntelliJ, Jupyter / Colab / Deepnote / Databricks Notebooks, Chrome, Vim / Neovim, Emacs, and VSCode Web IDEs (e.g., Gitpod).
 
-2. It supports many languages. In fact around **70+ programming languages**. This is more than what any other code assistant support.
+2. With support for an extensive list of **70+ programming languages**, Codium has more capabilities than other code assistants on the market. It also has better support for languages than Github Co-pilot.
 
-3. The code is private to you. It is **not used to train models** or whatsoever. They never train generative models on private codebases.
+3. Users can rest assured that their code remains private, as it is **not utilized to train models** or for any other purpose. The developers maintain a strict policy against training generative models on private codebases.
 
 <br><br>
-Ok enough about Codium,
-
-There are two features in particular that **CodeWhisperer** has that I found interesting. One was the **code scan feature** that scans for potential bugs and vulnerabilities and the other is `cmd+c` shortcut trigger for getting code completions.
+Although Codium has a clear edge, **CodeWhisperer** does possess two intriguing features: the **code scan feature**, which identifies potential bugs and vulnerabilities, and the `cmd+c` shortcut trigger for code completions.
 <br><br>
 
-**What’s next?**
+**Looking ahead ....**
 
-There is one major thing that is to be tried and tested. It’s Github Co-pilot. I have been hearing a lot of good things from people in twitter and reddit about it. It is said to have a code completion with lower latency even in complex scenarios. 
+There is another prominent contender in the coding assistant arena: **GitHub Copilot**. Hearning significant praise from developers on platforms like Twitter and Reddit, it boasts low-latency code completions, even in complex scenarios. I start working with it from tomorrow. Hopefully it does not fall short to amaze me :D 
 
 <br>
-As always, feel free to reach out if you have any queries or suggestions.
+As always, I welcome any questions or suggestions you may have. Don't hesitate to reach out and continue the conversation.
