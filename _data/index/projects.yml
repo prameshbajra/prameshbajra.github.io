@@ -1,14 +1,13 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Instagram Auto Liker
+- name: Youtube Video-Audio Downloader
   i18n: prameshbajra
-  url: https://github.com/prameshbajra/https://github.com/prameshbajra/pyadb-android
+  url: https://d2ty6b2yjm83if.cloudfront.net/
   gh_user: prameshbajra
-  repo: pyadb-android
-  img: /static/assets/img/landing/insta.png
-  desc: Uses ABD Shell and open CV Python to like the posts in instagram. The entire flow from liking and scrolling is automated.
-        Did this to explore my OPENCV skills and ADB shell actions.
+  repo: serverless-works
+  img: /static/assets/img/landing/youtube-rounded.svg
+  desc: A neat little mobile friendly application that works as a PWA (mobile app) and a web application allowing you to download Youtube video or audio in a blazing fast speed.
 
 - name: Facebook Messages Auto Replier
   i18n: prameshbajra
@@ -19,6 +18,14 @@
   desc: Uses machine learning to auto reply the message with help of MQTT. Node + Flask server as backend and trained on 30+ GB of reddit comments. 
         Facebook might ban you if you use this.
 
+- name: Instagram Auto Liker
+  i18n: prameshbajra
+  url: https://github.com/prameshbajra/pyadb-android
+  gh_user: prameshbajra
+  repo: pyadb-android
+  img: /static/assets/img/landing/insta.png
+  desc: Uses ABD Shell and open CV Python to like the posts in instagram. The entire flow from liking and scrolling is automated.
+
 - name: CLI-JS
   i18n: prameshbajra
   url: https://www.npmjs.com/settings/pe.messh/packages
@@ -27,17 +34,17 @@
   img: /static/assets/img/landing/shell.png
   desc: A command line application made in JavaScript that would give you a random quote, joke and pickup line as requested. This is available on the npm package manager.
 
-- name: Keep Expense
+- name: Do Chat
   i18n: prameshbajra
-  url: tabexpense.herokuapp.com
+  url: https://dochatdemo.herokuapp.com
   gh_user: prameshbajra
-  repo: expensify
-  img: /static/assets/img/landing/money.jpg
-  desc: A simple application that will log you in with your google account and keep track of your expenses. All you have to do is enter the amount and some description if you want.
+  repo: dochat
+  img: /static/assets/img/landing/message.png
+  desc: A simple chatroom where users can chat as well as share live sketches using canvas element in browsers. Made by using P5, Node + Express + SocketIO, MongoDB.
 
 - name: Student Information Sheet
   i18n: prameshbajra
-  url: bvcecweb.000webhostapp.com
+  url: https://github.com/prameshbajra/Student-Information-Sheet
   gh_user: prameshbajra
   repo: BVC-Student-Portal
   img: /static/assets/img/landing/round.png
@@ -54,17 +61,10 @@
 
 - name: College Canteen
   i18n: BVC
-  url: bvcshop.herokuapp.com
+  url: https://bvcshop.herokuapp.com
   gh_user: prameshbajra
   repo: College-Canteen
   img: /static/assets/img/landing/lunch.png
   desc: A mobile friendly web app for college canteen where shop owners can make their menu available online and students can either 
         book or can request a delievery to thier rooms. Made with Node - Express, MongoDB, Bootstrap, HandleBars and lots of interest.
 
-- name: Do Chat
-  i18n: prameshbajra
-  url: dochatdemo.herokuapp.com
-  gh_user: prameshbajra
-  repo: dochat
-  img: /static/assets/img/landing/message.png
-  desc: A simple chatroom where users can chat as well as share live sketches using canvas element in browsers. Made by using P5, Node + Express + SocketIO, MongoDB.
