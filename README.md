@@ -5,8 +5,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 
-<http://prameshbajra.github.io>  -- Personal website
+ # Personal website
+<http://prameshbajra.github.io> 
 
-Sometimes, I feel like writing blogs related technology and my personal experiences. So, let's start. 
 
-*I really hope this helps someone.*
+Sometimes, I feel like writing blogs related to technology and my personal experiences. So, let's start. 
