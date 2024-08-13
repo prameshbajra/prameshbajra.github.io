@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Terms to know when buying a house in Nepal - Kathmandu"
-date:   2023-09-12
+date:   2024-08-13
 desc: ""
 keywords: "kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land"
 categories: [kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land]
@@ -15,95 +15,100 @@ In this write up I will try to give you a brief overview of the terms that you w
 
 **Brokers (दलाल)**
     
-You will most probably need a broker if you are searching for a house to buy since finding the house is quite a difficult task in itself. I would suggest you to reach out to as many brokers as you want since most of them do not charge the buyer for their services. They charge the seller. But, please do clarify this with them before receiving their services. And great thing about this process is that you can ask them about the entire process and they will tell you how things work. Luckily I found a nice guy who was helping me throughout the process and he did not charge me a penny. He even bargained to some extent with the sellers 😀. Let me know if you want his contact number.
+When searching for a house to buy, you’ll likely need a broker since finding the right property can be a challenging task. I recommend contacting as many brokers as possible, as most don't charge buyers for their services—they charge the seller instead. However, it's important to clarify this with the broker before engaging their services. A great advantage of working with brokers is that they can guide you through the entire process, explaining how everything works. I was fortunate enough to find a helpful broker who assisted me throughout the process without charging me a single rupee. He even negotiated on my behalf with the sellers 😀. If you'd like his contact information, just let me know.
 
 
 <br>
 
-This reminds me, if you like the house and are willing to go ahead with the purchase, PLEASE DO BARGAIN CRAZY !! If the seller says he is willing to sell it for 3 crores, POLITELY set your price to around 2.50 or 2.60. It gives you a breathing ground. I know this sounds like a huge cut but the fact is that the sellers keep a huge margin in houses. Trust me, when you both come to a middle ground and agree on the price, you will be thankful that you set your price low.
+Speaking of negotiating, once you find a house you like and are ready to proceed with the purchase, BARGAIN HARD! If the seller asks for 3 crores, politely counter with a price around 2.50 or 2.60 crores. This gives you some wiggle room. I know it sounds like a big difference, but sellers typically keep a significant margin. Trust me, when you finally agree on a price, you’ll be glad you started low.
 
-Now that you have made that bargain. Please do make sure you do your due diligence about the house, the land and other details. You will have to verify who the house belongs to, if the land is guthi or raikad, and the entire history of the land including other things. You can do this by asking the photocopy of the Lalpurja from the house owner and heading to the Malpot office. They will provide you with all the necessary information. Besides this, also ask the photocopy of the house designs/maps and reach out to an engineer just to be on the safe side. For newer houses that are built in Kathmandu at least, you are mostly safe since the land on which the construction will be taking place is not approved until a set of criteria is checked and passed (Mapdanda - मापदण्ड). 
+Once you've successfully negotiated, make sure you do your due diligence. This includes verifying ownership, determining whether the land is guthi or raikad, and understanding the land's history. You can do this by obtaining a photocopy of the Lalpurja from the owner and visiting the Malpot office, where they’ll provide all necessary information. Additionally, ask for photocopies of the house’s design/maps and consult an engineer to ensure everything is in order. For newer houses built in Kathmandu, you're generally safe, as construction is only approved after meeting certain criteria (Mapdanda - मापदण्ड).
 
-Remember, for every house there are three documents that comes to the picture and are to be obtained in order: 
-1. DPC completion and construction completion certificate (डीपीसी तल सम्म भवन निर्माण स्विक्रिति पत्र)
+Remember, there are three critical documents you’ll need to obtain for any house:
 
-2. Construction permission certificate (निर्माण ईजाजत पत्र)
+1. DPC Completion and Construction Completion Certificate (डीपीसी तल सम्म भवन निर्माण स्विक्रिति पत्र)
+   
+2. Construction Permission Certificate (निर्माण ईजाजत पत्र)
+   
+3. Construction Completion Certification (निर्माण सम्पन्न पत्र)
 
-3. Construction completion certification (निर्माण सम्पन्न पत्र)
+<br>
 
 Now time to be familiar with some more terms:
 
 **Government malpot rate of land (सरकारी मूल्यांकन)**:
 
-It is the minimum valuation of the land/house that is set by the government and is far less from the actual value. For example: if the total amount you are going to buy the house at is 3 crores then this rate might be less than 70 lakhs. Sellers and buyers usually prefer to show this amount in the documents to save on taxes since the tax you pay on this amount is minimal. Let me give you an example in the next section (in profit tax [लाव कर] and property buying tax [राजस्व]).
+This is the minimum valuation of the land/house set by the government, and it’s often much lower than the actual market value. For example, if the purchase price is 3 crores, the government rate might be less than 70 lakhs. Sellers and buyers typically prefer to use this lower amount in official documents to save on taxes, as the tax on this lower amount is minimal. I’ll explain more about this in the sections on profit tax (लाव कर) and property buying tax (राजस्व).
 
 
 **Thaili rakam (थैली रकम)**:
 
-This is the amount that you show in the documents as the total amount that you are buying the house at. This includes the token amount as well. This is the amount on which you have to pay taxes to the government. This amount is agreed upon between the seller and the buyer. It can be between government malpot rate (सरकारी मूल्यांकन) and the total amount for the house. For example, if the total amount you are buying the house at is 3 crores and the government malpot rate is 70 lakhs, you can show the amount in the documents as 2 crores. This way you will have to pay taxes on 2 crores instead of 3 crores. This is a common practice in Nepal to save taxes. 
+This is the amount you show in the documents as the total purchase price, including the token amount. It’s the amount on which you’ll pay taxes to the government. This amount is agreed upon by both the buyer and the seller and can range between the government Malpot rate (सरकारी मूल्यांकन) and the actual purchase price. For instance, if the house costs 3 crores and the government rate is 70 lakhs, you could show 2 crores in the documents, reducing your tax burden. This is a common practice in Nepal.
 
-In my case I paid the taxes on the full amount and I personally would suggest you to do the same. This way you will have a peace of mind and you will not have to worry about any legal issues in the future. Imagine if someone after decades comes and claims that the land belongs to them (Heir - हकवाला) and is a part of their inheritance (अंश) then according to the law it is the thaili rakam that you will be get back and not the amount you pay the seller. So, if you have paid the taxes on the full amount then you will get the full amount back. But if you have paid the taxes on the government malpot rate then you will get that amount back. Hence, it is better to be on the safe side and pay the taxes on the full amount.
+In my case, I chose to pay taxes on the full amount, and I’d recommend you do the same. This way, you’ll have peace of mind and won’t need to worry about potential legal issues later. Imagine if, years down the line, someone claims the land as part of their inheritance (अंश). Legally, you’d only be entitled to the thaili rakam, not the full purchase price. So, it’s better to play it safe and pay taxes on the full amount.
 
 
 **Profit tax (लाव कर)**:
 
-This is the tax that is to be paid to the government at Malpot office when selling the house. This is usually paid by the seller. This is to be paid at the time of Malpot visit. Currently the profit tax is at 7%. Please note that the profit tax is to be paid on the profit and not on the total amount of the house. Remember, the greater the thaili rakam the higher the tax becomes. This is the reason why seller lean towards showing the government malpot rate in the documents. But this is Nepal and things are never straightforward. There are cases where the seller asks the buyer to pay the profit tax. Clarify at the beginning on who pays the profit tax at malpot. Most of the arguements in malpot happens because of this. So, please do clarify this with the seller before proceeding further with token amount (बैना).
-
+This tax is paid to the government at the Malpot office when selling a house, usually by the seller. Currently, the profit tax is 7%, but it’s only applied to the profit, not the total sale price. The higher the thaili rakam, the higher the tax. This is why sellers often prefer to show the government Malpot rate in the documents. However, in Nepal, things are rarely straightforward. Sometimes, sellers might ask buyers to pay the profit tax, so clarify this point before proceeding with the token amount (बैना).
 
 **Property buying tax (भवन खरिद राजस्व)**:
 
-This is the tax that is to be paid to the government at Malpot office when buying the house. This is usually paid by the buyer. This is to be paid at the time of Malpot visit. Depending on whose name the house is being transferred to the tax percentage depends. I think it is 2.5% for elderly citizen and 5% for men. Now you know why everyone buys property in their grandparents name. There are big tax savings here. Again, this too, is to be paid on the thaili rakam. If the thaili rakam is lower, the taxes are lower too. 
+This tax is also paid at the Malpot office when buying a house, usually by the buyer. The tax rate varies depending on whose name the property is being transferred to—2.5% for senior citizens and 5% for men. This is why many people buy property in their grandparents' names for significant tax savings. Again, this tax is calculated based on the thaili rakam. If the thaili rakam is lower, the taxes are lower too.
 
 
-I highly recommend you to watch this video before you proceed further: <a href="https://www.youtube.com/watch?v=PVSAyvvHpwk" target="_blank">https://www.youtube.com/watch?v=PVSAyvvHpwk</a>
+Before moving forward, I highly recommend watching this video: <a href="https://www.youtube.com/watch?v=PVSAyvvHpwk" target="_blank">https://www.youtube.com/watch?v=PVSAyvvHpwk</a>
 
 **Baina/Baina batta (बैना बट्टा) (Token amount)**
 
-Once you are satisfied with the house, you can proceed with the baina. This is some amount that you pay to the seller to show that you are serious about buying the house. This amount can be decided by you and the seller and is to be clearly mentioned in the document. This document is to be written on Nepali Paper (नेपाली कागज) by a lawyer (लेखनदास) and to be signed by both parties. Remember that this document is to be verified and signed over at the ward office (वडा कार्यालय) as well. This process is super important since it is a proof that you have given the token amount to the seller and the seller has received it. Verifying this document at the ward office is important as it can help resolve any legal disputes that may arise in the future. Also, this has been made mandatory by the government of Nepal.
+Once you're satisfied with the house, you can proceed with the baina, a token amount paid to the seller to show your commitment to buying the house. This amount is decided between you and the seller and must be clearly mentioned in a document. This document should be written on Nepali paper (नेपाली कागज) by a lawyer (लेखनदास) and signed by both parties. It's also essential to have this document verified and signed at the ward office (वडा कार्यालय). This step is crucial, as it serves as proof that the token amount was paid and received, and can help resolve any legal disputes that may arise in the future. Additionally, the government of Nepal has made this verification process mandatory.
 
-Couple of important things that are included in the baina document are:
+The baina document typically includes:
 
-1. Details of the buyer and the seller including their parents and grandparents names, citizenship number and current address on both ends.
-   
-2. The amount that you are giving to the seller as token amount.
+1. Details of the buyer and seller, including their parents’ and grandparents’ names, citizenship numbers, and current addresses.
 
-3. The amount you are going to purchase the house at (Includes token amount as well). For example, if you are buying a house for 3 crores and you have given 10 lakh as token amount, the total amount shown in this document will be 3 crores. Now, you will have to pay 3 crores - 10 lakh = 2.90 crores to the seller later.
+2. The token amount paid to the seller.
 
-4. The seller agrees to sell the house to you and not anyone else. This also means that the baina amount has only been taken from you and not anyone else.
+3. The total purchase price of the house, including the token amount. For example, if you’re buying a house for 3 crores and have paid 10 lakhs as the token, the document will show 3 crores, and the remaining 2.90 crores will be paid later.
 
-5. The time frame within which the house is to be sold to you. Usually this is 35 days which can be extended if both parties agree. The transaction is to be completed within this time frame. This means you will have to get the house under your name and the full amount for the house is to be paid to the seller (more on this later on Malpot section).
+4. The seller’s agreement to sell the house exclusively to you.
 
-6. The cheque number and the name of the bank using which the token amount is to be paid.
+5. The timeframe for completing the sale, usually 35 days, which can be extended if both parties agree.
 
-7. No further negotiations are to be made on the price of the house. 
-   
-8. If the baina document is not honoured, it is punishable and a fine is to be paid by the party who breaks the agreement according to the law.
+6. The cheque number and bank name used for the token payment.
+
+7. A clause stating that no further negotiations on the house price will be made.
+
+8. A penalty clause for breaking the agreement, as per the law.
 
 
-By the way, let me know if you are looking for a lawyer (लेखनदास). I can recommend you one. He is a nice guy and charges a very small reasonable amount. He helped me with the entire process and I am super thankful to him.
+In some cases I have seen token amount (बैना) being returned if the buyer or seller changes his/her mind. However, I have never experienced this myself. Depending on how close you are with the seller, there may or may not be a legal dispute. So it is always better to be cautious and not to pay the baina amount unless you are 100% sure that you want to buy the house.
+
+
+By the way, let me know if you are looking for a lawyer (लेखनदास). I can recommend you one. He is a nice guy and charges a very small reasonable amount. He helped me with the entire process and I’m incredibly thankful for his help.
 
 
 **Malpot (मालपोत)**
 
-The day has finally come. Today will be the day you will get the house under your name and the seller will get the full money paid to his bank account. So you might be thinking, how such a huge amount is paid to the seller?
+Finally, the big day has arrived—the day you’ll officially become the owner of your new house, and the seller will receive the full payment.
 
-The answer is **Good For Payment cheque**. This cheque is a normal cheque with few more stamp from bank. With this cheque, bank guarantees that you have that amount in your bank account. The bank freezes that amount and it gives the seller assurance that the amount is there ready to be credited to his bank account. With this guarantee from the bank the seller can happily tranfer the house under your name and head to the bank to cash the cheque. This is the most common way of paying the seller. I would recommend getting this good for payment cheque done a day before the Malpot visit. This way you will have a peace of mind and will not have to worry about the bank not issuing the cheque on time.
+You might be wondering how such a large payment is made. The answer is a **Good For Payment cheque**. This is a regular cheque with additional bank stamps, guaranteeing that you have the funds in your account. The bank freezes this amount, assuring the seller that the money is ready to be transferred to his account. With this guarantee, the seller can confidently transfer the house to your name at the Malpot office and cash the cheque. This method is the most common way to pay for a house, and I recommend getting this cheque a day before your Malpot visit for peace of mind since banks in Nepal can be unpredictable.
 
 > Please note that good for payment cheque can be used for any kind of transaction. It is not limited to house buying only. 
 
-Here are couple of things that you need to prepare before you head to the malpot office:
+Here are a few things to prepare before your Malpot office visit:
 
-1. Source of fund (आयो स्व्रोत): This can be any documents that proves how the buyer has obtained the money to buy the house. This can be documents ranging from stocks, bank loans, salary or remmitance slips. If you have loaned the amount from your friends or family then you will need to get it verified in the Ward office (वडा कार्यालय) first. As far as I know this is done as a part of Department of Money Laundering Investigation (सम्पत्ति शुद्धीकरण अनुसन्धान विभाग). This is to make sure that the buyer has not obtained the money through illegal means.
+1. Source of Fund (आयो स्व्रोत): This document proves how you obtained the money to buy the house, whether from stocks, bank loans, salary, or remittance slips. If you borrowed the money from friends or family, you’ll need to get it verified at the ward office (वडा कार्यालय). This process is part of the Department of Money Laundering Investigation (सम्पत्ति शुद्धीकरण अनुसन्धान विभाग) to ensure the money wasn’t obtained illegally.
 
-2. Make sure all the heirs/claimant (हकवाला) are present at the malpot office along with the seller. This is to make sure that the house is being sold with the consent of all the heirs. This is super important to prevent any legal disputes in the future where someone might come and claim that the house belongs to them. People mostly do this these days and keep minimal thaili rakham is shown in the Malpot office.
+2. All Heirs/Claimants (हकवाला): Make sure all heirs/claimants are present at the Malpot office along with the seller. This ensures that the house is being sold with the consent of all heirs, preventing potential legal disputes in the future.
 
-3. Make sure you have the baina document with you. This is to be verified at the malpot office. This is super important as it is a proof that you have given the token amount to the seller and the seller has received it.
+3. Baina Document: Bring the baina document with you for verification at the Malpot office. This document is crucial as proof that the token amount was paid and received.
 
-4. Make sure you have the Good For Payment cheque with you. This is to be handed over to the seller at the malpot office and the cheque numbers are also noted. Please note that multiple cheques that can be given to the seller at different denominations. The amount just has to equal the thaili rakam. If the real amount is higher than thaili rakam, then the remaining amount is be paid on agreement with seller separately.
+4. Good For Payment Cheque: Bring the Good For Payment cheque to hand over to the seller at the Malpot office. Multiple cheques can be issued in different denominations, as long as they total the thaili rakam. If the actual amount is higher than the thaili rakam, the remaining amount can be paid separately as agreed with the seller.
 
-You will then be asked to sign on a bunch of documents and will also be asked to take a picture along with your fingerprints. After couple of hours or on the next day, you will be getting a new Lalpurja with your name on it. 
+Once all documents are signed, and your fingerprints are taken, you’ll receive a new Lalpurja with your name on it, usually within a few hours or by the next day.
 
-**Congratulations, you are now the owner of the house.**
+**Congratulations, you are now the owner of the house!**
 
 
 
