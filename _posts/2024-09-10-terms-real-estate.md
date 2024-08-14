@@ -54,7 +54,7 @@ This tax is paid to the government at the Malpot office when selling a house, us
 
 **Property buying tax (भवन खरिद राजस्व)**:
 
-This tax is also paid at the Malpot office when buying a house, usually by the buyer. The tax rate varies depending on whose name the property is being transferred to—2.5% for senior citizens and 5% for men. This is why many people buy property in their grandparents' names for significant tax savings. Again, this tax is calculated based on the thaili rakam. If the thaili rakam is lower, the taxes are lower too.
+This tax is also paid at the Malpot office when buying a house, usually by the buyer. The tax rate varies depending on whose name the property is being transferred to — 2.5% for senior citizens, 5% for men and 3.75% for women. This is why many people buy property in their grandparents' names for significant tax savings. Again, this tax is calculated based on the thaili rakam. If the thaili rakam is lower, the taxes are lower too. Please note that these taxes are lower for sub-metropolitan (उप-महानगरपालिका) cities, muncipalities (नगरपालिका) and rural muncipalities (गाउँपालिका) and only apply to Metropolitan cities (महानगरपालिका) like Kathmandu. The taxes are also tad bit lower if the buyer and the seller are relatives.
 
 
 Before moving forward, I highly recommend watching this video: <a href="https://www.youtube.com/watch?v=PVSAyvvHpwk" target="_blank">https://www.youtube.com/watch?v=PVSAyvvHpwk</a>
