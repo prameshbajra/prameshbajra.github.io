@@ -9,4 +9,4 @@
 <http://prameshbajra.github.io> 
 
 
-Sometimes, I feel like writing blogs related to technology and my personal experiences. So, let's start. 
+My learnings and prototypes that I would like to share.
