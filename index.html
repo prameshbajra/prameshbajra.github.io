@@ -2,6 +2,9 @@
 layout: blog
 title: index
 permalink: /
+seo:
+  title: Pramesh Bajracharya - Portfolio & Blog
+  type: WebSite
 ---
 
 <div class="navbar-wrapper">
@@ -32,7 +35,7 @@ permalink: /
           {% for language in site.data.index.language %}
           <li>
             <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
+              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16" alt="{{ language.locale | upcase }} flag">
             </a>
           </li>
           {% endfor %}

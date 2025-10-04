@@ -1,43 +1,23 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
-    {% if page.desc %}
-    <meta content="{{ page.desc }}" name="description">
-    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
+    {% elsif site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
     {% endif %}
-    <meta name="author" content="{{ site.author.name }}">
-    <meta name="baseurl" content="{{ site.baseurl }}">
 
-    <title>
-        {% if page.title != "index" %}
-        {{ site.title }}|{{ page.title }}
-        {% else %}
-        {{ site.title }}
-        {% endif %}
-    </title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ " /static/assets/img/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
     <!-- Main CSS -->
-    <link href="{{ " /static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ " /static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- Main Scripts -->
-    <script async src="{{" /static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
-    <script async src="{{" /static/assets/blog-20180125.min.js"| prepend: site.baseurl }}"></script>
-
-    <meta property="og:title" content="Pramesh Bajracharya's Portfolio and Blog">
-    <meta property="og:description" content="Discover the work of Pramesh Bajracharya, a Computer Engineer with a passion for technology. Dive into the knowledge on Full Stack Development, Cloud Architectures, Deep Learning, Automation, and more. Explore the projects and read some insightful blog posts.">
-    <meta property="og:image" content="https://prameshbajra.github.io/static/assets/img/landing/pramesh.jpg">
-    <meta property="og:url" content="https://prameshbajra.github.io">
-    <meta property="og:type" content="website">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pramesh Bajracharya's Portfolio and Blog">
-    <meta name="twitter:description" content="Discover the work of Pramesh Bajracharya, a Computer Engineer with a passion for technology. Dive into the knowledge on Full Stack Development, Cloud Architectures, Deep Learning, Automation, and more. Explore the projects and read his insightful blog posts.">
-    <meta name="twitter:image" content="https://prameshbajra.github.io/static/assets/img/landing/pramesh.jpg">
+    <script async src="{{ "/static/assets/app-20180125.min.js" | prepend: site.baseurl }}"></script>
+    <script async src="{{ "/static/assets/blog-20180125.min.js" | prepend: site.baseurl }}"></script>
 
 </head>

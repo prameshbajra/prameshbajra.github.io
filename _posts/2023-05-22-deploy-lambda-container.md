@@ -2,7 +2,7 @@
 layout: post
 title:  "Deploy WhisperAI, FFMpeg and OpenAI in AWS Lambda using Docker Container"
 date:   2023-05-22
-desc: "Deploy WhisperAI, FFMpeg and OpenAI into AWS Lambda Containers"
+description: "Deploy WhisperAI, FFMpeg and OpenAI into AWS Lambda Containers"
 keywords: "ai, code, aws, docker, lambda, containers, ffmpeg"
 categories: [ai, code, aws, docker, lambda, containers, ffmpeg]
 tags: [ai, code, aws, docker, lambda, containers, ffmpeg]

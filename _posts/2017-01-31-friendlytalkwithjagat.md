@@ -2,7 +2,7 @@
 layout: post
 title: "Friendly talk with Jagathyoti G Tuladhar | Senior Software Engineer @ FuseMachines"
 date: 2021-12-14
-desc: "Friendly talk with Jagathyoti G Tuladhar | Senior Software Engineer @ FuseMachines"
+description: "Friendly talk with Jagathyoti G Tuladhar | Senior Software Engineer @ FuseMachines"
 keywords: "code, programming, software, crypto, india, nepal, salary, currency"
 categories: [code, programming, software, crypto, india, nepal, salary, currency]
 tags: [code, programming, software, crypto, india, nepal, salary, currency]

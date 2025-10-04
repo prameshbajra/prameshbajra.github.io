@@ -2,7 +2,7 @@
 layout: post
 title:  "The Anmeldung in Germany"
 date:   2023-02-12
-desc: "One of the most important things to do after you land in Germany."
+description: "One of the most important things to do after you land in Germany."
 keywords: "registration, germany, anmeldung"
 categories: [registration, germany, anmeldung]
 tags: [registration, germany, anmeldung]

@@ -2,7 +2,7 @@
 layout: post
 title:  "I wrote a SERVER that might be of use to YOU!!"
 date:   2020-08-16
-desc: "Share files with a powerful http server."
+description: "Share files with a powerful http server."
 keywords: "nodejs, node, multer, code, server, file, network, http, express, ejs, code"
 categories: [nodejs, node, multer, code, server, file, network, http, express, ejs, code]
 tags: [nodejs, node, multer, code, server, file, network, http, express, ejs, code]
@@ -52,7 +52,7 @@ The link that just got printed after running the above command can be used in an
 
 You will see something link this:
 
-<img src="/static/assets/img/blog/see-my-files/see-my-files.png" width = "70%">
+<img src="/static/assets/img/blog/see-my-files/see-my-files.png" width="70%" alt="See My Files web interface">
 
 To **downlaod a file** simply **click** on the file. It will automatically be downloaded. To **download a folder** you can right click on it and press **download as zip**. To **upload something** to the source machine you can simply **drag the file to the folder icon**. The upload will be done automatically.
 
@@ -63,4 +63,3 @@ As always, feel free to reach out to me if you need help.
 ## Are you a developer as well?
 
 Feel free to contribute: [https://github.com/prameshbajra/see-my-files](https://github.com/prameshbajra/see-my-files)
-

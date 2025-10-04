@@ -22,7 +22,7 @@ permalink: /donate/
                 {% for alipay in site.data.donation.alipay %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                        <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%" alt="Alipay donation QR code">
                     </div>
                 </div>
                 {% endfor %}
@@ -36,7 +36,7 @@ permalink: /donate/
                 {% for wechat in site.data.donation.wechat_pay %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ wechat.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                        <img src="{{ wechat.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%" alt="WeChat Pay donation QR code">
                     </div>
                 </div>
                 {% endfor %}
@@ -50,7 +50,7 @@ permalink: /donate/
             <div class="contact-box" style="height: 200px;">
                 <div class="col-sm-4">
                     <div class="text-center">
-                        <img alt="image" class="img-circle m-t-xs img-responsive {{ donation.github }}" src="{{ "/static/assets/img/default.jpg" | prepend: site.baseurl }}">
+                        <img alt="{{ donation.name }} profile" class="img-circle m-t-xs img-responsive {{ donation.github }}" src="{{ "/static/assets/img/default.jpg" | prepend: site.baseurl }}">
                         <div class="m-t-xs font-bold">{{ donation.name }}</div>
                         <p><i class="fa fa-{{ donation.type }}"></i> {{ donation.value }}</p>
                     </div>

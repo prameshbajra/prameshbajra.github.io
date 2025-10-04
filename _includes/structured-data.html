@@ -1,0 +1,26 @@
+{% assign site_home = '/' | absolute_url %}
+{% assign author_avatar = site.author.avatar | absolute_url %}
+{% assign same_as_links = site.social.links %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name | escape }}",
+  "url": "{{ site_home }}",
+  "image": "{{ author_avatar }}"{% if same_as_links and same_as_links != empty %},
+  "sameAs": {{ same_as_links | jsonify }}{% endif %}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title | escape }}",
+  "url": "{{ site_home }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ '/search/' | absolute_url }}?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>

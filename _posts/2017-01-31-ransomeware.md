@@ -2,7 +2,7 @@
 layout: post
 title:  "Ransomeware : Android"
 date:   2019-03-01
-desc: "Ransome-as-a-Service, It is legit."
+description: "Ransome-as-a-Service, It is legit."
 keywords: "android, ramsomeware, service, application, apks, hack, phone,smartphone"
 categories: [android, ramsomeware, service, application, apks, hack, phone,smartphone]
 tags: [android, ramsomeware, service, application, apks, hack, phone,smartphone]

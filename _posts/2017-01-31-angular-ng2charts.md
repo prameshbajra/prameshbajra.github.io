@@ -2,7 +2,7 @@
 layout: post
 title:  "Use ChartsJS in your Angular2+ Project"
 date:   2020-03-14
-desc: "Display beautiful charts in your angular web application."
+description: "Display beautiful charts in your angular web application."
 keywords: "chartsjs, ng2charts, angular8, angular, chart, web development, coding, charts, data, programming, developer"
 categories: [chartsjs, ng2charts, angular8, angular, chart, web development, coding, charts, data, programming, developer]
 tags: [chartsjs, ng2charts, angular8, angular, chart, web development, coding, charts, data, programming, developer]

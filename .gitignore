@@ -8,3 +8,4 @@ npm-debug.log
 .bundle
 vendor
 .jekyll-cache/*
+AGENTS.md

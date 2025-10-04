@@ -2,7 +2,7 @@
 layout: post
 title:  "Terms to know when buying a house in Nepal - Kathmandu"
 date:   2024-08-13
-desc: ""
+description: ""
 keywords: "kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land"
 categories: [kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land]
 tags: [kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land]

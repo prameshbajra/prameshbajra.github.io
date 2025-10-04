@@ -2,7 +2,7 @@
 layout: post
 title:  "Theming Jupyter Notebooks"
 date:   2019-05-10
-desc: "Theming Jupyter Notebooks"
+description: "Theming Jupyter Notebooks"
 keywords: "python, machine learning, jupyter, notebook, deeplearning, code, jupyter notebook"
 categories: [python, machine learning, jupyter, notebook, deeplearning, code, jupyter notebook]
 tags: [python, machine learning, jupyter, notebook, deeplearning, code, jupyter notebook]

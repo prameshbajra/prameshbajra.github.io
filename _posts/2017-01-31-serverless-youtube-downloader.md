@@ -2,7 +2,7 @@
 layout: post
 title:  "Youtube Downloader - Serverless"
 date:   2020-12-14
-desc: "I believe in serverless and I think this is the future."
+description: "I believe in serverless and I think this is the future."
 keywords: "programming, python, serverless, aws, youtube, npm, js, code, frontend, backend"
 categories: [programming, python, serverless, aws, youtube, npm, js, code, frontend, backend]
 tags: [programming, python, serverless, aws, youtube, npm, js, code, frontend, backend]

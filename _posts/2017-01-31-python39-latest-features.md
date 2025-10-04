@@ -2,7 +2,7 @@
 layout: post
 title:  "Python 3.9 - Latest Features"
 date:   2020-10-03
-desc: "Python is coming up with some cool nifty features. Let's check out some of them here."
+description: "Python is coming up with some cool nifty features. Let's check out some of them here."
 keywords: "code, python, features, programming"
 categories: [code, python, features, programming]
 tags: [code, python, features, programming]

@@ -2,7 +2,7 @@
 layout: post
 title:  "Ag-Grid Angular 2+ - Create Extra Ordinary Tables/Grids"
 date:   2020-09-05
-desc: "Use AG-Grid for awesome tables."
+description: "Use AG-Grid for awesome tables."
 keywords: "code, angular, node, web, internet, ag-grid, programming"
 categories: [code, angular, node, web, internet, ag-grid, programming]
 tags: [code, angular, node, web, internet, ag-grid, programming]

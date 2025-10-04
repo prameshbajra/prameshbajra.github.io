@@ -2,7 +2,7 @@
 layout: post
 title:  "Deploy Node - Express Application as NPM packages"
 date:   2019-09-16
-desc: "Deploy Express application as npm packages and publish it to npm registry."
+description: "Deploy Express application as npm packages and publish it to npm registry."
 keywords: "javascript, npm, programming, registry, express, node, code, login, deploy, server, ejs"
 categories: [javascript, npm, programming, registry, express, node, code, login, deploy, server, ejs]
 tags: [javascript, npm, programming, registry, express, node, code, login, deploy, server, ejs]

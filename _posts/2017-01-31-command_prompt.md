@@ -2,7 +2,7 @@
 layout: post
 title:  "Pimp Your Command Prompt/Cmd in Windows"
 date:   2019-11-10
-desc: "Make your CMD stand out and add some features to it to make life easier. "
+description: "Make your CMD stand out and add some features to it to make life easier. "
 keywords: "windows, prompt, cmd, clink "
 categories: [windows , cmd, command prompt, clink]
 tags: [windows , cmd , clink, command prompt, programming , code ]
