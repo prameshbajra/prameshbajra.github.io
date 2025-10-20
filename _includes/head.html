@@ -20,4 +20,19 @@
     <script async src="{{ "/static/assets/app-20180125.min.js" | prepend: site.baseurl }}"></script>
     <script async src="{{ "/static/assets/blog-20180125.min.js" | prepend: site.baseurl }}"></script>
 
+    {% if site.ga and site.ga.tag_manager_id %}
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        var dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', '{{ site.ga.tag_manager_id }}');
+    </script>
+    {% endif %}
+
 </head>

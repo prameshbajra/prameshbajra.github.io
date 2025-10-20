@@ -5,24 +5,35 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
 
-    {% if page.title != 'index' %}
-        {% include head.html %}
-    {% else %}
+    {% assign is_homepage = false %}
+    {% if page.url == '/' or page.permalink == '/' %}
+        {% assign is_homepage = true %}
+    {% endif %}
+    {% if is_homepage %}
         {% include index_head.html %}
+    {% else %}
+        {% include head.html %}
     {% endif %}
 
 <body id="page-top" class="landing-page">
 
-    {% if page.title != 'index' %}
-        {% include blog_header.html %}
+    {% if site.ga and site.ga.tag_manager_id %}
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.ga.tag_manager_id }}"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
     {% endif %}
+
+    {% unless is_homepage %}
+        {% include blog_header.html %}
+    {% endunless %}
 
     {{ content }}
 
-    {% if page.title != 'index' %}
-        {% include foot.html %}
-    {% else %}
+    {% if is_homepage %}
         {% include index_foot.html %}
+    {% else %}
+        {% include foot.html %}
     {% endif %}
 
 </body>
