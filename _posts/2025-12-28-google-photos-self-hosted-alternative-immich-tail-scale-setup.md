@@ -109,7 +109,7 @@ Here is the simple version of what I did:
 
 Use this as a reference and swap in your exact specs:
 
-- Hardware: Beelink (Rygen 6500u/32GB RAM/1TB SSD)
+- Hardware: Beelink (Ryzen 6500U/32GB RAM/1TB SSD)
 
 - OS: WSL2 on Windows (I know I should move to Linux someday, but this works for now)
 
