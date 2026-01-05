@@ -1,0 +1,14 @@
+.error-page .middle-box {
+    padding-top: 60px;
+}
+
+.error-page .error-desc {
+    margin-top: 30px;
+}
+
+.error-page .error-desc-message {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin: 18px auto 28px;
+    max-width: 40rem;
+}

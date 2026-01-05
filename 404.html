@@ -13,20 +13,50 @@ permalink: /404.html
     <link href="{{ "/static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
 </head>
-<body class="gray-bg">
+<body class="gray-bg error-page">
     <div class="middle-box text-center animated fadeInDown">
         <h1>404</h1>
         <h3 class="font-bold">Page Not Found</h3>
         <div class="error-desc">
-            <p>
-            Sorry, but the page you are looking for has not been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in my website.
+            <p id="js-404-message" class="error-desc-message">
+            Well, this is awkward. The page you wanted wandered off with a snack and a map it cannot read.
+
+            Use the Home button to get back on track, and we will pretend this never happened.
             </p>
-            <div>
+            <div class="error-actions">
                 <a class="btn btn-primary" href="{{ "/" | prepend: site.baseurl }}">Home</a>
             </div>
         </div>
     </div>
     <!-- Mainly scripts -->
     <script src="{{"/static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
+    <script>
+        (function () {
+            var messages = [
+                "Well, this is awkward. The page you wanted wandered off with a snack " +
+                    "and a map it cannot read.\n\nUse the Home button to get back on track, " +
+                    "and we will pretend this never happened.",
+                "404: We checked the couch cushions, the recycle bin, and that one folder " +
+                    "named final-final.\n\nNo luck so far, but your browsing adventure is " +
+                    "clearly above average.",
+                "Looks like this page took a wrong turn and started a new life as a houseplant." +
+                    "\n\nGive the navigation another try and we will guide it back to " +
+                    "civilization.",
+                "This URL is a limited edition: so rare it does not exist.\n\nHead back to the " +
+                    "homepage and we will set you up with something real.",
+                "Somewhere, a server is shrugging. Somewhere else, a developer is blaming " +
+                    "caching.\n\nIn the meantime, the Home button is a safe and comfortable " +
+                    "landing zone.",
+                "You have reached the end of the internet, or at least a dead end in this " +
+                    "corner.\n\nTake a left at the Home button and the scenery should improve."
+            ];
+            var messageEl = document.getElementById("js-404-message");
+            if (!messageEl) {
+                return;
+            }
+            var index = Math.floor(Math.random() * messages.length);
+            messageEl.textContent = messages[index];
+        })();
+    </script>
 </body>
 </html>
