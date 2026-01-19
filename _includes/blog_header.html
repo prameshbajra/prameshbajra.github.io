@@ -36,6 +36,7 @@
                         <a class="page-scroll" href="{{ tag.href | prepend: site.baseurl }}">{{ tag.name }}</a></li>
                         {% endif %}
                     {% endfor %}
+                    <li class="navbar-theme-toggle">{% include theme_toggle.html %}</li>
                 </ul>
             </div>
         </div>

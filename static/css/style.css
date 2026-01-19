@@ -7434,7 +7434,7 @@ body.landing-page {
 }
 
 .landing-page .navbar-default.navbar-scroll {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-color: #fff;
     padding: 15px 0
 }
