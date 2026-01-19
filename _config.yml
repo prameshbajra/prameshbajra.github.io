@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-code
     - name: fa-laptop
-  desc: Hi! I'm <b>Pramesh Bajracharya</b>.<br> I am from the lap of himalayas, a beautiful country called "<b>Nepal</b>" <br>  I am a <b>Computer Engineer</b> having passion for everything related technology.<br> I love smartphones, laptops and basically all gadgets. You can take me as a “MixBag” having <br> knowledge in Full stack Development, Cloud Architectures, Deep learning, Automation, deployments and many others.  # Describe yourself.
+  desc: Hi, I'm <b>Pramesh Bajracharya</b>, a <b>Computer Engineer</b> from the lap of the Himalayas (<b>Nepal</b>).<br> I build for the web and the cloud, play around, and usually fix them before anyone notices.<br> Gadget hoarder, full-stack tinkerer, and 3D modeling/printing bro - if it can be coded, rendered, or printed, I’ll try it (and probably try to automate it).  
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

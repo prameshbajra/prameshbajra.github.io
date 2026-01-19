@@ -2,7 +2,7 @@
 
 label: Ability
 id: cs
-aspects: ["Python", "Javascript", "Angular 2+/latest", "Node", "Google Cloud", "AWS", "Puppetter", "Selenium", "REST API",
+aspects: ["Python", "Typescript/Javascript", "Kotlin", "Dart/Flutter", "Angular", "Node", "AWS", "Google Cloud", "Puppetter", "Selenium", "REST API",
           "GIT/Github", "Machine Learning", "Cloud Architecture","Serverless", "Deep Learning", "PostgreSQL", "Java", "Spring Boot" , "Sockets", "Firebase", "HTML", "CSS", "Google Tag/Google Analytics",
-          "Decentralized Applications" ,"Blockchain", "MongoDB", "Elastic Search", "PyTorch", "Tensorflow"]
+          "Decentralized Applications" ,"Blockchain", "MongoDB", "Elastic Search", "PyTorch", "Tensorflow", "Shapr3d", "Bambu Studio", "3D Modelling and printing"]
 percentage: 70, 70, 40, 50 , 60, 70, 70, 40
