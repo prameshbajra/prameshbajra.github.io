@@ -59,6 +59,36 @@
     }
 }
 
+.projects .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects .project-grid > [class*="col-"] {
+    display: flex;
+    align-items: stretch;
+}
+
+.projects .project-card {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.projects .project-icon-blue {
+    filter: hue-rotate(-130deg) saturate(150%);
+}
+
+.projects .team-member img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    padding: 10px;
+    background: var(--theme-surface);
+    object-fit: contain;
+}
+
+
 :root {
     --theme-surface: #ffffff;
     --theme-surface-muted: #f3f3f4;
