@@ -1,0 +1,25 @@
+{%- comment -%}
+  Assigns `tone` (string) for a post's tag pill on the blog list.
+  Usage: {% include post_tone.html post=post %} → then {{ tone }}
+  Order matters — more specific tags are checked first so general tags
+  like "code" or "aws" don't swallow more meaningful ones.
+{%- endcomment -%}
+{%- assign tone = "Code" -%}
+{%- if include.post.title contains "DNS" -%}{%- assign tone = "Networking" -%}
+{%- elsif include.post.tags contains "self-hosted" or include.post.tags contains "immich" -%}{%- assign tone = "Self-host" -%}
+{%- elsif include.post.tags contains "pihole" or include.post.tags contains "homelab" or include.post.tags contains "tailscale" -%}{%- assign tone = "Homelab" -%}
+{%- elsif include.post.tags contains "bastion servers" or include.post.tags contains "lambda" or include.post.tags contains "serverless" or include.post.tags contains "sagemaker" -%}{%- assign tone = "Cloud" -%}
+{%- elsif include.post.tags contains "python" or include.post.tags contains "jupyter" -%}{%- assign tone = "Python" -%}
+{%- elsif include.post.tags contains "ai" or include.post.tags contains "machine learning" or include.post.tags contains "codewhisperer" -%}{%- assign tone = "AI" -%}
+{%- elsif include.post.tags contains "aws" or include.post.tags contains "cloud" -%}{%- assign tone = "Cloud" -%}
+{%- elsif include.post.tags contains "bitcoin" or include.post.tags contains "cryptocurrency" -%}{%- assign tone = "Crypto" -%}
+{%- elsif include.post.tags contains "ios" or include.post.tags contains "apple" -%}{%- assign tone = "iOS" -%}
+{%- elsif include.post.tags contains "anmeldung" or include.post.tags contains "germany" or include.post.tags contains "real estate" -%}{%- assign tone = "Life" -%}
+{%- elsif include.post.tags contains "ransomeware" or include.post.tags contains "ramsomeware" or include.post.tags contains "hack" -%}{%- assign tone = "Security" -%}
+{%- elsif include.post.tags contains "angular" or include.post.tags contains "chartsjs" or include.post.tags contains "ag-grid" -%}{%- assign tone = "Frontend" -%}
+{%- elsif include.post.tags contains "nodejs" or include.post.tags contains "node" or include.post.tags contains "express" -%}{%- assign tone = "Backend" -%}
+{%- elsif include.post.tags contains "windows" or include.post.tags contains "vbscript" or include.post.tags contains "shell" or include.post.tags contains "powershell" or include.post.tags contains "cmd" -%}{%- assign tone = "Shell" -%}
+{%- elsif include.post.tags contains "vs code" or include.post.tags contains "git" or include.post.tags contains "github" -%}{%- assign tone = "Tools" -%}
+{%- elsif include.post.tags contains "html" or include.post.tags contains "email" or include.post.tags contains "css" -%}{%- assign tone = "Web" -%}
+{%- elsif include.post.tags contains "story" -%}{%- assign tone = "Personal" -%}
+{%- endif -%}

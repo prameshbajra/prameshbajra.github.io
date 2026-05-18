@@ -29,19 +29,14 @@ seo:
       </h1>
       <div class="ply-hero-row">
         <p class="ply-hero-intro">
-          A <span class="ply-underline ply-u-cobalt">software engineer</span> in Hamburg making things for the
+          A <span class="ply-underline ply-u-cobalt">software engineer</span> in Hamburg, Germany making things for the
           web, the cloud, and the homelab under the desk. Nepali by way of
           <span class="ply-underline ply-u-coral">Kathmandu</span>.
           Currently shipping at <span class="ply-underline ply-u-cobalt">TelQ Telecom</span>.
         </p>
 
-        {%- assign f_kicker = "Notes" -%}
-        {%- if featured.tags contains "self-hosted" -%}{%- assign f_kicker = "Self-host" -%}
-        {%- elsif featured.tags contains "bastion servers" -%}{%- assign f_kicker = "Cloud" -%}
-        {%- elsif featured.title contains "DNS" -%}{%- assign f_kicker = "Networking" -%}
-        {%- elsif featured.tags contains "pihole" -%}{%- assign f_kicker = "Homelab" -%}
-        {%- elsif featured.tags contains "homelab" -%}{%- assign f_kicker = "Homelab" -%}
-        {%- endif -%}
+        {% include post_tone.html post=featured %}
+        {%- assign f_kicker = tone -%}
         {%- assign f_words = featured.content | strip_html | number_of_words -%}
         {%- assign f_min = f_words | divided_by: 200 | plus: 1 -%}
 
@@ -205,13 +200,7 @@ seo:
 
         <div>
           {% for post in latest %}
-            {%- assign tone = "Notes" -%}
-            {%- if post.tags contains "self-hosted" -%}{%- assign tone = "Self-host" -%}
-            {%- elsif post.tags contains "bastion servers" -%}{%- assign tone = "Cloud" -%}
-            {%- elsif post.title contains "DNS" -%}{%- assign tone = "Networking" -%}
-            {%- elsif post.tags contains "pihole" -%}{%- assign tone = "Homelab" -%}
-            {%- elsif post.tags contains "homelab" -%}{%- assign tone = "Homelab" -%}
-            {%- endif -%}
+            {% include post_tone.html post=post %}
             {%- assign words = post.content | strip_html | number_of_words -%}
             {%- assign mins = words | divided_by: 200 | plus: 1 -%}
             {%- assign blurb = post.description -%}
@@ -233,6 +222,13 @@ seo:
               </div>
             </a>
           {% endfor %}
+        </div>
+
+        <div class="ply-see-all-row">
+          <a class="ply-btn-primary" href="{{ "/blog/" | prepend: site.baseurl }}">
+            See all {{ all_posts_count }} posts
+            <span aria-hidden="true">&rarr;</span>
+          </a>
         </div>
       </div>
     </section>

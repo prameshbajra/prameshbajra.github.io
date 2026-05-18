@@ -257,7 +257,11 @@ a.ply-now:hover .ply-now-arrow { transform: translateX(4px); }
   color: var(--c-fg); text-decoration: none; border-bottom: 2px solid var(--c-border);
   padding-bottom: 4px; flex: 0 0 auto; white-space: nowrap;
 }
-@media (max-width: 640px) { .ply-section-action { display: none; } }
+.ply-see-all-row {
+  display: flex; justify-content: center;
+  margin-top: clamp(32px, 5vw, 48px);
+}
+.ply-see-all-row .ply-btn-primary { color: #fff; }
 
 /* ── Projects ───────────────────────────────────────────────────────── */
 .ply-projects-section {
@@ -333,18 +337,19 @@ a.ply-card-go {
 .ply-post-tag[data-tone="Homelab"]    { background: var(--c-mustard); color: #15171f; }
 .ply-post-tag[data-tone="Cloud"]      { background: var(--c-lilac);   color: #15171f; }
 .ply-post-tag[data-tone="Self-host"]  { background: var(--c-coral);   color: #fff; }
+.ply-post-tag[data-tone="AI"]         { background: var(--c-cobalt);  color: #fff; }
 .ply-post-meta { font-family: "JetBrains Mono", monospace; font-size: 13px; text-align: right; }
 .ply-post-meta-min { opacity: 0.5; margin-top: 2px; }
 @media (max-width: 880px) {
   .ply-post-row {
-    grid-template-columns: 32px 1fr;
+    grid-template-columns: 32px 1fr auto;
     grid-template-rows: auto auto;
-    gap: 8px 16px; padding: 22px 4px;
+    gap: 8px 12px; padding: 22px 4px;
   }
-  .ply-post-n { font-size: 22px; grid-row: 1; }
-  .ply-post-title-cell { grid-row: 1; grid-column: 2; }
-  .ply-post-tag-cell { grid-row: 2; grid-column: 2; }
-  .ply-post-meta { grid-row: 2; grid-column: 2; text-align: left; display: flex; gap: 12px; align-items: baseline; }
+  .ply-post-n { font-size: 22px; grid-row: 1; grid-column: 1; }
+  .ply-post-title-cell { grid-row: 1; grid-column: 2 / -1; }
+  .ply-post-tag-cell { grid-row: 2; grid-column: 2; align-self: center; }
+  .ply-post-meta { grid-row: 2; grid-column: 3; text-align: right; display: flex; gap: 8px; align-items: center; justify-content: flex-end; align-self: center; }
   .ply-post-meta-min { margin-top: 0; }
 }
 
@@ -628,13 +633,13 @@ a.ply-email {
 
 /* Big post header used on blog post pages */
 .ply-post-hero { padding-top: clamp(28px, 5vw, 56px); padding-bottom: clamp(24px, 4vw, 40px); }
-.ply-post-hero .ply-post-back {
+.ply-post-back {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: "JetBrains Mono", monospace; font-size: 12px; font-weight: 600;
   color: var(--c-fg-dim); text-decoration: none; margin-bottom: 22px;
   transition: color .15s, transform .15s;
 }
-.ply-post-hero .ply-post-back:hover { color: var(--c-fg); transform: translateX(-2px); }
+.ply-post-back:hover { color: var(--c-fg); transform: translateX(-2px); }
 .ply-post-hero h1 {
   margin: 18px 0 0;
   font-weight: 700; letter-spacing: -0.035em; line-height: 1.0;
@@ -861,7 +866,7 @@ a.ply-email {
 .ply-btn-primary {
   display: inline-flex; align-items: center; gap: 10px;
   padding: 14px 22px; border-radius: 100px;
-  background: var(--c-cobalt); color: #fff;
+  background: var(--c-cobalt); color: var(--c-on-accent);
   text-decoration: none; font-weight: 700;
   border: 2px solid var(--c-border);
   box-shadow: 4px 4px 0 0 var(--c-shadow);

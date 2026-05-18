@@ -9,6 +9,10 @@ seo:
 {%- assign all_posts_count = site.posts | size -%}
 
 <header class="ply-wrap ply-page-hero" id="writing">
+  <a class="ply-post-back" href="{{ "/" | prepend: site.baseurl }}">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+    back to home
+  </a>
   <div class="ply-hero-kicker">→ {{ all_posts_count }} essays, tutorials, and notes from the workshop</div>
   <h1>
     Notes from<br>
@@ -24,15 +28,7 @@ seo:
   <div class="ply-wrap">
     <div class="ply-blog-list">
       {% for post in site.posts %}
-        {%- assign tone = "Notes" -%}
-        {%- if post.tags contains "self-hosted" -%}{%- assign tone = "Self-host" -%}
-        {%- elsif post.tags contains "bastion servers" -%}{%- assign tone = "Cloud" -%}
-        {%- elsif post.title contains "DNS" -%}{%- assign tone = "Networking" -%}
-        {%- elsif post.tags contains "pihole" -%}{%- assign tone = "Homelab" -%}
-        {%- elsif post.tags contains "homelab" -%}{%- assign tone = "Homelab" -%}
-        {%- elsif post.tags contains "networking" -%}{%- assign tone = "Networking" -%}
-        {%- elsif post.tags contains "aws" -%}{%- assign tone = "Cloud" -%}
-        {%- endif -%}
+        {% include post_tone.html post=post %}
         {%- assign blurb = post.description -%}
         {%- if blurb == nil or blurb == "" -%}
           {%- assign blurb = post.content | strip_html | strip_newlines | truncate: 160 -%}

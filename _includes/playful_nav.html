@@ -1,15 +1,14 @@
 {%- assign nav_active = include.active | default: '' -%}
 {%- assign home_base = '/' | prepend: site.baseurl -%}
+{%- assign link_writing = '/blog/' | prepend: site.baseurl -%}
 {%- if nav_active == 'home' -%}
   {%- assign link_hi = '#hi' -%}
   {%- assign link_work = '#work' -%}
-  {%- assign link_writing = '#writing' -%}
   {%- assign link_about = '#about' -%}
   {%- assign link_say_hi = '#say-hi' -%}
 {%- else -%}
   {%- assign link_hi = home_base | append: '#hi' -%}
   {%- assign link_work = home_base | append: '#work' -%}
-  {%- assign link_writing = '/blog/' | prepend: site.baseurl -%}
   {%- assign link_about = home_base | append: '#about' -%}
   {%- assign link_say_hi = home_base | append: '#say-hi' -%}
 {%- endif -%}
