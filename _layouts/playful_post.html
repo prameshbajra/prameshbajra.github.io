@@ -1,0 +1,79 @@
+---
+layout: playful
+---
+{%- assign tone = "Notes" -%}
+{%- if page.tags contains "self-hosted" -%}{%- assign tone = "Self-host" -%}
+{%- elsif page.tags contains "bastion servers" -%}{%- assign tone = "Cloud" -%}
+{%- elsif page.title contains "DNS" -%}{%- assign tone = "Networking" -%}
+{%- elsif page.tags contains "pihole" -%}{%- assign tone = "Homelab" -%}
+{%- elsif page.tags contains "homelab" -%}{%- assign tone = "Homelab" -%}
+{%- endif -%}
+{%- assign words = page.content | strip_html | number_of_words -%}
+{%- assign mins = words | divided_by: 200 | plus: 1 -%}
+
+<div class="ply" data-theme="light">
+  {% include playful_bg.html %}
+
+  <div class="ply-content">
+    {% include playful_nav.html active='writing' %}
+
+    <header class="ply-wrap ply-page-hero ply-post-hero">
+      <a class="ply-post-back" href="{{ "/blog/" | prepend: site.baseurl }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        all writing
+      </a>
+      <span class="ply-post-tag" data-tone="{{ tone }}">{{ tone }}</span>
+      <h1>{{ page.title }}</h1>
+      <div class="ply-page-meta">
+        <span>{{ page.date | date: "%b %d, %Y" }}</span>
+        <span class="sep">&middot;</span>
+        <span>{{ mins }} min read</span>
+        <span class="sep">&middot;</span>
+        <span>by {{ site.author.name }}</span>
+      </div>
+    </header>
+
+    <section class="ply-wrap ply-article-wrap">
+      <article class="ply-article">
+        {{ content }}
+      </article>
+
+      <div class="ply-article-footer">
+        {% if page.tags and page.tags.size > 0 %}
+        <div class="ply-tag-row">
+          <span class="ply-tag-row-label">tags</span>
+          {% for tag in page.tags %}
+            <span class="ply-tag-chip">#{{ tag | strip }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="ply-share-row">
+          <span class="ply-share-label">share</span>
+          {%- assign post_url = page.url | absolute_url | url_encode -%}
+          {%- assign post_title = page.title | url_encode -%}
+          <a href="https://twitter.com/intent/tweet?text={{ post_title }}&url={{ post_url }}" target="_blank" rel="noopener" data-tint="twitter">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M18.244 2H21.5l-7.5 8.57L23 22h-6.86l-5.36-7-6.14 7H1.39l8.04-9.19L1 2h7.03l4.85 6.41L18.244 2zm-1.2 18h1.9L7.06 4H5.07L17.044 20z"/></svg>
+            Tweet
+          </a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ post_url }}" target="_blank" rel="noopener" data-tint="linkedin">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5V9h3v10zM6.5 7.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5.4c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V19h-3V9h2.9v1.4h.1c.4-.7 1.3-1.5 2.7-1.5 3 0 3.5 2 3.5 4.5V19z"/></svg>
+            LinkedIn
+          </a>
+          <a href="#" data-tint="copy" data-ply-copy-link>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <span data-ply-copy-text>Copy link</span>
+          </a>
+        </div>
+
+        {% if site.disqus %}
+        <div class="ply-comments-section">
+          {% include comments.html %}
+        </div>
+        {% endif %}
+      </div>
+    </section>
+
+    {% include playful_footer.html %}
+  </div>
+</div>

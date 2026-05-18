@@ -1,44 +1,57 @@
 ---
-layout: blog
+layout: playful_page
 title: Blog
 permalink: /blog/
+ply_nav: writing
+seo:
+  title: Blog — Pramesh Bajracharya
 ---
+{%- assign all_posts_count = site.posts | size -%}
 
-<div class="row">
-    <div class="col-lg-12 text-center">
-        <div class="navy-line"></div>
-        <h1>Latest Blog</h1>
+<header class="ply-wrap ply-page-hero" id="writing">
+  <div class="ply-hero-kicker">→ {{ all_posts_count }} essays, tutorials, and notes from the workshop</div>
+  <h1>
+    Notes from<br>
+    the <span class="accent">workshop</span><span class="accent2">.</span>
+  </h1>
+  <p class="ply-page-hero-sub">
+    Everything I&rsquo;ve written since I started this site &mdash; networking deep-dives, homelab adventures,
+    cloud architecture notes, and the occasional rant about Bambu prints. Newest first.
+  </p>
+</header>
+
+<section class="ply-writing-section">
+  <div class="ply-wrap">
+    <div class="ply-blog-list">
+      {% for post in site.posts %}
+        {%- assign tone = "Notes" -%}
+        {%- if post.tags contains "self-hosted" -%}{%- assign tone = "Self-host" -%}
+        {%- elsif post.tags contains "bastion servers" -%}{%- assign tone = "Cloud" -%}
+        {%- elsif post.title contains "DNS" -%}{%- assign tone = "Networking" -%}
+        {%- elsif post.tags contains "pihole" -%}{%- assign tone = "Homelab" -%}
+        {%- elsif post.tags contains "homelab" -%}{%- assign tone = "Homelab" -%}
+        {%- elsif post.tags contains "networking" -%}{%- assign tone = "Networking" -%}
+        {%- elsif post.tags contains "aws" -%}{%- assign tone = "Cloud" -%}
+        {%- endif -%}
+        {%- assign blurb = post.description -%}
+        {%- if blurb == nil or blurb == "" -%}
+          {%- assign blurb = post.content | strip_html | strip_newlines | truncate: 160 -%}
+        {%- endif -%}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="ply-post-row">
+          <span class="ply-post-n">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+          <div class="ply-post-title-cell">
+            <div class="ply-post-title">{{ post.title }}</div>
+            <div class="ply-post-blurb">{{ blurb }}</div>
+          </div>
+          <div class="ply-post-tag-cell">
+            <span class="ply-post-tag" data-tone="{{ tone }}">{{ tone }}</span>
+          </div>
+          <div class="ply-post-meta">
+            <div>{{ post.date | date: "%b %d" }}</div>
+            <div class="ply-post-meta-min">{{ post.date | date: "%Y" }}</div>
+          </div>
+        </a>
+      {% endfor %}
     </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
-        <div class="wrapper wrapper-content animated fadeInRight">
-
-            <!-- latest 10 blog -->
-			{% for post in site.posts limit:100 %}
-            <div class="vote-item">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="vote-actions">
-                        </div>
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
-                            {{ post.title }}
-                        </a>
-                        <div class="vote-info">
-                        {% if site.disqus %}
-                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>
-                        {% endif %}
-                            <i class="fa fa-clock-o"></i> <a>{{ post.date | date: "%-d %b %Y" }}</a>
-                            <i class="fa fa-user"></i> <a>{{ site.author.name }}</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-
-</div>
-
+  </div>
+</section>

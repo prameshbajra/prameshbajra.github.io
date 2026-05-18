@@ -1,32 +1,26 @@
 ---
-layout: null
-title: 404
+layout: playful_page
+title: 404 — Page Not Found
 permalink: /404.html
+seo:
+  title: 404 — Pramesh Bajracharya
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error</title>
-    <!-- Mainly CSS -->
-    <link href="{{ "/static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
-</head>
-<body class="gray-bg">
-    <div class="middle-box text-center animated fadeInDown">
-        <h1>404</h1>
-        <h3 class="font-bold">Page Not Found</h3>
-        <div class="error-desc">
-            <p>
-            Sorry, but the page you are looking for has not been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in my website.
-            </p>
-            <div>
-                <a class="btn btn-primary" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-            </div>
-        </div>
-    </div>
-    <!-- Mainly scripts -->
-    <script src="{{"/static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
-</body>
-</html>
+<section class="ply-wrap ply-error-section">
+  <div class="ply-hero-kicker">→ error 404 &middot; that page wandered off</div>
+  <h1 class="ply-error-code">4<span class="accent2">0</span>4<span class="accent2">.</span></h1>
+  <h2 class="ply-error-title">This page isn&rsquo;t in the workshop.</h2>
+  <p class="ply-error-sub">
+    Either the URL has a typo, or I moved/retired the page. Try heading back to the front page,
+    or browse the writing &mdash; you might find what you were looking for.
+  </p>
+  <div class="ply-error-actions">
+    <a class="ply-btn-primary" href="{{ "/" | prepend: site.baseurl }}">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12L12 3l9 9"/><path d="M5 10v10h14V10"/></svg>
+      Home
+    </a>
+    <a class="ply-btn-ghost" href="{{ "/blog/" | prepend: site.baseurl }}">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4V4z"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>
+      Read the blog
+    </a>
+  </div>
+</section>

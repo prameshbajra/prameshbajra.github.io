@@ -1,0 +1,39 @@
+{%- assign nav_active = include.active | default: '' -%}
+{%- assign home_base = '/' | prepend: site.baseurl -%}
+{%- if nav_active == 'home' -%}
+  {%- assign link_hi = '#hi' -%}
+  {%- assign link_work = '#work' -%}
+  {%- assign link_writing = '#writing' -%}
+  {%- assign link_about = '#about' -%}
+  {%- assign link_say_hi = '#say-hi' -%}
+{%- else -%}
+  {%- assign link_hi = home_base | append: '#hi' -%}
+  {%- assign link_work = home_base | append: '#work' -%}
+  {%- assign link_writing = '/blog/' | prepend: site.baseurl -%}
+  {%- assign link_about = home_base | append: '#about' -%}
+  {%- assign link_say_hi = home_base | append: '#say-hi' -%}
+{%- endif -%}
+<div class="ply-wrap">
+  <nav class="ply-nav">
+    <a class="ply-logo" href="{{ home_base }}">
+      <div class="ply-logo-mark" aria-hidden="true">
+        <img src="{{ "/static/assets/img/landing/pramesh.jpg" | prepend: site.baseurl }}" alt="Pramesh Bajracharya">
+        <span class="ply-logo-fallback">p</span>
+      </div>
+      <span class="ply-logo-text">prameshbajra</span>
+    </a>
+    <div class="ply-nav-pill">
+      <a {% if nav_active == 'home' %}class="active"{% endif %} href="{{ link_hi }}">Hi</a>
+      <a {% if nav_active == 'work' %}class="active"{% endif %} href="{{ link_work }}">Work</a>
+      <a {% if nav_active == 'writing' %}class="active"{% endif %} href="{{ link_writing }}">Writing</a>
+      <a {% if nav_active == 'about' %}class="active"{% endif %} href="{{ link_about }}">About</a>
+      <a {% if nav_active == 'connect' %}class="active"{% endif %} href="{{ link_say_hi }}">Let&rsquo;s connect</a>
+    </div>
+    <div class="ply-nav-right">
+      <button class="ply-theme-btn" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+        <svg class="ply-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="ply-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </div>
+  </nav>
+</div>

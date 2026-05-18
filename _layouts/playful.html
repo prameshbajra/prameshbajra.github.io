@@ -1,0 +1,68 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    {% seo %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% elsif site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+    {% include structured-data.html %}
+
+    <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
+
+    <style>
+        html, body { margin: 0; padding: 0; min-height: 100%; background: #efece5; font-family: "Space Grotesk", "Inter", system-ui, sans-serif; }
+        html.theme-dark, html.theme-dark body { background: #0c0e16; color: #f3eee2; }
+    </style>
+    <script>
+        try {
+            var t = localStorage.getItem('ply-theme');
+            if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            if (t === 'dark') document.documentElement.classList.add('theme-dark');
+            window.__plyInitialTheme = t;
+        } catch (e) { window.__plyInitialTheme = 'light'; }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    <link href="{{ "/static/css/playful.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/static/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+    {% if site.ga and site.ga.tag_manager_id %}
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', '{{ site.ga.tag_manager_id }}');
+    </script>
+    {% endif %}
+</head>
+<body>
+    {% if site.ga and site.ga.tag_manager_id %}
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.ga.tag_manager_id }}"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    {% endif %}
+
+    {{ content }}
+
+    <script src="{{ "/static/js/playful.js" | prepend: site.baseurl }}"></script>
+    {% include analytics.html %}
+</body>
+</html>
