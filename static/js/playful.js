@@ -97,6 +97,41 @@
     });
   });
 
+  var popoverBtns = document.querySelectorAll('[data-ply-popover]');
+  popoverBtns.forEach(function (btn) {
+    var noteId = btn.getAttribute('aria-controls');
+    var note = noteId ? document.getElementById(noteId) : null;
+    if (!note) return;
+
+    function close() {
+      btn.setAttribute('aria-expanded', 'false');
+      note.removeAttribute('data-open');
+    }
+    function open() {
+      btn.setAttribute('aria-expanded', 'true');
+      note.setAttribute('data-open', 'true');
+      btn.classList.remove('is-wiggle');
+      void btn.offsetWidth;
+      btn.classList.add('is-wiggle');
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (btn.getAttribute('aria-expanded') === 'true') close(); else open();
+    });
+    note.addEventListener('click', function (e) { e.stopPropagation(); });
+    document.addEventListener('click', function (e) {
+      if (btn.getAttribute('aria-expanded') !== 'true') return;
+      if (!btn.contains(e.target) && !note.contains(e.target)) close();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+        close();
+        btn.focus();
+      }
+    });
+  });
+
   var dotsHost = bg.querySelector('.ply-dots');
   if (dotsHost) {
     var dotColors = ['var(--c-cobalt)', 'var(--c-coral)', 'var(--c-mint)', 'var(--c-mustard)', 'var(--c-lilac)'];

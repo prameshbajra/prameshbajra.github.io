@@ -157,6 +157,11 @@
 .ply-u-cobalt { color: var(--c-cobalt); }
 .ply-u-coral  { color: var(--c-coral); }
 .ply-u-mustard { color: var(--c-mustard); }
+.ply-u-mint {
+  color: var(--c-fg);
+  background-image: linear-gradient(var(--c-mint), var(--c-mint));
+  background-size: 100% 0.32em;
+}
 
 /* Latest blog card */
 a.ply-now {
@@ -310,9 +315,72 @@ a.ply-card-go {
 .ply-card-go svg { transition: transform .2s; }
 .ply-card:hover .ply-card-go svg { transform: translate(2px, -2px); }
 .ply-card-glyph { position: absolute; top: -20px; right: -20px; width: 220px; height: 220px; opacity: 0.95; pointer-events: none; }
+
+.ply-card-tag-wrap {
+  position: absolute; bottom: 22px; right: 22px;
+  z-index: 2;
+}
+.ply-card-tag {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 14px 9px 16px;
+  border-radius: 100px; background: #15171f; color: #f9f5ec;
+  font-family: inherit;
+  font-weight: 700; font-size: 13px; letter-spacing: -0.01em;
+  border: 2px solid #15171f;
+  cursor: pointer;
+  transition: transform .2s, background .2s, color .2s;
+}
+.ply-card-tag:hover { background: var(--c-coral); border-color: var(--c-coral); transform: translate(-2px, -2px); }
+.ply-card-tag.is-wiggle { animation: plyTagWiggle .55s ease; }
+@keyframes plyTagWiggle {
+  0%, 100% { transform: rotate(0) translate(-2px, -2px); }
+  20%      { transform: rotate(-7deg) translate(-2px, -2px) scale(1.06); }
+  40%      { transform: rotate(6deg)  translate(-2px, -2px) scale(1.06); }
+  60%      { transform: rotate(-4deg) translate(-2px, -2px) scale(1.03); }
+  80%      { transform: rotate(3deg)  translate(-2px, -2px) scale(1.02); }
+}
+
+.ply-card-note {
+  position: absolute;
+  bottom: calc(100% + 14px);
+  right: 0;
+  width: max-content;
+  max-width: min(280px, 70vw);
+  padding: 14px 16px;
+  background: #f9f5ec; color: #15171f;
+  border: 2px solid #15171f;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 0 var(--c-shadow);
+  font-size: 14px; line-height: 1.45; font-weight: 500;
+  text-align: left;
+  transform-origin: 90% 100%;
+  transform: scale(.7) translateY(8px) rotate(-2deg);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .25s cubic-bezier(.34, 1.56, .64, 1), opacity .18s ease;
+}
+.ply-card-note[data-open="true"] {
+  opacity: 1;
+  transform: scale(1) translateY(0) rotate(-1.5deg);
+  pointer-events: auto;
+}
+.ply-card-note::after {
+  content: "";
+  position: absolute;
+  bottom: -9px; right: 28px;
+  width: 14px; height: 14px;
+  background: #f9f5ec;
+  border-right: 2px solid #15171f;
+  border-bottom: 2px solid #15171f;
+  transform: rotate(45deg);
+}
+
 @media (max-width: 640px) {
   .ply-card-glyph { width: 140px; height: 140px; }
   .ply-card-go { padding: 8px 12px; font-size: 12px; bottom: 18px; right: 18px; }
+  .ply-card-tag-wrap { bottom: 18px; right: 18px; }
+  .ply-card-tag { padding: 8px 12px; font-size: 12px; }
+  .ply-card-note { max-width: min(240px, 65vw); font-size: 13px; padding: 12px 14px; }
 }
 
 /* ── Writing ────────────────────────────────────────────────────────── */
