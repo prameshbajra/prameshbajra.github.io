@@ -931,7 +931,7 @@ a.ply-email {
   margin-top: clamp(28px, 4vw, 40px);
   display: flex; flex-wrap: wrap; gap: 12px;
 }
-.ply-btn-primary {
+a.ply-btn-primary {
   display: inline-flex; align-items: center; gap: 10px;
   padding: 14px 22px; border-radius: 100px;
   background: var(--c-cobalt); color: var(--c-on-accent);
@@ -974,14 +974,14 @@ a.ply-email {
   margin: 18px auto 0; max-width: 460px; line-height: 1.55;
 }
 .ply-contact-rows { margin-top: clamp(24px, 3vw, 32px); display: flex; flex-direction: column; gap: 14px; align-items: center; }
-.ply-contact-row {
+a.ply-contact-row {
   display: inline-flex; align-items: center; gap: 12px;
   background: #15171f; color: #f9f5ec; text-decoration: none;
   padding: 14px 22px; border-radius: 100px;
   font-weight: 700; font-size: clamp(16px, 2vw, 20px);
   border: 2px solid var(--c-border);
-  transition: transform .15s, background .2s;
+  transition: transform .15s, background .2s, color .2s;
 }
-.ply-contact-row:hover { transform: translateY(-2px); background: var(--c-coral); }
+a.ply-contact-row:hover { transform: translateY(-2px); background: var(--c-coral); color: #15171f; }
 .ply-contact-row svg { flex: 0 0 20px; }
 
