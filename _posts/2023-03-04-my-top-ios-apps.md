@@ -17,7 +17,7 @@ Just a note, these apps are not is order. Tap on the header to download the app 
     
 I am pretty much sure that most of you might already have this app. For me, google calendar works like a reminder, todo app and a calendar app (obviously) all in one. I have tried apps like Fantastical, BusyCal, iCal, Todoist and many others but I always kept coming back to google calendar. For someone like me who keeps forgetting things, there is a widget that google calendar provides and it works wonders. 
 
-<img src="/static/assets/img/blog/ios-apps/googlecalendar.png" width="250px" height="500px" alt="Google Calendar app screenshot on iOS">
+<img src="/static/assets/img/blog/ios-apps/googlecalendar.png" alt="Google Calendar app screenshot on iOS" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -27,7 +27,7 @@ And again, for someone who forgets literally everything, remembering multiple pa
 
 Bitwarden is an open-source password manager in which data is encrypted locally before being synced with Bitwarden's servers. Bitwarden uses two-factor authentication and alerts users of any suspicious login attempts, making it a highly secure option for password management. Great thing is, it’s cross-platform and especially in iOS the autocomplete works really well.
 
-<img src="/static/assets/img/blog/ios-apps/bitwarden.png" width="500px" height="400px" alt="Bitwarden password manager interface">
+<img src="/static/assets/img/blog/ios-apps/bitwarden.png" alt="Bitwarden password manager interface" width="932" height="748" style="width: 500px" loading="lazy" decoding="async">
 
 <br>    
 
@@ -37,7 +37,7 @@ I assume people are going to hate me for this but surprisingly Apple books has b
 
 I just download books from the internet in epub format and upload them to Apple books. The notetaking and highlighting feature is also good. Plus, it takes care of syncing, which means I can read it on my tablet, laptop and mobile pretty smoothly. 
 
-<img src="/static/assets/img/blog/ios-apps/applebooks.png" width="250px" height="500px" alt="Apple Books library view on iPhone">
+<img src="/static/assets/img/blog/ios-apps/applebooks.png" alt="Apple Books library view on iPhone" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -45,7 +45,7 @@ I just download books from the internet in epub format and upload them to Apple 
 
 I do not use this app a lot but I think this serves it's value. This app allows you to schedule your post to certain social media sites. You can share to instagram , twitter, LinkedIn and many other platforms at once just by setting up a posting schedule. Want your post to be posted in different platforms at 6am tomorrow morning? It's simple now.
 
-<img src="/static/assets/img/blog/ios-apps/buffer.jpeg" width="250px" height="500px" alt="Buffer scheduling app on mobile">
+<img src="/static/assets/img/blog/ios-apps/buffer.jpeg" alt="Buffer scheduling app on mobile" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -53,7 +53,7 @@ I do not use this app a lot but I think this serves it's value. This app allows 
 
 This is one of those apps that give you short and concise ideas. The UI is very intuitive and clean. 
 
-<img src="/static/assets/img/blog/ios-apps/deepstash.jpeg" width="250px" height="500px" alt="Deepstash idea cards list">
+<img src="/static/assets/img/blog/ios-apps/deepstash.jpeg" alt="Deepstash idea cards list" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -61,7 +61,7 @@ This is one of those apps that give you short and concise ideas. The UI is very 
 
 This one would be perfect for those who are interest in tech. I personally use this to find amazing github repositories that are eye catching.
 
-<img src="/static/assets/img/blog/ios-apps/hackerfeed.jpeg" width="250px" height="500px" alt="Hacker Feed trending stories">
+<img src="/static/assets/img/blog/ios-apps/hackerfeed.jpeg" alt="Hacker Feed trending stories" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -69,7 +69,7 @@ This one would be perfect for those who are interest in tech. I personally use t
 
 This is one of the best apps the I found last year. It let's you save things that you want to read for the future. The reader is clean and elegant. It has amazing highlighting features and this is one of those app which I think should be paid, but is not. There is a chrome extension also which lets you highlight and save pages to read in the future.
 
-<img src="/static/assets/img/blog/ios-apps/matter.jpeg" width="250px" height="500px" alt="Matter read-it-later queue">
+<img src="/static/assets/img/blog/ios-apps/matter.jpeg" alt="Matter read-it-later queue" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -77,7 +77,7 @@ This is one of the best apps the I found last year. It let's you save things tha
 
 I don't think I need to say a word regarding this app. The app allows users to create different types of pages, including databases, notes, calendars, to-do lists, and more, all of which can be customized to fit their unique needs. It's like having functionalities of various apps like Trello, Evernote, and Google Docs into one. I love the widget too.
 
-<img src="/static/assets/img/blog/ios-apps/notion.jpeg" width="250px" height="250px" alt="Notion workspace dashboard">
+<img src="/static/assets/img/blog/ios-apps/notion.jpeg" alt="Notion workspace dashboard" width="500" height="496" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -85,7 +85,7 @@ I don't think I need to say a word regarding this app. The app allows users to c
 
 This is one of those apps that I found after lots and lots of searching around. I was looking for an app that would save my links in an orderly fashion. This app does exactly that and so much more. This app also has a browser extension that has been super helpful for me in recent days. Definitely worth trying.
 
-<img src="/static/assets/img/blog/ios-apps/raindrop.jpeg" width="250px" height="500px" alt="Raindrop.io bookmarks collection">
+<img src="/static/assets/img/blog/ios-apps/raindrop.jpeg" alt="Raindrop.io bookmarks collection" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -93,7 +93,7 @@ This is one of those apps that I found after lots and lots of searching around. 
 
 Sorry, we can't be friends if you do not use reddit. There is something for everyone. Select a field you are interested in and get posts about the latest and greatest topics. No wonder it is called "The Front Page of The Internet". Go install !! RIGHT NOW !!
 
-<img src="/static/assets/img/blog/ios-apps/reddit.jpeg" width="250px" height="500px" alt="Reddit feed on mobile">
+<img src="/static/assets/img/blog/ios-apps/reddit.jpeg" alt="Reddit feed on mobile" width="500" height="1082" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 
@@ -101,7 +101,7 @@ Sorry, we can't be friends if you do not use reddit. There is something for ever
 
 This app is a must-have if you have friends like mine. Yeah, you know who you are guys :D Splitwise allows you to keep track of shared expenses with friends, family, or roommates. It simplifies the process of splitting bills and helps to avoid awkward situations by keeping a record of who owes what.
 
-<img src="/static/assets/img/blog/ios-apps/splitwise.webp" width="250px" height="300px" alt="Splitwise expense list">
+<img src="/static/assets/img/blog/ios-apps/splitwise.webp" alt="Splitwise expense list" width="500" height="496" style="width: 250px" loading="lazy" decoding="async">
 
 <br>
 

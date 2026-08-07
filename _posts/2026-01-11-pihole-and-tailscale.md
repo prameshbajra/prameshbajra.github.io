@@ -31,7 +31,7 @@ If, however, you’d like a deeper understanding of how DNS resolution works, ho
 
 Here is a small sequence diagram that illustrates the flow of DNS requests in this setup for requests that are blocked and allowed by Pi-hole:
 
-<img src="/static/assets/img/blog/pihole-tailscale/SequenceDiagram.png" width="50%" alt="Sequence Diagram">
+<img src="/static/assets/img/blog/pihole-tailscale/SequenceDiagram.png" alt="Sequence Diagram" width="1144" height="812" style="width: 50%" loading="lazy" decoding="async">
 
 <br><br>
 
@@ -97,7 +97,7 @@ We will start by setting up Tailscale **before** Pi-hole is running. This is int
 Before we begin, this page is where you can see all your connected devices and their Tailscale IP addresses:  
 <a href="https://login.tailscale.com/admin/machines" target="_blank">https://login.tailscale.com/admin/machines</a>
 
-<img src="/static/assets/img/blog/pihole-tailscale/TailscaleDevices.png" width="40%" alt="Tailscale Machines">
+<img src="/static/assets/img/blog/pihole-tailscale/TailscaleDevices.png" alt="Tailscale Machines" width="915" height="508" style="width: 40%" loading="lazy" decoding="async">
 <br><br>
 
 Now, here’s what needs to be done.
@@ -108,18 +108,18 @@ Now, here’s what needs to be done.
 2. In the **Global nameservers** section, click `Add a global nameserver`.  
 Select `Add nameserver > Custom nameserver`, then enter your home server’s Tailscale IP address.
 
-    <img src="/static/assets/img/blog/pihole-tailscale/TailscaleStep1.png" width="40%" alt="Tailscale DNS setup step 1">
+    <img src="/static/assets/img/blog/pihole-tailscale/TailscaleStep1.png" alt="Tailscale DNS setup step 1" width="915" height="1116" style="width: 40%" loading="lazy" decoding="async">
 
 3. The Tailscale IP address should look something like `100.10.1.12`.  
 After entering the IP address, click **Save**.
 
-    <img src="/static/assets/img/blog/pihole-tailscale/TailscaleStep2.png" width="40%" alt="Tailscale DNS setup step 2">
+    <img src="/static/assets/img/blog/pihole-tailscale/TailscaleStep2.png" alt="Tailscale DNS setup step 2" width="915" height="511" style="width: 40%" loading="lazy" decoding="async">
 
 4. Add a second **Global nameserver** as a fallback.  
 You can use `Google`, `Cloudflare`, or `Quad9`—any of them are fine.  
 After that, enable the `Override DNS servers` option.
 
-    <img src="/static/assets/img/blog/pihole-tailscale/TailscaleStep3.png" width="40%" alt="Tailscale DNS setup step 3">
+    <img src="/static/assets/img/blog/pihole-tailscale/TailscaleStep3.png" alt="Tailscale DNS setup step 3" width="915" height="690" style="width: 40%" loading="lazy" decoding="async">
 
 This is all that’s required on the Tailscale side.
 

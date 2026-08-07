@@ -40,8 +40,7 @@ forward.
 This is what Immich looks like. It should feel familiar if you use Google Photos, just
 self-hosted.
 
-<img src="/static/assets/img/blog/immich/immich-screenshots.png" width="95%"
-alt="Immich web interface screenshot">
+<img src="/static/assets/img/blog/immich/immich-screenshots.png" alt="Immich web interface screenshot" width="1600" height="993" style="width: 95%" loading="lazy" decoding="async">
 
 *Immich web UI showing the timeline and albums.*
 

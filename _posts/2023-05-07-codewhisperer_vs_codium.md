@@ -19,7 +19,7 @@ For those looking to explore these two options, here are the links and instructi
     
 To begin with AWS CodeWhisperer, first install the [AWS toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode). Once the installation is complete, navigate to the sidebar, select the AWS toolkit, and click on CodeWhisperer. Simply follow a series of user-friendly steps, and the coding assistant will be up and running in no time.
 
-<img src="/static/assets/img/blog/codevcode/cw1.png" width="30%" alt="AWS CodeWhisperer setup screenshot">
+<img src="/static/assets/img/blog/codevcode/cw1.png" alt="AWS CodeWhisperer setup screenshot" width="686" height="927" style="width: 30%" loading="lazy" decoding="async">
     
 <br>
 
@@ -37,7 +37,7 @@ Allow me to cut to the chase and highlight the advantages of Codium over CodeWhi
 
 - Codium provides an intuitive set of option displayed above each function, adding a layer of convenience and ease for users. However, for some it might take a while to get used to. Here's an example:
 
-<img src="/static/assets/img/blog/codevcode/codium1.png" width="60%" alt="Codium feature overlay in VS Code">
+<img src="/static/assets/img/blog/codevcode/codium1.png" alt="Codium feature overlay in VS Code" width="1373" height="284" style="width: 60%" loading="lazy" decoding="async">
 
 <br>
 Moreover, Codium boasts an impressive array of features that cater to a variety of users and development environments.

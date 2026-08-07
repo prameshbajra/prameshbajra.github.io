@@ -142,3 +142,7 @@ exclude:
   
   
   
+
+# GitHub Pages injects jekyll-theme-primer when no theme is set; nothing here
+# uses it, and it emitted a stray unreferenced /assets/css/style.css.
+theme:
