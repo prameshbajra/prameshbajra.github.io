@@ -31,9 +31,22 @@ layout: compress
         } catch (e) { window.__plyInitialTheme = 'light'; }
     </script>
 
+    {%- comment -%}
+      Only the two families the stylesheet actually renders. Instrument Serif was
+      never referenced anywhere, and Inter only ever sits behind Space Grotesk in
+      the fallback stack, so it never paints. Dropping both takes the latin
+      webfont payload from ~445KB across 14 files to ~179KB across 7.
+
+      Loaded without blocking render: display=swap already means text paints in
+      the fallback face first, so deferring the stylesheet removes a round trip
+      from the critical path without introducing a flash that wasn't there.
+    {%- endcomment -%}
+    {%- assign font_css = "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" -%}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="{{ font_css }}">
+    <link rel="stylesheet" href="{{ font_css }}" media="print" onload="this.media='all'; this.onload=null;">
+    <noscript><link rel="stylesheet" href="{{ font_css }}"></noscript>
 
     <link href="{{ "/static/css/playful.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/static/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
