@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "I wrote a SERVER that might be of use to YOU!!"
-date:   2020-08-16
+title: "I wrote a SERVER that might be of use to YOU!!"
+date: 2020-08-16
 description: "Share files with a powerful http server."
 keywords: "nodejs, node, multer, code, server, file, network, http, express, ejs, code"
-categories: [nodejs, node, multer, code, server, file, network, http, express, ejs, code]
-tags: [nodejs, node, multer, code, server, file, network, http, express, ejs, code]
+tags: [web]
+image: /static/assets/img/og/see-my-files.png
 icon: icon-google-developers
+redirect_from:
+  - "/nodejs/node/multer/code/server/file/network/http/express/ejs/2020/08/16/see-my-files.html"
 ---
-
 ## What is it?
 
 It is like any other `http file server` but on **steroids**. Why?

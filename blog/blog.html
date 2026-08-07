@@ -1,10 +1,11 @@
 ---
 layout: playful_page
-title: Blog
+title: "Writing on Homelab, Cloud & Networking"
 permalink: /blog/
 ply_nav: writing
-seo:
-  title: Blog — Pramesh Bajracharya
+description: >-
+  Essays, tutorials, and field notes on self-hosted homelabs, AWS and cloud
+  architecture, networking and DNS, and everyday software engineering.
 ---
 {%- assign all_posts_count = site.posts | size -%}
 
@@ -26,6 +27,16 @@ seo:
 
 <section class="ply-writing-section">
   <div class="ply-wrap">
+    <div class="ply-topic-row">
+      <a class="ply-tag-chip is-active" href="{{ "/topics/" | prepend: site.baseurl }}">all topics</a>
+      {%- for topic in site.data.topics -%}
+        {%- assign count = site.tags[topic.slug] | size -%}
+        {%- if count > 0 -%}
+        <a class="ply-tag-chip" href="{{ '/topics/' | append: topic.slug | append: '/' | prepend: site.baseurl }}">#{{ topic.slug }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
     <div class="ply-blog-list">
       {% for post in site.posts %}
         {% include post_tone.html post=post %}

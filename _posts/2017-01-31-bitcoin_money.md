@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Bitcoin – The Internet of Money"
-date:   2019-12-07
+title: "Bitcoin – The Internet of Money"
+date: 2019-12-07
 description: "Bitcoin is an innovative payment network and a new kind of money."
 keywords: "cryptocurrency, bitcoin, money"
-categories: [cryptocurrency, bitcoin, money]
-tags: [cryptocurrency, bitcoin, money]
+tags: [money]
+image: /static/assets/img/og/bitcoin_money.png
 icon: icon-maven
+redirect_from:
+  - "/cryptocurrency/bitcoin/money/2019/12/07/bitcoin_money.html"
 ---
-
 Unless you have been living under a rock I can guarantee that you have heard the word ‘**Bitcoin**’!!
 
 So, What is **Bitcoin**?

@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "My must-have iOS apps"
-date:   2023-03-04
-description: "My must-have iOS apps"
+title: "My must-have iOS apps"
+date: 2023-03-04
+description: "The iOS apps I actually keep on my home screen — password managers, read-it-later queues, note-taking, and expense splitting."
 keywords: "ios, apple, apps"
-categories: [ios, apple, apps]
-tags: [ios, apple, apps]
+tags: [life, tools]
+image: /static/assets/img/og/my-top-ios-apps.png
 icon: icon-fire-alt
+redirect_from:
+  - "/ios/apple/apps/2023/03/04/my-top-ios-apps.html"
 ---
-
 Just a note, these apps are not is order. Tap on the header to download the app ;)
 
 

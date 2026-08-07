@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "12 ways to make your code suck less"
-date:   2020-02-16
+title: "12 ways to make your code suck less"
+date: 2020-02-16
 description: "Reading code is as important as writing it."
 keywords: "code, principle, programming, programs "
-categories: [code, principle, programming, programs]
-tags: [code, principle, programming, programs ]
+tags: [career]
+image: /static/assets/img/og/12_ways_to_make_code_suck_less.png
 icon: icon-fire-alt
+redirect_from:
+  - "/code/principle/programming/programs/2020/02/16/12_ways_to_make_code_suck_less.html"
 ---
-
 Personally, I think that code is more read than write. Take an example of any textbook, we read textbooks a lot more than we write. So putting it straight I say that reading code is equally important as writing code. Also, the code you write will be read by many fellow developers or many other contributors so as to make the product/project better. 
 
 Here are 12 tips for you to write code that will help you and others as well.

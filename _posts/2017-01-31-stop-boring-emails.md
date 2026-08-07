@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Stop sending plain/boring e-mails"
-date:   2020-07-26
-description: "A concise tutorial on how to include beautiful, custom templates to you personal email/gmail."
+title: "Stop sending plain/boring e-mails"
+date: 2020-07-26
+description: "A concise tutorial on adding beautiful custom templates to your personal email in Gmail."
 keywords: "html, email, css, gmail, email"
-categories: [html, email, css, gmail, email]
-tags: [html, email, css, gmail, email]
+tags: [web]
+image: /static/assets/img/og/stop-boring-emails.png
 icon: icon-backbone
+redirect_from:
+  - "/html/email/css/gmail/2020/07/26/stop-boring-emails.html"
 ---
-
 I can pretty much guarantee that we all have been sending plain emails for a long long time. I'm here to help you change that.
 
 Imagine the impression you will be making on a job application with the help of an unique email? You will be rocking your emails and 

@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Deploy Node - Express Application as NPM packages"
-date:   2019-09-16
+title: "Deploy Node - Express Application as NPM packages"
+date: 2019-09-16
 description: "Deploy Express application as npm packages and publish it to npm registry."
 keywords: "javascript, npm, programming, registry, express, node, code, login, deploy, server, ejs"
-categories: [javascript, npm, programming, registry, express, node, code, login, deploy, server, ejs]
-tags: [javascript, npm, programming, registry, express, node, code, login, deploy, server, ejs]
+tags: [web]
+image: /static/assets/img/og/deployexpressasnpm.png
 icon: icon-nodejs
+redirect_from:
+  - "/javascript/npm/programming/registry/express/node/code/login/deploy/server/ejs/2019/09/16/deployexpressasnpm.html"
 ---
-
 I recently came around this problem where I needed to deploy an express application as a npm package, but to my suprise
 there were no article explaining how it's done. Weird right?
 

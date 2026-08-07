@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Theming Jupyter Notebooks"
-date:   2019-05-10
-description: "Theming Jupyter Notebooks"
+title: "Theming Jupyter Notebooks"
+date: 2019-05-10
+description: "Make Jupyter Notebooks easier on the eyes with custom themes, fonts, and cell styling."
 keywords: "python, machine learning, jupyter, notebook, deeplearning, code, jupyter notebook"
-categories: [python, machine learning, jupyter, notebook, deeplearning, code, jupyter notebook]
-tags: [python, machine learning, jupyter, notebook, deeplearning, code, jupyter notebook]
+tags: [python, ai, tools]
+image: /static/assets/img/og/jupyter-notebook.png
 icon: icon-google-developers
+redirect_from:
+  - "/python/machine learning/jupyter/notebook/deeplearning/code/jupyter notebook/2019/05/10/jupyter-notebook.html"
 ---
-
 **Machine learning** is the new trend everywhere. Every developer I meet is into machine learning these days (including me).
 You are for sure to stumble upon **Jupyter Notebooks** if you are into machine learning stuff. Basically, **Jupyter Notebooks** are
 documents the contain both computer code (_e.g. python_) and rich text elements (_paragraph, equations, figures, links, etc…_). Notebook documents are both human-readable documents containing the analysis description and the results (_figures, tables, etc.._) as well as executable documents. 

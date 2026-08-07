@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Deploy your own custom trained object detection model in AWS Sagemaker"
-date:   2019-10-13
+title: "Deploy your own custom trained object detection model in AWS Sagemaker"
+date: 2019-10-13
 description: "Deployment of your own object detection model in sagemaker."
 keywords: "deploy, aws, sagemaker, model, object detection, sdk, tensorflow"
-categories: [aws, sagemaker, prediction, detection, tensorflow, numpy, data, images, code, programming, deployment, s3, cloudwatch]
-tags: [aws, sagemaker, prediction, detection, tensorflow, numpy, data, images, code, programming, deployment, s3, cloudwatch]
+tags: [cloud, ai, python]
+image: /static/assets/img/og/deploy_in_sagemaker.png
 icon: icon-fire-alt
+redirect_from:
+  - "/aws/sagemaker/prediction/detection/tensorflow/numpy/data/images/code/programming/deployment/s3/cloudwatch/2019/10/13/deploy_in_sagemaker.html"
 ---
-
 The main motive of this blog is to help others deploy their custom models to **Sagemaker**. Honestly speaking, I had to play around with this for 100+ hours in order to get this to work. At the time of writing this blog the sagemaker documentation is not consistent anywhere and lacks many tiny details. This method is not specific to object detection models and can be used to deploy any kind of models, be it custom/pretrained or downloaded from somewhere else.
 
 Let's get started: <br><br>

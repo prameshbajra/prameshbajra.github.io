@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Ransomeware : Android"
-date:   2019-03-01
-description: "Ransome-as-a-Service, It is legit."
+title: "Ransomeware : Android"
+date: 2019-03-01
+description: "Ransomware-as-a-Service is a real, purchasable thing. A look at how it reaches Android phones and what it does once there."
 keywords: "android, ramsomeware, service, application, apks, hack, phone,smartphone"
-categories: [android, ramsomeware, service, application, apks, hack, phone,smartphone]
-tags: [android, ramsomeware, service, application, apks, hack, phone,smartphone]
+tags: [security]
+image: /static/assets/img/og/ransomeware.png
 icon: icon-maven
+redirect_from:
+  - "/android/ramsomeware/service/application/apks/hack/phone/smartphone/2019/03/01/ransomeware.html"
 ---
-
 **"Ransomware"** threat is on the rise, and cyber criminals are making millions of dollars by victimizing as many people as they can—with **WannaCry, NotPetya and LeakerLocker** being the ransomware threats that made headlines recently.
 
 **What's BAD?** Hacker even started selling **ransomware-as-a-service (RaaS)** kits in an attempt to spread this creepy threat more easily, so that even a non-tech user can create their own ransomware and distribute the threat to a wider audience.

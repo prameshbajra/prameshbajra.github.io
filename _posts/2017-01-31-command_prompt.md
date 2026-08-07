@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Pimp Your Command Prompt/Cmd in Windows"
-date:   2019-11-10
-description: "Make your CMD stand out and add some features to it to make life easier. "
+title: "Pimp Your Command Prompt/Cmd in Windows"
+date: 2019-11-10
+description: "Make your CMD stand out and add some features to it to make life easier."
 keywords: "windows, prompt, cmd, clink "
-categories: [windows , cmd, command prompt, clink]
-tags: [windows , cmd , clink, command prompt, programming , code ]
+tags: [tools]
+image: /static/assets/img/og/command_prompt.png
 icon: icon-google-developers
+redirect_from:
+  - "/windows/cmd/command prompt/clink/2019/11/10/command_prompt.html"
 ---
-
 Bored with plain old command prompt? You're in the right place then. Welcome.
 
 Let's start by changing the format of your current CMD. Follow along and please do ask if you get stuck somewhere.<br><br>

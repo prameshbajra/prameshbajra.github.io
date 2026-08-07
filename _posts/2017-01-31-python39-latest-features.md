@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Python 3.9 - Latest Features"
-date:   2020-10-03
+title: "Python 3.9 - Latest Features"
+date: 2020-10-03
 description: "Python is coming up with some cool nifty features. Let's check out some of them here."
 keywords: "code, python, features, programming"
-categories: [code, python, features, programming]
-tags: [code, python, features, programming]
+tags: [python]
+image: /static/assets/img/og/python39-latest-features.png
 icon: icon-fire-alt
+redirect_from:
+  - "/code/python/features/programming/2020/10/03/python39-latest-features.html"
 ---
-
 Please allow me to start with a disclaimer: I am a big **JavaScipt** fan and I only keep track of the latest features for **JavaScript**. The language (*JS*) has added very handy features in recent years and I can't stop fan girling about them.
 
 Ok then, with that out of the way. Let's talk **python** today. This is my first time looking and using the latest features provided by any programming language other than **JavaScript** and honestly, I am very impressed.

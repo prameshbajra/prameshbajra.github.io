@@ -2,12 +2,13 @@
 layout: post
 title: "Bastion Servers: Jump Hosts"
 date: 2026-01-04
-description: "A quick look at bastion servers."
+description: "What a bastion server (jump host) actually does, and how it differs from an API gateway and a load balancer."
 keywords: "bastion server, jump host, api gateway, load balancer, cloud security, infrastructure access"
-categories: [cloud, security, infrastructure, networking]
-tags: [bastion servers, jump host, api gateway, load balancer, cloud, security]
+tags: [cloud, networking, security]
+image: /static/assets/img/og/bastion-servers.png
+redirect_from:
+  - "/cloud/security/infrastructure/networking/2026/01/04/bastion-servers.html"
 ---
-
 I was recently talking to my friend, and we were discussing a couple of things about system architectures and cloud in general. 
 He then uttered a heavy word "bastion servers" in the conversation, and I realized I didn’t actually know what that was. He did a 
 super good job explaining it, but I wanted to solidify my understanding further.
@@ -16,7 +17,7 @@ So today, I looked it up and thought I’d share what a bastion server is—and 
 
 <br>
 
-# 🛡️ Bastion Server (a.k.a. Jump Host) <br><br>
+## 🛡️ Bastion Server (a.k.a. Jump Host) <br><br>
 
 What is a "Bastion"?
 
@@ -45,7 +46,7 @@ Instead of exposing all your servers to the internet, you expose one highly secu
 
 <br>
 
-# 🚪 API Gateway <br><br>
+## 🚪 API Gateway <br><br>
 
 This is where my confusion initially came from.
 
@@ -69,7 +70,7 @@ API Gateway → protects application APIs
 
 <br>
 
-# ⚖️ Load Balancer <br><br>
+## ⚖️ Load Balancer <br><br>
 
 A load balancer has yet another job:
 
@@ -83,7 +84,7 @@ It doesn’t care who the user is (that’s auth), and it doesn’t care how adm
 
 <br>
 
-# 🧠 Simple Mental Model <br><br>
+## 🧠 Simple Mental Model <br><br>
 
 Bastion Server → “How do admins get into private servers safely?”
 

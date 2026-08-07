@@ -1,0 +1,86 @@
+# Single source of truth for the post taxonomy.
+#
+# Drives three things: the tag pills on post/blog cards (_includes/post_tone.html),
+# the hub pages under /topics/, and the `tags` on each post. Posts previously
+# carried 147 unique tags across 31 posts (105 used exactly once), which is
+# too thin to build hub pages from — every topic here is backed by 3+ posts.
+#
+# `label` must stay short; only AI/Cloud/Homelab/Networking/Self-host have
+# dedicated colours in playful.css, the rest use the default pill.
+
+- slug: homelab
+  label: Homelab
+  title: Homelab & Self-Hosting
+  blurb: >-
+    Running real services on hardware under the desk — photo libraries, DNS
+    sinkholes, and the glue that keeps it reachable from anywhere.
+
+- slug: networking
+  label: Networking
+  title: Networking & DNS
+  blurb: >-
+    How packets and names actually find each other: DNS resolution, mesh VPNs,
+    bastion hosts, and the layers underneath.
+
+- slug: cloud
+  label: Cloud
+  title: Cloud & AWS
+  blurb: >-
+    Building on AWS — Lambda containers, SageMaker deployments, serverless
+    pipelines, and the architecture decisions behind them.
+
+- slug: ai
+  label: AI
+  title: AI & Machine Learning
+  blurb: >-
+    Training, exporting, and actually shipping models — plus notes on the
+    AI coding assistants that have crept into everyday work.
+
+- slug: web
+  label: Web
+  title: Web Development
+  blurb: >-
+    Front-end and back-end work — Angular, Node and Express, data grids,
+    charts, and the occasional HTML email.
+
+- slug: python
+  label: Python
+  title: Python
+  blurb: >-
+    Language features, notebooks, and Python powering serverless jobs and
+    machine learning workflows.
+
+- slug: tools
+  label: Tools
+  title: Developer Tools
+  blurb: >-
+    The editor, the shell, and the version control that everything else runs
+    through — configured properly.
+
+- slug: security
+  label: Security
+  title: Security
+  blurb: >-
+    Hardening what you expose: bastion access patterns, DNS-level filtering,
+    and a look at how mobile ransomware works.
+
+- slug: career
+  label: Career
+  title: Career & Craft
+  blurb: >-
+    How I got into this, conversations with people further along, and what
+    actually makes code worth reading.
+
+- slug: money
+  label: Money
+  title: Money & Investing
+  blurb: >-
+    Bitcoin, salaries across borders, and the vocabulary of buying property
+    in Kathmandu.
+
+- slug: life
+  label: Life
+  title: Life & Living Abroad
+  blurb: >-
+    Paperwork in Germany, apps worth paying for, and the practical side of
+    moving your life to another country.

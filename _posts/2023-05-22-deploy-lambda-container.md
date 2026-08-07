@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Deploy WhisperAI, FFMpeg and OpenAI in AWS Lambda using Docker Container"
-date:   2023-05-22
+title: "Deploy WhisperAI, FFMpeg and OpenAI in AWS Lambda using Docker Container"
+date: 2023-05-22
 description: "Deploy WhisperAI, FFMpeg and OpenAI into AWS Lambda Containers"
 keywords: "ai, code, aws, docker, lambda, containers, ffmpeg"
-categories: [ai, code, aws, docker, lambda, containers, ffmpeg]
-tags: [ai, code, aws, docker, lambda, containers, ffmpeg]
+tags: [cloud, ai]
+image: /static/assets/img/og/deploy-lambda-container.png
 icon: icon-antenna
+redirect_from:
+  - "/ai/code/aws/docker/lambda/containers/ffmpeg/2023/05/22/deploy-lambda-container.html"
 ---
-
 Let's talk about working with AI, Docker and AWS Lambda. Sounds exciting, right? Maybe? 
 
 But let me slide in a quick disclaimer: AWS Lambda might not be your first choice for AI tasks. 

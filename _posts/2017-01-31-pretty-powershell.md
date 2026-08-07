@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Make your shell pretty."
-date:   2021-06-21
+title: "Make your shell pretty."
+date: 2021-06-21
 description: "Your development environment should be clean and cool."
 keywords: "code, windows, programming, shell, commandline, cli"
-categories: [code, windows, programming, shell, commandline, cli]
-tags: [code, windows, programming, shell, commandline, cli ]
+tags: [tools]
+image: /static/assets/img/og/pretty-powershell.png
 icon: icon-fire-alt
+redirect_from:
+  - "/code/windows/programming/shell/commandline/cli/2021/06/21/pretty-powershell.html"
 ---
-
 Hey, I hope you are doing well. Before starting to blabber about the customization that we are going to make today, let me give you a sneak peek on what we are going to achieve at the end of this article.
 
 <img src="/static/assets/img/blog/powershell/prettypowershell.png" width="95%" alt="Customized PowerShell console theme">
