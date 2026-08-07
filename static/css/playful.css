@@ -185,7 +185,11 @@
 }
 @media (max-width: 880px) { .ply-hero-row { grid-template-columns: 1fr; } }
 
-.ply-hero-intro { margin: 0; font-size: clamp(18px, 2.2vw, 26px); line-height: 1.4; max-width: 640px; text-wrap: pretty; }
+/* Fixed leading rather than a ratio: the font is fluid, and a flat 1.4 left only
+   ~7px between lines at the 18px floor — which the .ply-underline spans then ate.
+   This keeps the gap constant, so small type gets room and large type stays tight
+   (1.61 at 18px, 1.42 at 26px) with no jump at a breakpoint. */
+.ply-hero-intro { margin: 0; font-size: clamp(18px, 2.2vw, 26px); line-height: calc(1em + 11px); max-width: 640px; text-wrap: pretty; }
 .ply-underline {
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat;
