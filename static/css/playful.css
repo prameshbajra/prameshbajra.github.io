@@ -65,6 +65,7 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
+  min-height: 100svh;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   transition: background-color .25s ease, color .25s ease;
@@ -77,12 +78,12 @@
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding-left: clamp(16px, 4vw, 48px);
-  padding-right: clamp(16px, 4vw, 48px);
+  padding-left: clamp(20px, 4vw, 48px);
+  padding-right: clamp(20px, 4vw, 48px);
 }
 
 /* ── Nav ────────────────────────────────────────────────────────────── */
-.ply-nav { display: flex; align-items: center; justify-content: space-between; padding-top: 20px; padding-bottom: 20px; gap: 12px; }
+.ply-nav { display: flex; align-items: center; justify-content: space-between; padding-top: 20px; padding-bottom: 20px; gap: 12px; position: relative; z-index: 40; }
 .ply-logo { display: flex; align-items: center; gap: 12px; flex: 0 0 auto; text-decoration: none; }
 .ply-logo-mark {
   width: 40px; height: 40px; border-radius: 12px; background: var(--c-dark-panel);
@@ -120,8 +121,46 @@
 .ply[data-theme="dark"] .ply-theme-btn .ply-icon-light { display: none; }
 .ply[data-theme="dark"] .ply-theme-btn .ply-icon-dark { display: block; }
 
+/* Mobile menu — the nav pill is too wide below 880px, so it collapses into this */
+.ply-nav-toggle {
+  display: none; place-items: center; width: 44px; height: 44px; border-radius: 100px;
+  border: 2px solid var(--c-border); background: var(--c-panel); cursor: pointer;
+  color: var(--c-fg); padding: 0;
+  transition: background .15s;
+}
+.ply-nav-toggle svg { display: block; }
+.ply-nav-toggle .ply-icon-close { display: none; }
+.ply-nav-toggle[aria-expanded="true"] { background: var(--c-coral); border-color: var(--c-coral); color: #fff; }
+.ply-nav-toggle[aria-expanded="true"] .ply-icon-menu { display: none; }
+.ply-nav-toggle[aria-expanded="true"] .ply-icon-close { display: block; }
+
+.ply-nav-sheet { display: none; }
+
 @media (max-width: 880px) {
   .ply-nav-pill { display: none; }
+  .ply-nav-toggle { display: inline-grid; }
+
+  .ply-nav-sheet {
+    display: flex; flex-direction: column; gap: 4px;
+    position: absolute; top: calc(100% - 6px); left: 0; right: 0; z-index: 41;
+    padding: 8px;
+    background: var(--c-dark-panel); color: var(--c-dark-panel-fg);
+    border: 2px solid var(--c-border); border-radius: 20px;
+    box-shadow: 4px 4px 0 0 var(--c-shadow);
+    visibility: hidden; opacity: 0; pointer-events: none;
+    transform: translateY(-8px) scale(.98); transform-origin: 100% 0;
+    transition: opacity .18s ease, transform .22s cubic-bezier(.34, 1.56, .64, 1), visibility .18s;
+  }
+  .ply-nav-sheet[data-open="true"] {
+    visibility: visible; opacity: 1; pointer-events: auto;
+    transform: translateY(0) scale(1);
+  }
+  .ply-nav-sheet a {
+    display: block; padding: 13px 16px; border-radius: 14px;
+    font-size: 16px; font-weight: 600; letter-spacing: -0.02em;
+    color: var(--c-dark-panel-fg); text-decoration: none;
+  }
+  .ply-nav-sheet a.active { background: var(--c-coral); color: #fff; }
 }
 
 /* ── Hero ───────────────────────────────────────────────────────────── */
@@ -268,6 +307,14 @@ a.ply-now:hover .ply-now-arrow { transform: translateX(4px); }
 }
 .ply-see-all-row .ply-btn-primary { color: #fff; }
 
+/* Side-by-side heading + action squeezes the h2 to half a phone screen; stack them */
+@media (max-width: 720px) {
+  .ply-section-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .ply-section-head > div { width: 100%; }
+  /* padding-top keeps the tap target tall without pushing the underline down */
+  .ply-section-action { white-space: normal; padding-top: 14px; padding-bottom: 6px; }
+}
+
 /* ── Projects ───────────────────────────────────────────────────────── */
 .ply-projects-section {
   padding-top: clamp(40px, 6vw, 64px); padding-bottom: clamp(40px, 6vw, 64px);
@@ -377,10 +424,18 @@ a.ply-card-go {
 
 @media (max-width: 640px) {
   .ply-card-glyph { width: 140px; height: 140px; }
-  .ply-card-go { padding: 8px 12px; font-size: 12px; bottom: 18px; right: 18px; }
-  .ply-card-tag-wrap { bottom: 18px; right: 18px; }
-  .ply-card-tag { padding: 8px 12px; font-size: 12px; }
-  .ply-card-note { max-width: min(240px, 65vw); font-size: 13px; padding: 12px 14px; }
+  .ply-card-note { max-width: min(260px, 72vw); font-size: 13px; padding: 12px 14px; }
+
+  /* Pinning the CTA to the card corner overlaps the chip stack once the copy
+     wraps, so let it flow after the chips and drop the fixed card height. */
+  .ply-card { min-height: 0; }
+  a.ply-card-go { position: static; margin-top: 22px; }
+  .ply-card-tag-wrap {
+    position: relative; bottom: auto; right: auto;
+    display: inline-block; margin-top: 22px;
+  }
+  .ply-card-note { right: auto; left: 0; transform-origin: 10% 100%; }
+  .ply-card-note::after { right: auto; left: 28px; }
 }
 
 /* ── Writing ────────────────────────────────────────────────────────── */
@@ -412,10 +467,15 @@ a.ply-card-go {
   .ply-post-row {
     grid-template-columns: 32px 1fr auto;
     grid-template-rows: auto auto;
-    gap: 8px 12px; padding: 22px 4px;
+    gap: 14px 12px; padding: 24px 2px;
+    align-items: start;
   }
-  .ply-post-n { font-size: 22px; grid-row: 1; grid-column: 1; }
+  .ply-post-n { font-size: 22px; line-height: 1.1; grid-row: 1; grid-column: 1; }
   .ply-post-title-cell { grid-row: 1; grid-column: 2 / -1; }
+  .ply-post-blurb {
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+    overflow: hidden; line-height: 1.5;
+  }
   .ply-post-tag-cell { grid-row: 2; grid-column: 2; align-self: center; }
   .ply-post-meta { grid-row: 2; grid-column: 3; text-align: right; display: flex; gap: 8px; align-items: center; justify-content: flex-end; align-self: center; }
   .ply-post-meta-min { margin-top: 0; }
@@ -560,6 +620,8 @@ a.ply-card-go {
   font-size: clamp(72px, 14vw, 160px);
 }
 .ply-footer-heading .accent { color: var(--c-cobalt); }
+/* "connect." exactly filled a 375px screen and clipped below that */
+@media (max-width: 400px) { .ply-footer-heading { font-size: clamp(52px, 17vw, 72px); } }
 .ply-footer-sub { font-size: clamp(16px, 2vw, 22px); color: var(--c-fg); opacity: 0.8; max-width: 720px; margin-top: 24px; }
 a.ply-email {
   margin-top: clamp(28px, 4vw, 40px);
@@ -701,10 +763,12 @@ a.ply-email {
 
 /* Big post header used on blog post pages */
 .ply-post-hero { padding-top: clamp(28px, 5vw, 56px); padding-bottom: clamp(24px, 4vw, 40px); }
+/* flex (not inline-flex) so the tone tag that follows starts its own line */
 .ply-post-back {
-  display: inline-flex; align-items: center; gap: 8px;
+  display: flex; width: fit-content; align-items: center; gap: 8px;
   font-family: "JetBrains Mono", monospace; font-size: 12px; font-weight: 600;
-  color: var(--c-fg-dim); text-decoration: none; margin-bottom: 22px;
+  color: var(--c-fg-dim); text-decoration: none;
+  padding: 6px 0; margin-bottom: 14px;
   transition: color .15s, transform .15s;
 }
 .ply-post-back:hover { color: var(--c-fg); transform: translateX(-2px); }
@@ -714,7 +778,14 @@ a.ply-email {
   font-size: clamp(36px, 6vw, 64px);
   text-wrap: balance;
 }
+.ply-post-hero .ply-post-tag { display: inline-block; }
 .ply-post-hero .ply-page-meta { margin-top: 24px; }
+
+/* The dot separators strand themselves at line ends once the meta wraps */
+@media (max-width: 520px) {
+  .ply-page-meta { gap: 6px 14px; }
+  .ply-page-meta .sep { display: none; }
+}
 
 /* ── Article body ───────────────────────────────────────────────────── */
 .ply-article-wrap { padding-top: clamp(28px, 4vw, 40px); padding-bottom: clamp(48px, 6vw, 80px); }
@@ -899,9 +970,45 @@ a.ply-email {
   margin-top: clamp(28px, 4vw, 40px);
 }
 
+/* Comfortable thumb targets on touch screens */
+@media (max-width: 640px) {
+  .ply-share-row a { padding: 11px 16px; min-height: 44px; }
+  .ply-tag-chip { padding: 7px 13px; }
+  .ply-social a { min-height: 44px; }
+  .ply-stat { padding: 18px 16px; min-height: 120px; }
+  a.ply-card-go, .ply-card-tag { padding: 11px 16px; }
+}
+
 /* Blog index list — reuses .ply-post-row but in a wider container */
 .ply-blog-list .ply-post-row { padding: 24px 8px; }
 .ply-blog-list .ply-post-row:first-child { border-top: 2px solid var(--c-border); }
+
+/* ── Article on small screens ───────────────────────────────────────── */
+/* Wrap gutter + card padding + border ate ~76px of a 375px screen, leaving a
+   299px reading column. Pull the card closer to the edge and let code bleed
+   to the padding edge so long lines show more before scrolling. */
+@media (max-width: 640px) {
+  .ply-article { margin-left: -8px; margin-right: -8px; padding: 26px 18px; border-radius: 22px; }
+
+  .ply-article > pre,
+  .ply-article > .highlighter-rouge,
+  .ply-article > .highlight {
+    margin-left: -18px; margin-right: -18px;
+  }
+  .ply-article > pre,
+  .ply-article > .highlighter-rouge .highlight,
+  .ply-article > .highlight {
+    border-radius: 0; border-left-width: 0; border-right-width: 0;
+  }
+  .ply-article pre { padding: 16px 18px; }
+  .ply-article .highlight pre { padding: 16px 18px; }
+
+  /* Wide tables scroll on their own instead of straining the card */
+  .ply-article table { display: block; overflow-x: auto; }
+
+  .ply-article blockquote { padding: 14px 16px; }
+  .ply-article ul, .ply-article ol { padding-left: 1.2em; }
+}
 
 /* ── 404 page ───────────────────────────────────────────────────────── */
 .ply-error-section {

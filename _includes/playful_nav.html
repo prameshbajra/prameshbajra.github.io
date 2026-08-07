@@ -33,6 +33,18 @@
         <svg class="ply-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         <svg class="ply-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       </button>
+      <button class="ply-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="ply-nav-sheet" data-ply-nav-toggle>
+        <svg class="ply-icon-menu" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="ply-icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="ply-nav-sheet" id="ply-nav-sheet">
+      <a {% if nav_active == 'home' %}class="active"{% endif %} href="{{ link_hi }}">Hi</a>
+      <a {% if nav_active == 'work' %}class="active"{% endif %} href="{{ link_work }}">Work</a>
+      <a {% if nav_active == 'writing' %}class="active"{% endif %} href="{{ link_writing }}">Writing</a>
+      <a {% if nav_active == 'about' %}class="active"{% endif %} href="{{ link_about }}">About</a>
+      <a {% if nav_active == 'connect' %}class="active"{% endif %} href="{{ link_say_hi }}">Let&rsquo;s connect</a>
     </div>
   </nav>
 </div>
