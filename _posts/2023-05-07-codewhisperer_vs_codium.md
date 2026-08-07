@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "AWS Codewhisperer VS Codium"
-date:   2023-05-07
-description: "AWS Codewhisperer VS Codium"
+title: "AWS Codewhisperer VS Codium"
+date: 2023-05-07
+description: "Comparing AWS CodeWhisperer and Codeium as free AI autocomplete for everyday coding — accuracy, speed, and which one stuck."
 keywords: "ai, code, aws, free, codium, codewhisperer, tech, autocomplete"
-categories: [ai, code, aws, free, codium, codewhisperer, tech, autocomplete]
-tags: [ai, code, aws, free, codium, codewhisperer, tech, autocomplete]
+tags: [ai, tools]
+image: /static/assets/img/og/codewhisperer_vs_codium.png
 icon: icon-fire-alt
+redirect_from:
+  - "/ai/code/aws/free/codium/codewhisperer/tech/autocomplete/2023/05/07/codewhisperer_vs_codium.html"
 ---
-
 **TLDR;** AWS CodeWhisperer falls short! Go use Codium.
 
 <br>

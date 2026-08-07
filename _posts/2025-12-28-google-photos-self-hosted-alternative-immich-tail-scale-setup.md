@@ -4,10 +4,11 @@ title: "Google Photos Self-Hosted Alternative: Immich + Tailscale Setup"
 date: 2025-12-28
 description: "Self-hosted photo library on a home server using Immich and Tailscale"
 keywords: "self-hosted, photos, immich, tailscale, home-server, homelab"
-categories: [self-hosted, homelab, photos, immich, tailscale]
-tags: [self-hosted, homelab, photos, immich, tailscale]
+tags: [homelab, networking]
+image: /static/assets/img/og/google-photos-self-hosted-alternative-immich-tail-scale-setup.png
+redirect_from:
+  - "/self-hosted/homelab/photos/immich/tailscale/2025/12/28/google-photos-self-hosted-alternative-immich-tail-scale-setup.html"
 ---
-
 ## What am I trying to do and why?
 
 This post is about replacing Google Photos with something I own and control. I like the

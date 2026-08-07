@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Terms to know when buying a house in Nepal - Kathmandu"
-date:   2024-08-13
-description: ""
+title: "Terms to know when buying a house in Nepal - Kathmandu"
+date: 2024-08-13
+description: "A plain-English glossary of the terms you hit when buying land or a house in Kathmandu — ropani, aana, lalpurja, and the rest."
 keywords: "kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land"
-categories: [kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land]
-tags: [kathmandu, real estate, terms, buying, house, nepal, money, investment, property, land]
+tags: [money, life]
+image: /static/assets/img/og/terms-real-estate.png
+redirect_from:
+  - "/kathmandu/real estate/terms/buying/house/nepal/money/investment/property/land/2024/08/13/terms-real-estate.html"
 ---
-
-
 So, you decide to buy a house but you have no idea what the process is like? 
 
 In this write up I will try to give you a brief overview of the terms that you will come across when you are buying a house in Kathmandu, Nepal. I will try to keep it as simple as possible. As usual, if you have any questions, please feel free to reach out. I will try to answer them to the best of my knowledge.

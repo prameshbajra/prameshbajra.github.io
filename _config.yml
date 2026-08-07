@@ -2,12 +2,20 @@
 
 # Website settings
 title: Pramesh Bajracharya
-description: Pramesh's Website, All about technology, learning, code and some more stuffs.
+tagline: Software Engineer, Homelab & Cloud
+description: >-
+  Pramesh Bajracharya is a software engineer in Hamburg, Germany. Writing about
+  cloud architecture, self-hosted homelabs, networking, AWS, and 3D printing.
 keywords: Pramesh,pramesh,bajracharya,Bajracharya,Pramesh Bajracharya,pramesh bajracharya,blog,Jekyll,github,gh-pages
-lang: en
+lang: en_US
 baseurl: ""  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://prameshbajra.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
+# Must match the CNAME. Anything else makes every canonical/og:url point off-domain.
+url: https://prameshbajra.com
 img_path: /homepage/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# Posts used to inherit /:categories/:year/:month/:day/:title.html, which produced
+# 13-segment URLs. Old paths are preserved via `redirect_from` on each post.
+permalink: /blog/:title/
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -19,6 +27,7 @@ author:  # change following line to your infomation.
   linkedin_id: prameshbajra # Leave blank if you don't have now
   facebook_username: # Leave blank if you don't have now
   twitter_username: prameshbajra  # Leave blank if you don't have now
+  twitter: prameshbajra  # jekyll-seo-tag reads this key for twitter:creator
   instagram_username:  # instagram username here 
   email: pe.messh@gmail.com  # Leave blank if you don't have now
   cv: https://drive.google.com/file/d/1F3l9U8X3GBjz4CuP404--VW3MA2q0jk6/view?usp=sharing
@@ -67,20 +76,59 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Install gems ...  
+# Install gems ...
 plugins:
  - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-redirect-from
+ - jekyll-feed
+
+feed:
+  path: feed.xml
+  posts_limit: 40   # default is 10; the whole archive is only 31 posts
+
+# jekyll-seo-tag reads og:image from `page.image`, not `site.image`, so the
+# default card has to be applied as a page default. Post front matter wins.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /static/assets/img/og/default.png
 
 # SEO manages ...
 twitter:
   username: prameshbajra
-  
+  card: summary_large_image
+
 social:
   name: Pramesh Bajracharya
   links:
     - https://twitter.com/prameshbajra
     - https://www.facebook.com/prameshbajra
     - https://github.com/prameshbajra
+    - https://www.linkedin.com/in/prameshbajra
+
+# Keep tooling, docs, and vendored dirs out of the build (and out of the sitemap).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - node_modules
+  - build
+  - vendor
+  - readme_files
+  - README.md
+  - AGENTS.md
+  - LICENSE
+  - Note.md
+  - todo.todo
+  - .venv
+  - .ruby-lsp
+  - .vscode
+  # Unreferenced partial from the old Jalpc search widget. It was being
+  # published as a standalone page (a fixed-position overlay with no content).
+  - search/cb-footer-add.html
   
   
   

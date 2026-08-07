@@ -1,13 +1,7 @@
 ---
 layout: playful
 ---
-{%- assign tone = "Notes" -%}
-{%- if page.tags contains "self-hosted" -%}{%- assign tone = "Self-host" -%}
-{%- elsif page.tags contains "bastion servers" -%}{%- assign tone = "Cloud" -%}
-{%- elsif page.title contains "DNS" -%}{%- assign tone = "Networking" -%}
-{%- elsif page.tags contains "pihole" -%}{%- assign tone = "Homelab" -%}
-{%- elsif page.tags contains "homelab" -%}{%- assign tone = "Homelab" -%}
-{%- endif -%}
+{%- include post_tone.html post=page -%}
 {%- assign words = page.content | strip_html | number_of_words -%}
 {%- assign mins = words | divided_by: 200 | plus: 1 -%}
 
@@ -41,9 +35,18 @@ layout: playful
       <div class="ply-article-footer">
         {% if page.tags and page.tags.size > 0 %}
         <div class="ply-tag-row">
-          <span class="ply-tag-row-label">tags</span>
+          <span class="ply-tag-row-label">topics</span>
           {% for tag in page.tags %}
-            <span class="ply-tag-chip">#{{ tag | strip }}</span>
+            {%- assign slug = tag | strip -%}
+            {%- assign matched = false -%}
+            {%- for topic in site.data.topics -%}
+              {%- if topic.slug == slug -%}
+                <a class="ply-tag-chip" href="{{ '/topics/' | append: topic.slug | append: '/' | prepend: site.baseurl }}">#{{ topic.slug }}</a>
+                {%- assign matched = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- unless matched -%}<span class="ply-tag-chip">#{{ slug }}</span>{%- endunless -%}
           {% endfor %}
         </div>
         {% endif %}
@@ -73,6 +76,42 @@ layout: playful
         {% endif %}
       </div>
     </section>
+
+    {%- comment -%} Related posts: same primary topic, newest first, excluding this one. {%- endcomment -%}
+    {%- assign primary_slug = page.tags | first -%}
+    {%- assign primary_topic = nil -%}
+    {%- for topic in site.data.topics -%}
+      {%- if topic.slug == primary_slug -%}{%- assign primary_topic = topic -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if primary_topic -%}
+      {%- assign siblings = site.tags[primary_slug] | where_exp: "p", "p.url != page.url" -%}
+      {%- if siblings.size > 0 -%}
+    <section class="ply-wrap ply-related-section">
+      <div class="ply-related-head">
+        <span class="ply-tag-row-label">more in</span>
+        <a class="ply-related-topic" href="{{ '/topics/' | append: primary_topic.slug | append: '/' | prepend: site.baseurl }}">{{ primary_topic.title }}</a>
+      </div>
+      <div class="ply-blog-list">
+        {%- for rel in siblings limit: 3 -%}
+          {% include post_tone.html post=rel %}
+          <a href="{{ rel.url | prepend: site.baseurl }}" class="ply-post-row">
+            <div class="ply-post-title-cell">
+              <div class="ply-post-title">{{ rel.title }}</div>
+              <div class="ply-post-blurb">{{ rel.description | default: rel.excerpt | strip_html | strip_newlines | truncate: 140 }}</div>
+            </div>
+            <div class="ply-post-tag-cell">
+              <span class="ply-post-tag" data-tone="{{ tone }}">{{ tone }}</span>
+            </div>
+            <div class="ply-post-meta">
+              <div>{{ rel.date | date: "%b %d" }}</div>
+              <div class="ply-post-meta-min">{{ rel.date | date: "%Y" }}</div>
+            </div>
+          </a>
+        {%- endfor -%}
+      </div>
+    </section>
+      {%- endif -%}
+    {%- endif -%}
 
     {% include playful_footer.html %}
   </div>

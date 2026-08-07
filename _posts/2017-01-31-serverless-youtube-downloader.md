@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Youtube Downloader - Serverless"
-date:   2020-12-14
+title: "Youtube Downloader - Serverless"
+date: 2020-12-14
 description: "I believe in serverless and I think this is the future."
 keywords: "programming, python, serverless, aws, youtube, npm, js, code, frontend, backend"
-categories: [programming, python, serverless, aws, youtube, npm, js, code, frontend, backend]
-tags: [programming, python, serverless, aws, youtube, npm, js, code, frontend, backend]
+tags: [cloud, python]
+image: /static/assets/img/og/serverless-youtube-downloader.png
 icon: icon-nodejs
+redirect_from:
+  - "/programming/python/serverless/aws/youtube/npm/js/code/frontend/backend/2020/12/14/serverless-youtube-downloader.html"
 ---
-
 Before blabbering about the application that I made recently, I would like to shine some light on what serverless really is. **Serverless** is a cloud computing execution model in which the cloud provider (like google cloud/azure/amazon web services) runs the server, and dynamically manages the allocation of machine resources. In layman's term, it means that there are no servers running untill and unless there is a necessity for it to run.
 <br><br>
 <h2>Serverless, I choose you.... But, why?</h2>
@@ -41,7 +42,7 @@ Done! Your video will be downloaded. Simple, isn't it?
 
 I have used the following:
 
-- [AWS (Amazon web services)](aws.amazon.com)
+- [AWS (Amazon web services)](https://aws.amazon.com)
     
     I use AWS to host all my backend code. The core services I use are: Cloudfront (fast content delivery network (CDN)), S3 (to save videos and host this site), Lambda (backend code), Cloudwatch (for logs). *Let me know if you want to get started with AWS too. I can set up an account for you. I have couple hundred dollars lying passive here.*
   

@@ -2,13 +2,14 @@
 layout: post
 title: "Friendly talk with Jagathyoti G Tuladhar | Senior Software Engineer @ FuseMachines"
 date: 2021-12-14
-description: "Friendly talk with Jagathyoti G Tuladhar | Senior Software Engineer @ FuseMachines"
+description: "A conversation with Jagathyoti G Tuladhar about engineering, salaries across Nepal and India, and building a career in software."
 keywords: "code, programming, software, crypto, india, nepal, salary, currency"
-categories: [code, programming, software, crypto, india, nepal, salary, currency]
-tags: [code, programming, software, crypto, india, nepal, salary, currency]
+tags: [career, money]
+image: /static/assets/img/og/friendlytalkwithjagat.png
 icon: icon-maven
+redirect_from:
+  - "/code/programming/software/crypto/india/nepal/salary/currency/2021/12/14/friendlytalkwithjagat.html"
 ---
-
 If you follow me on [LinkedIn](https://www.linkedin.com/in/prameshbajra/), you probably would have seen my post about connecting with Jagatjyoti, who is a *Senior Software Engineer* at *Fusemachines* (One of the leading IT companies in Nepal). This blog is a general summary of the things we talked about. To sum it up, we talked about technology (obviously), a little comparison between the IT sector in India and Nepal, our interests, and a few other things.
 
 First, please let me introduce him.

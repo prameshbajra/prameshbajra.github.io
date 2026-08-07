@@ -1096,3 +1096,50 @@ a.ply-contact-row {
 a.ply-contact-row:hover { transform: translateY(-2px); background: var(--c-coral); color: #15171f; }
 .ply-contact-row svg { flex: 0 0 20px; }
 
+
+/* ── Topics: hub index, chip rows, related posts ────────────────────── */
+.ply-post-tag[data-tone="Web"]      { background: var(--c-mint);    color: #15171f; }
+.ply-post-tag[data-tone="Python"]   { background: var(--c-cobalt);  color: #fff; }
+.ply-post-tag[data-tone="Tools"]    { background: var(--c-panel);   color: var(--c-fg); }
+.ply-post-tag[data-tone="Security"] { background: var(--c-coral);   color: #fff; }
+.ply-post-tag[data-tone="Career"]   { background: var(--c-mustard); color: #15171f; }
+.ply-post-tag[data-tone="Money"]    { background: var(--c-mustard); color: #15171f; }
+.ply-post-tag[data-tone="Life"]     { background: var(--c-lilac);   color: #15171f; }
+
+a.ply-tag-chip { transition: transform .15s, background .2s, color .2s; }
+a.ply-tag-chip:hover { transform: translateY(-2px); background: var(--c-mustard); color: #15171f; }
+.ply-tag-chip.is-active { background: var(--c-fg); color: var(--c-base); }
+
+.ply-topic-row {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  padding-bottom: 26px; border-bottom: 2px solid var(--c-border);
+}
+
+.ply-topic-grid {
+  display: grid; gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+a.ply-topic-card {
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 22px; border-radius: 18px;
+  border: 2px solid var(--c-border); background: var(--c-panel);
+  color: inherit; text-decoration: none;
+  box-shadow: 4px 4px 0 var(--c-shadow);
+  transition: transform .15s, box-shadow .15s;
+}
+a.ply-topic-card:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--c-shadow); }
+.ply-topic-card-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.ply-topic-count {
+  font-family: "JetBrains Mono", monospace; font-size: 13px; font-weight: 700;
+  opacity: 0.45;
+}
+.ply-topic-card-title { font-weight: 700; letter-spacing: -0.02em; font-size: 22px; line-height: 1.15; }
+.ply-topic-card-blurb { margin: 0; font-size: 14px; color: var(--c-fg-dim); line-height: 1.5; }
+
+.ply-related-section { padding-bottom: clamp(40px, 6vw, 64px); }
+.ply-related-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+a.ply-related-topic {
+  font-weight: 700; letter-spacing: -0.02em; font-size: clamp(20px, 2.4vw, 26px);
+  color: inherit; text-decoration: none; border-bottom: 3px solid var(--c-mustard);
+}
+a.ply-related-topic:hover { border-bottom-color: var(--c-coral); }

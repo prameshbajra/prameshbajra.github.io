@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "The Anmeldung in Germany"
-date:   2023-02-12
+title: "The Anmeldung in Germany"
+date: 2023-02-12
 description: "One of the most important things to do after you land in Germany."
 keywords: "registration, germany, anmeldung"
-categories: [registration, germany, anmeldung]
-tags: [registration, germany, anmeldung]
+tags: [life]
+image: /static/assets/img/og/theanmeldung.png
 icon: icon-fire-alt
+redirect_from:
+  - "/registration/germany/anmeldung/2023/02/12/theanmeldung.html"
 ---
-
 This is one of the most important things you should do after you land in Germany. The official website says that you have two weeks to get this done but some of my friends have done this after 3 months so I am not very sure about the time frame you need to get this done. I did it in a week just to be on the safer side.
 
 **Why is this necessary?**

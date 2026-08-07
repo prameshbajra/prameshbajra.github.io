@@ -1,0 +1,82 @@
+---
+layout: playful_page
+ply_nav: writing
+---
+{%- assign topic = nil -%}
+{%- for t in site.data.topics -%}
+  {%- if t.slug == page.topic -%}{%- assign topic = t -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- assign posts = site.tags[page.topic] -%}
+
+<header class="ply-wrap ply-page-hero">
+  <a class="ply-post-back" href="{{ "/blog/" | prepend: site.baseurl }}">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+    all writing
+  </a>
+  <div class="ply-hero-kicker">→ {{ posts | size }} post{% if posts.size != 1 %}s{% endif %} on this topic</div>
+  <h1>{{ topic.title }}<span class="accent2">.</span></h1>
+  <p class="ply-page-hero-sub">{{ topic.blurb }}</p>
+</header>
+
+<section class="ply-writing-section">
+  <div class="ply-wrap">
+    <div class="ply-topic-row">
+      {%- for t in site.data.topics -%}
+        {%- assign count = site.tags[t.slug] | size -%}
+        {%- if count > 0 -%}
+        <a class="ply-tag-chip{% if t.slug == page.topic %} is-active{% endif %}"
+           href="{{ '/topics/' | append: t.slug | append: '/' | prepend: site.baseurl }}">#{{ t.slug }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <div class="ply-blog-list">
+      {% for post in posts %}
+        {% include post_tone.html post=post %}
+        {%- assign blurb = post.description -%}
+        {%- if blurb == nil or blurb == "" -%}
+          {%- assign blurb = post.content | strip_html | strip_newlines | truncate: 160 -%}
+        {%- endif -%}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="ply-post-row">
+          <span class="ply-post-n">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+          <div class="ply-post-title-cell">
+            <div class="ply-post-title">{{ post.title }}</div>
+            <div class="ply-post-blurb">{{ blurb }}</div>
+          </div>
+          <div class="ply-post-tag-cell">
+            <span class="ply-post-tag" data-tone="{{ tone }}">{{ tone }}</span>
+          </div>
+          <div class="ply-post-meta">
+            <div>{{ post.date | date: "%b %d" }}</div>
+            <div class="ply-post-meta-min">{{ post.date | date: "%Y" }}</div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ topic.title | jsonify }},
+  "description": {{ topic.blurb | strip_newlines | strip | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ posts | size }},
+    "itemListElement": [
+      {%- for post in posts -%}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}",
+        "name": {{ post.title | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+}
+</script>

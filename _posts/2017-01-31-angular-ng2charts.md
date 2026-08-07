@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Use ChartsJS in your Angular2+ Project"
-date:   2020-03-14
+title: "Use ChartsJS in your Angular2+ Project"
+date: 2020-03-14
 description: "Display beautiful charts in your angular web application."
 keywords: "chartsjs, ng2charts, angular8, angular, chart, web development, coding, charts, data, programming, developer"
-categories: [chartsjs, ng2charts, angular8, angular, chart, web development, coding, charts, data, programming, developer]
-tags: [chartsjs, ng2charts, angular8, angular, chart, web development, coding, charts, data, programming, developer]
+tags: [web]
+image: /static/assets/img/og/angular-ng2charts.png
 icon: icon-fire-alt
+redirect_from:
+  - "/chartsjs/ng2charts/angular8/angular/chart/web development/coding/charts/data/programming/developer/2020/03/14/angular-ng2charts.html"
 ---
-
 How about displaying your data on a beautiful chart? They are very much favoured by almost all users and makes your website very appealing.
 <br><br>
 

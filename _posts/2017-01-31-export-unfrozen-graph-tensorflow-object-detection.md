@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Export an unfrozen graph tensorflow - Object Detection"
-date:   2019-08-14
-description: "Export an unfrozen graph tensorflow - Object Detection"
+title: "Export an unfrozen graph tensorflow - Object Detection"
+date: 2019-08-14
+description: "How to export an unfrozen TensorFlow graph from the Object Detection API so it can be served rather than only run locally."
 keywords: "deploy, aws, sagemaker, model, object detection, sdk, tensorflow, graph, code, s3, programming"
-categories: [aws, sagemaker, prediction, detection, tensorflow, tensorflow-serving, numpy, data, images, code, programming, deployment, s3, cloudwatch]
-tags: [aws, sagemaker, prediction, detection, tensorflow, numpy, data, images, code, tensorflow-serving, programming, deployment, s3, cloudwatch]
+tags: [ai, python]
+image: /static/assets/img/og/export-unfrozen-graph-tensorflow-object-detection.png
 icon: icon-google-developers
+redirect_from:
+  - "/aws/sagemaker/prediction/detection/tensorflow/tensorflow-serving/numpy/data/images/code/programming/deployment/s3/cloudwatch/2019/08/14/export-unfrozen-graph-tensorflow-object-detection.html"
 ---
-
 ## Why?
 
 Because the [offical tutorial for tensorflow object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/exporting_models.md) only exports a frozen graph. These frozen graphs are all good for testing the model and some small prediction works but for production they are a huge pain to work with. Again, the documentation is not clear on what needs to be done in order to make this model production ready.

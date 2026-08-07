@@ -4,10 +4,11 @@ title: "Pihole + Tailscale Setup Guide"
 date: 2026-01-11
 description: "A detailed guide on setting up Pi-hole with Tailscale for ad-blocking and DNS management."
 keywords: "pihole, tailscale, dns, unbound, ad-blocking, mesh network"
-categories: [cloud, security, networking, dns]
-tags: [pihole, tailscale, dns, unbound, ad-blocking, mesh network]
+tags: [homelab, networking, security]
+image: /static/assets/img/og/pihole-and-tailscale.png
+redirect_from:
+  - "/cloud/security/networking/dns/2026/01/11/pihole-and-tailscale.html"
 ---
-
 I’ll be honest: this blog is mainly a form of documentation for myself, a record of what I did and what I learned while setting up an ad-blocking mechanism on my home server. While running Pi-hole is relatively straightforward, using it properly usually means changing your router’s DNS settings to point to the Pi-hole server. That’s a step I wasn’t entirely comfortable with.
 
 The main issue is reliability. If your DNS server ever goes down, you’re suddenly stuck without internet access and forced to log into your router to fix things. In my case, that’s especially annoying because my router’s admin interface is entirely in German, with no option to change the language. It’s not a deal breaker, but it definitely adds unnecessary friction. On top of that, routing all your devices through Pi-hole isn’t always desirable. You may not want ad blocking on every single device in your network, right?

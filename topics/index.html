@@ -1,0 +1,41 @@
+---
+layout: playful_page
+ply_nav: writing
+title: Topics
+permalink: /topics/
+description: >-
+  Everything on this site grouped by subject — homelab and self-hosting,
+  networking and DNS, cloud and AWS, machine learning, web development, and more.
+---
+<header class="ply-wrap ply-page-hero">
+  <a class="ply-post-back" href="{{ "/blog/" | prepend: site.baseurl }}">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+    all writing
+  </a>
+  <div class="ply-hero-kicker">→ {{ site.data.topics | size }} topics, {{ site.posts | size }} posts</div>
+  <h1>Browse by <span class="accent">topic</span><span class="accent2">.</span></h1>
+  <p class="ply-page-hero-sub">
+    The same writing, sorted by what it&rsquo;s actually about &mdash; so you can read one
+    thread end to end instead of scrolling past everything else.
+  </p>
+</header>
+
+<section class="ply-writing-section">
+  <div class="ply-wrap">
+    <div class="ply-topic-grid">
+      {%- for topic in site.data.topics -%}
+        {%- assign count = site.tags[topic.slug] | size -%}
+        {%- if count > 0 -%}
+        <a class="ply-topic-card" href="{{ '/topics/' | append: topic.slug | append: '/' | prepend: site.baseurl }}">
+          <div class="ply-topic-card-head">
+            <span class="ply-post-tag" data-tone="{{ topic.label }}">{{ topic.label }}</span>
+            <span class="ply-topic-count">{{ count }}</span>
+          </div>
+          <div class="ply-topic-card-title">{{ topic.title }}</div>
+          <p class="ply-topic-card-blurb">{{ topic.blurb }}</p>
+        </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

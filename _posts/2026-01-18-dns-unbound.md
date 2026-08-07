@@ -2,10 +2,12 @@
 layout: post
 title: "DNS Under the Hood: Root Servers, Authoritative DNS, and Unbound"
 date: 2026-02-14
-categories: cloud,security,networking,dns,unbound,pihole,tailscale
-tags: dns, unbound, pihole, networking, tailscale, security, cloud, homelab, tutorial, guide, explanation, basics
+description: "How a DNS query actually resolves — root servers, authoritative nameservers, and running Unbound as your own recursive resolver behind Pi-hole."
+tags: [networking, homelab, security]
+image: /static/assets/img/og/dns-unbound.png
+redirect_from:
+  - "/cloud,security,networking,dns,unbound,pihole,tailscale/2026/02/14/dns-unbound.html"
 ---
-
 **I’ll be honest:** In my last post about **Pi-hole + Tailscale**, I just simpley explained how to setup PI-hole with tailscale. Which works, amazing !! But, since I did not want the blog to be super long, I left out the nitty gritty details. This blog is like a second part to the first one, where I will explain the details of how everything works, some left out details and some of the concepts that I did not explain in the first blog post.
 
 In this blog I will be covering things like:
@@ -67,7 +69,7 @@ Now let’s break down the main players a bit more clearly.
 
 <br>
 
-# DNS Server <br><br>
+## DNS Server <br><br>
 
 ## Resolvers <br><br>
 

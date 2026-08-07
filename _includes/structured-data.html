@@ -1,13 +1,34 @@
-{% assign site_home = '/' | absolute_url %}
-{% assign author_avatar = site.author.avatar | absolute_url %}
-{% assign same_as_links = site.social.links %}
+{%- comment -%}
+  jekyll-seo-tag already emits BlogPosting/WebPage per page. This adds the bits it
+  does not: the Person entity, sitewide search, and post breadcrumbs.
+
+  WebSite/SearchAction is homepage-only on purpose — repeating it on all 31 posts
+  gives Google 31 conflicting site-level declarations.
+{%- endcomment -%}
+{%- assign site_home = '/' | absolute_url -%}
+{%- assign author_avatar = site.author.avatar | absolute_url -%}
+{%- assign same_as_links = site.social.links -%}
+{%- assign is_home = false -%}
+{%- if page.url == '/' -%}{%- assign is_home = true -%}{%- endif -%}
+
+{%- if is_home %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "{{ site_home }}#person",
   "name": "{{ site.author.name | escape }}",
+  "givenName": "{{ site.author.first_name | escape }}",
+  "familyName": "{{ site.author.last_name | escape }}",
   "url": "{{ site_home }}",
-  "image": "{{ author_avatar }}"{% if same_as_links and same_as_links != empty %},
+  "image": "{{ author_avatar }}",
+  "jobTitle": "Software Engineer",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hamburg",
+    "addressCountry": "DE"
+  },
+  "knowsAbout": ["Cloud Architecture", "AWS", "Self-Hosting", "Homelab", "Networking", "Web Development", "3D Printing"]{% if same_as_links and same_as_links != empty %},
   "sameAs": {{ same_as_links | jsonify }}{% endif %}
 }
 </script>
@@ -15,12 +36,31 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": "{{ site_home }}#website",
   "name": "{{ site.title | escape }}",
+  "description": "{{ site.description | strip_newlines | strip | escape }}",
   "url": "{{ site_home }}",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "{{ '/search/' | absolute_url }}?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "inLanguage": "en",
+  "publisher": { "@id": "{{ site_home }}#person" }
+}
+{%- comment -%}
+  No SearchAction here: /search/ has no page behind it (404), and declaring a
+  sitelinks searchbox that does not resolve is worse than declaring none.
+  Re-add it if a real search page ships.
+{%- endcomment -%}
+</script>
+{%- endif -%}
+
+{%- if page.layout == 'playful_post' or page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site_home }}" },
+    { "@type": "ListItem", "position": 2, "name": "Writing", "item": "{{ '/blog/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}" }
+  ]
 }
 </script>
+{%- endif -%}
