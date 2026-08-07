@@ -11,7 +11,7 @@
 
 - name: Video Notes (Chrome Extension)
   i18n: prameshbajra
-  url: https://prameshbajra.github.io/video-notes/
+  url: https://prameshbajra.com/video-notes/
   gh_user: prameshbajra
   repo: yt-notes
   img: /static/assets/img/landing/video-notes.png
