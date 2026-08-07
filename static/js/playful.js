@@ -28,6 +28,39 @@
     }
   }
 
+  var navToggle = document.querySelector('[data-ply-nav-toggle]');
+  var navSheet = document.getElementById('ply-nav-sheet');
+  if (navToggle && navSheet) {
+    var closeNav = function () {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.setAttribute('aria-label', 'Open menu');
+      navSheet.removeAttribute('data-open');
+    };
+    navToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (navToggle.getAttribute('aria-expanded') === 'true') {
+        closeNav();
+      } else {
+        navToggle.setAttribute('aria-expanded', 'true');
+        navToggle.setAttribute('aria-label', 'Close menu');
+        navSheet.setAttribute('data-open', 'true');
+      }
+    });
+    navSheet.addEventListener('click', function (e) {
+      if (e.target.closest('a')) closeNav();
+    });
+    document.addEventListener('click', function (e) {
+      if (navToggle.getAttribute('aria-expanded') !== 'true') return;
+      if (!navToggle.contains(e.target) && !navSheet.contains(e.target)) closeNav();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+        closeNav();
+        navToggle.focus();
+      }
+    });
+  }
+
   var bg = root.querySelector('.ply-bg');
   if (!bg) return;
 
