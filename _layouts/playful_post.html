@@ -95,6 +95,7 @@ layout: playful
         {%- for rel in siblings limit: 3 -%}
           {% include post_tone.html post=rel %}
           <a href="{{ rel.url | prepend: site.baseurl }}" class="ply-post-row">
+            <span class="ply-post-n">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
             <div class="ply-post-title-cell">
               <div class="ply-post-title">{{ rel.title }}</div>
               <div class="ply-post-blurb">{{ rel.description | default: rel.excerpt | strip_html | strip_newlines | truncate: 140 }}</div>
