@@ -134,7 +134,7 @@ saved_model
 
 Congratulations on getting the graph, but we did this for a reason. Making this model production ready. 
 
-I have another blog that deploys the model to sagemaker to makes predictions. Make sure to go through [this](https://prameshbajra.github.io/aws/sagemaker/prediction/detection/tensorflow/numpy/data/images/code/programming/deployment/s3/cloudwatch/2019/12/13/deploy_in_sagemaker.html).
+I have another blog that deploys the model to sagemaker to makes predictions. Make sure to go through [this](/blog/deploy_in_sagemaker/).
 
 
 Let me know if you get stuck somewhere or you have any confusion. Drop me a mail or message me at twitter - [@prameshbajra](https://twitter.com/prameshbajra). I will help as much as I can. Thank you.

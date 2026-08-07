@@ -5,7 +5,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 # Personal website
-<http://prameshbajra.github.io>
+<https://prameshbajra.com>
 
 My learnings and prototypes that I would like to share.
 
