@@ -53,7 +53,7 @@ The link that just got printed after running the above command can be used in an
 
 You will see something link this:
 
-<img src="/static/assets/img/blog/see-my-files/see-my-files.png" width="70%" alt="See My Files web interface">
+<img src="/static/assets/img/blog/see-my-files/see-my-files.png" alt="See My Files web interface" width="1919" height="985" style="width: 70%" loading="lazy" decoding="async">
 
 To **downlaod a file** simply **click** on the file. It will automatically be downloaded. To **download a folder** you can right click on it and press **download as zip**. To **upload something** to the source machine you can simply **drag the file to the folder icon**. The upload will be done automatically.
 

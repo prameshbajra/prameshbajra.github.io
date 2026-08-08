@@ -23,8 +23,7 @@ What is a "Bastion"?
 
 A "bastion" is basically a fortified stronghold or a defensive position used to protect a larger area. Something like this.
 
-<img src="/static/assets/img/blog/bastion/bastion.jpg" width="40%"
-alt="Bastion fortress image">
+<img src="/static/assets/img/blog/bastion/bastion.jpg" alt="Bastion fortress image" width="497" height="427" style="width: 40%" loading="lazy" decoding="async">
 
 <br>
 

@@ -12,7 +12,7 @@ redirect_from:
 ---
 Hey, I hope you are doing well. Before starting to blabber about the customization that we are going to make today, let me give you a sneak peek on what we are going to achieve at the end of this article.
 
-<img src="/static/assets/img/blog/powershell/prettypowershell.png" width="95%" alt="Customized PowerShell console theme">
+<img src="/static/assets/img/blog/powershell/prettypowershell.png" alt="Customized PowerShell console theme" width="1919" height="1035" style="width: 95%" loading="lazy" decoding="async">
 
 It is a clean and nice looking terminal, isn't it? As a guy who works with code nearly all the time, this place should be very familiar to you. 
 
@@ -81,7 +81,7 @@ Enjoy your new theme.
 
 The customizations you make here will also be applied in VSCode integrated terminal. So it is definitely a win-win.
 
-<img src="/static/assets/img/blog/powershell/vscodepowershell.png" width="95%" alt="PowerShell extension running inside VS Code">
+<img src="/static/assets/img/blog/powershell/vscodepowershell.png" alt="PowerShell extension running inside VS Code" width="1453" height="575" style="width: 95%" loading="lazy" decoding="async">
 
 <br>
 

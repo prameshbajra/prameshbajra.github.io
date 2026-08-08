@@ -16,7 +16,12 @@
   <nav class="ply-nav">
     <a class="ply-logo" href="{{ home_base }}">
       <div class="ply-logo-mark" aria-hidden="true">
-        <img src="{{ "/static/assets/img/landing/pramesh.jpg" | prepend: site.baseurl }}" alt="Pramesh Bajracharya">
+        {%- comment -%}
+          Renders at 40x40. The full portrait is 800px and would be 76KB on every
+          page for a thumbnail, so the nav gets a dedicated 96px crop instead.
+        {%- endcomment -%}
+        <img src="{{ "/static/assets/img/landing/avatar-96.jpg" | prepend: site.baseurl }}"
+             alt="Pramesh Bajracharya" width="96" height="96" decoding="async">
         <span class="ply-logo-fallback">p</span>
       </div>
       <span class="ply-logo-text">prameshbajra</span>

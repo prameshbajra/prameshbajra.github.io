@@ -119,7 +119,7 @@ will be listing down the steps and you should be good to go just by simple copy 
 
 7. Switch back to your browser and you should see something like this.
 
-    ![Chart JS chart](https://www.freakyjolly.com/wp-content/uploads/2020/05/Pasted-into-Angular-98-Chart-Js-Tutorial-using-ng2-charts-with-Examples-4.png)
+    <img src="https://www.freakyjolly.com/wp-content/uploads/2020/05/Pasted-into-Angular-98-Chart-Js-Tutorial-using-ng2-charts-with-Examples-4.png" alt="Chart JS chart" loading="lazy" decoding="async">
 
 8. Congratutions, we are done. The charts are at your disposal.
 <br><br>

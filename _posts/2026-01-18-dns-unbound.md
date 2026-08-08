@@ -61,7 +61,7 @@ If you already know about DNS basics, feel free to skip this section.
 
 That’s the whole story. With the IP you get from this your device can then connect to the web server hosting `www.example.com`. Here's a quick diagram to visualize this:
 
-<img src="/static/assets/img/blog/pihole-tailscale/dnsresolution.png" width="100%" alt="DNS resolution process">
+<img src="/static/assets/img/blog/pihole-tailscale/dnsresolution.png" alt="DNS resolution process" width="1600" height="602" style="width: 100%" loading="lazy" decoding="async">
 
 <br><br>
 
